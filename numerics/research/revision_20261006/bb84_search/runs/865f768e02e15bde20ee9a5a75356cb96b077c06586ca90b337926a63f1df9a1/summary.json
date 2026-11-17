@@ -1,0 +1,118 @@
+{
+  "complete": true,
+  "fingerprint": "865f768e02e15bde20ee9a5a75356cb96b077c06586ca90b337926a63f1df9a1",
+  "b": 0.185625,
+  "p": 0.185625,
+  "results": {
+    "M1": {
+      "lower": 3.3286989171227648e-09,
+      "upper": 3.329582212034692e-09,
+      "gap_upper": 8.832949119271819e-13,
+      "converged": true,
+      "uniform_engine_converged": true
+    },
+    "M2": {
+      "lower": 0.015012518079985384,
+      "upper": 0.015012518083133397,
+      "gap_upper": 3.148013100195968e-12,
+      "converged": true,
+      "uniform_engine_converged": true
+    },
+    "M3": {
+      "lower": 0.015012518079985384,
+      "upper": 0.015012518083133397,
+      "gap_upper": 3.148013100195968e-12,
+      "converged": true,
+      "uniform_engine_converged": true
+    },
+    "M4": {
+      "lower": 0.015012518079985384,
+      "upper": 0.015012518083133397,
+      "gap_upper": 3.148013100195968e-12,
+      "converged": true,
+      "uniform_engine_converged": true
+    },
+    "M5": {
+      "lower": 0.015012518079985384,
+      "upper": 0.015012518083133397,
+      "gap_upper": 3.148013100195968e-12,
+      "converged": true,
+      "uniform_engine_converged": true
+    },
+    "M6": {
+      "lower": 0.015012518079985384,
+      "upper": 0.015012518083133397,
+      "gap_upper": 3.148013100195968e-12,
+      "converged": true,
+      "uniform_engine_converged": true
+    },
+    "M7": {
+      "lower": 0.015012518079985384,
+      "upper": 0.015012518083133397,
+      "gap_upper": 3.148013100195968e-12,
+      "converged": true,
+      "uniform_engine_converged": true
+    },
+    "M8": {
+      "lower": 0.015012518079985384,
+      "upper": 0.015012518083133397,
+      "gap_upper": 3.148013100195968e-12,
+      "converged": true,
+      "uniform_engine_converged": true
+    }
+  },
+  "required_gaps": {
+    "M1": 1e-11,
+    "M2": 1.5012518079985385e-06,
+    "M3": 1.5012518079985385e-06,
+    "M4": 1.5012518079985385e-06,
+    "M5": 1.5012518079985385e-06,
+    "M6": 1.5012518079985385e-06,
+    "M7": 1.5012518079985385e-06,
+    "M8": 1.5012518079985385e-06
+  },
+  "phases": [
+    {
+      "iteration": 0,
+      "requested_global_tolerance": 1e-09,
+      "discovery_seconds": 121.26526212692261,
+      "upper_seconds": 138.9275438785553,
+      "evaluated_fixed_menu_problems": 5,
+      "required_gaps": {
+        "M1": 1e-11,
+        "M2": 1.501251785615352e-06,
+        "M3": 1.501251785615352e-06,
+        "M4": 1.501251785615352e-06,
+        "M5": 1.501251785615352e-06,
+        "M6": 1.501251785615352e-06,
+        "M7": 1.501251785615352e-06,
+        "M8": 1.501251785615352e-06
+      },
+      "unresolved_budget_gaps": {
+        "M1": 2.406395485249302e-10
+      }
+    },
+    {
+      "iteration": 1,
+      "requested_global_tolerance": 5e-12,
+      "discovery_seconds": 369.12242317199707,
+      "upper_seconds": 209.60866808891296,
+      "evaluated_fixed_menu_problems": 5,
+      "required_gaps": {
+        "M1": 1e-11,
+        "M2": 1.5012518079985385e-06,
+        "M3": 1.5012518079985385e-06,
+        "M4": 1.5012518079985385e-06,
+        "M5": 1.5012518079985385e-06,
+        "M6": 1.5012518079985385e-06,
+        "M7": 1.5012518079985385e-06,
+        "M8": 1.5012518079985385e-06
+      },
+      "unresolved_budget_gaps": {}
+    }
+  ],
+  "seconds": 838.94517993927,
+  "source": "data\\bb84_joint_extension_real_0.18563_0.18563_n128.json",
+  "certificate": "data\\bb84_joint_extension_real_0.18563_0.18563_n128_menu_certified.json",
+  "interpretation": "Certified complete registered recurrence/pump/B/AD class at this exact input; not unrestricted fixed-memory optimum and not the separate complete fixed-block union."
+}

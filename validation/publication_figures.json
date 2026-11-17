@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "scope": "figure export and fixed-circuit verification",
+  "schedule_checks": [
+    {
+      "N": 6,
+      "m": 2,
+      "dense_residual": 1.1102230246251565e-16
+    },
+    {
+      "N": 6,
+      "m": 3,
+      "dense_residual": 1.1102230246251565e-16
+    },
+    {
+      "N": 6,
+      "m": 4,
+      "dense_residual": 4.440892098500626e-16
+    },
+    {
+      "N": 5,
+      "m": 2,
+      "dense_residual": 7.771561172376096e-16
+    },
+    {
+      "N": 5,
+      "m": 3,
+      "dense_residual": 7.771561172376096e-16
+    }
+  ],
+  "decoder_gate_words": {
+    "D_*": [
+      "S0",
+      "H0",
+      "C01",
+      "S1",
+      "H1"
+    ],
+    "D_{ZY}": [
+      "C01",
+      "S1",
+      "H1"
+    ],
+    "D_{YZ}": [
+      "H0",
+      "S0",
+      "H0",
+      "C01"
+    ],
+    "D_{YY}": [
+      "C01",
+      "H0",
+      "S0",
+      "C01",
+      "H0"
+    ],
+    "F": [
+      "H0",
+      "C01"
+    ],
+    "G": [
+      "C01",
+      "H0",
+      "C01"
+    ]
+  },
+  "source_hashes": {
+    "data/global_rate_landscape.csv": "ac68392d0beff33ddf28171a391b481d64200ff071223beac7d2abf2457d7ad3",
+    "data/revision_20261022_bb84_bounds.json": "0793acd70065df9e2adc6fee2060dc5b43eff36492deb2f5fbfc234302bf21d4",
+    "data/revision_20261022_bb84_dense_curves.csv": "7e8f88d033ed067847513f36b5001ecb55a284e727a980045383830f319683ac",
+    "data/same_measurement_interval.csv": "7853673e64f7f8c2bf5a9a483197bc8bb0062ecce15510bf1db86d27c87eef1c",
+    "reproduction/reproduction/controls/data/executable_control_winners.json": "1963d82941ab437e611c92d6bc4e3921898f4d3b66f1279d989fbed577ae38fd",
+    "reproduction/reproduction/extensions/data/literature/bb84_linear_Du.csv": "04ddaf21a3487e3ed1653ab3a3a01c727c4c330235b740f1eb67203b7224795f",
+    "reproduction/reproduction/extensions/data/literature/werner_linear_Du.csv": "56bdbb56d248fdef1b85bb44b1ae2e2b531d18374de5aa2f0678c9f61e814820",
+    "reproduction/reproduction/extensions/data/literature/werner_linear_Sun_author.csv": "73c9e3abbff821a4fead4ec673c0b2421abf3873662083e65e7ac432f41da64f",
+    "reproduction/reproduction/extensions/data/literature/werner_linear_Sun_original.csv": "0b6e6e45ac8ed2b2687aa92029b9285a7ef420496fcbcf08b79004c9ded7231c"
+  }
+}

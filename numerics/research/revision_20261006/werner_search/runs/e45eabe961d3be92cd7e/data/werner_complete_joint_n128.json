@@ -1,0 +1,159 @@
+{
+  "results": [
+    {
+      "Q": 0.295,
+      "results": {
+        "M1": {
+          "rate": 3.4912056182963287e-17,
+          "ED": "LC1_000_v1",
+          "m": 1,
+          "M": 1,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 0,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "linear",
+                "mode": "otp_compressed",
+                "n": 1,
+                "classical_B_rounds": 2,
+                "code": "XC0000"
+              },
+              "contribution": 3.4912056182963287e-17
+            }
+          ],
+          "final_numerical_screen_upper": 2.3000000000000175e-13
+        },
+        "M2": {
+          "rate": 7.650274404239722e-06,
+          "ED": "LC6_015_v48",
+          "m": 6,
+          "M": 2,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 993,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "AD": {
+                "kind": "SPC",
+                "mode": "otp_compressed",
+                "n": 21,
+                "classical_B_rounds": 3
+              },
+              "contribution": 7.650274404239722e-06
+            }
+          ],
+          "final_numerical_screen_upper": 7.650274608874705e-06
+        },
+        "M3": {
+          "rate": 1.1910538725129542e-05,
+          "ED": "LC7_055_v80",
+          "m": 7,
+          "M": 3,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 9136,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "AD": {
+                "kind": "linear",
+                "mode": "no_otp",
+                "n": 7,
+                "classical_B_rounds": 2,
+                "code": "XC0269"
+              },
+              "contribution": 1.1910538725129542e-05
+            }
+          ],
+          "final_numerical_screen_upper": 1.1910538929278418e-05
+        },
+        "M4": {
+          "rate": 2.2075700842101955e-05,
+          "ED": "LC6_025_v3",
+          "m": 6,
+          "M": 4,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 1391,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "AD": {
+                "kind": "SPC",
+                "mode": "no_otp",
+                "n": 10,
+                "classical_B_rounds": 2
+              },
+              "contribution": 2.2075700842101955e-05
+            }
+          ],
+          "final_numerical_screen_upper": 2.207570104684682e-05
+        }
+      },
+      "round_counts": [
+        {
+          "B": 0,
+          "states": 15075,
+          "distinct_states": 13024,
+          "instruments": 6887
+        },
+        {
+          "B": 1,
+          "states": 14414,
+          "distinct_states": 12195,
+          "instruments": 6601
+        },
+        {
+          "B": 2,
+          "states": 9347,
+          "distinct_states": 7653,
+          "instruments": 3942
+        },
+        {
+          "B": 3,
+          "states": 1795,
+          "distinct_states": 1205,
+          "instruments": 608
+        },
+        {
+          "B": 4,
+          "states": 284,
+          "distinct_states": 149,
+          "instruments": 116
+        },
+        {
+          "B": 5,
+          "states": 8,
+          "distinct_states": 6,
+          "instruments": 41
+        }
+      ],
+      "seconds": 629.2049276828766,
+      "scope": "Complete m<=8 terminal class, all flags; external executable recurrence/tree incumbents used only to prune the union objective, not to claim individual core optimality."
+    }
+  ]
+}

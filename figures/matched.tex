@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=18mm},
+qkdaxis,width=.44\textwidth,height=5.6cm]
+\nextgroupplot[title={(a) Common $N\le8$ family},xmin=1.5,xmax=4.5,
+ymin=0,ymax=3.1,xtick={2,3,4},xlabel={Local memory $m$},
+ylabel={$R$ ($10^{-4}$ bits per raw pair)},ybar,bar width=15pt,bar shift=0pt]
+\addplot[fill=mem2,draw=mem2] coordinates {(2,1.7003871645935)};
+\addplot[fill=mem3,draw=mem3] coordinates {(3,2.3926642569779)};
+\addplot[fill=mem4,draw=mem4] coordinates {(4,2.490684794028)};
+\node[anchor=north west,font=\scriptsize] at (rel axis cs:.03,.98)
+ {$Q=0.28,\quad R_4/U_3>1.0409$};
+\nextgroupplot[title={(b) Same five-input measurement},xmin=.15,xmax=.20,
+ymin=.007,ymax=.036,xtick distance=.01,xlabel={Source error $Q$},
+ylabel={$R$ (bits per raw pair)},legend pos=north east]
+\addplot[mem2] table[x=Q,y=R2] {figures/plot_data/same_measurement.dat};
+\addlegendentry{$m=2$}
+\addplot[mem3] table[x=Q,y=R3] {figures/plot_data/same_measurement.dat};
+\addlegendentry{$m=3$}
+\node[anchor=south west,font=\scriptsize] at (rel axis cs:.03,.03)
+ {$R_3/R_2>1.037$ throughout};
+\end{groupplot}
+\end{tikzpicture}

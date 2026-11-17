@@ -1,0 +1,100 @@
+{
+  "status": "certified",
+  "Q": 0.05,
+  "spec": {
+    "Q": "0.05",
+    "permissions": "enlarged_axes",
+    "complete_Werner_terminal_m_max": 8,
+    "homogeneous_depth": 7,
+    "constant_pump_inputs": 160,
+    "ordered_tree_leaves": 5,
+    "variable_pump_checks": 7,
+    "all_codes_n_max": 8,
+    "endpoint_n_max": 128,
+    "classical_B_max": 16,
+    "abs_tol": 1e-11,
+    "rel_tol": 1e-05,
+    "source_digest": "fa6d280a318ffbf7083ec589d0e1e4e3338fcac688513f03595d0d6111e5c608"
+  },
+  "results": {
+    "M1": {
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194833,
+      "gap": 9.570122472268851e-14,
+      "target": 5.443162683193877e-06,
+      "converged": true,
+      "registered_achievable": 0.5443162683194162,
+      "complete_block_achievable": 0.5443162683194162
+    },
+    "M2": {
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194833,
+      "gap": 9.570122472268851e-14,
+      "target": 5.443162683193877e-06,
+      "converged": true,
+      "registered_achievable": 0.5443162683194162,
+      "complete_block_achievable": 0.5443162683194162
+    },
+    "M3": {
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194833,
+      "gap": 9.570122472268851e-14,
+      "target": 5.443162683193877e-06,
+      "converged": true,
+      "registered_achievable": 0.5443162683194162,
+      "complete_block_achievable": 0.5443162683194162
+    },
+    "M4": {
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194833,
+      "gap": 9.570122472268851e-14,
+      "target": 5.443162683193877e-06,
+      "converged": true,
+      "registered_achievable": 0.5443162683194162,
+      "complete_block_achievable": 0.5443162683194162
+    },
+    "M5": {
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194833,
+      "gap": 9.570122472268851e-14,
+      "target": 5.443162683193877e-06,
+      "converged": true,
+      "registered_achievable": 0.5443162683194162,
+      "complete_block_achievable": 0.5443162683194162
+    },
+    "M6": {
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194833,
+      "gap": 9.570122472268851e-14,
+      "target": 5.443162683193877e-06,
+      "converged": true,
+      "registered_achievable": 0.5443162683194162,
+      "complete_block_achievable": 0.5443162683194162
+    },
+    "M7": {
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194833,
+      "gap": 9.570122472268851e-14,
+      "target": 5.443162683193877e-06,
+      "converged": true,
+      "registered_achievable": 0.5443162683194162,
+      "complete_block_achievable": 0.5443162683194162
+    },
+    "M8": {
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194833,
+      "gap": 9.570122472268851e-14,
+      "target": 5.443162683193877e-06,
+      "converged": true,
+      "registered_achievable": 0.5443162683194162,
+      "complete_block_achievable": 0.5443162683194162
+    }
+  },
+  "seconds": 76.09023237228394,
+  "job_id": "fe912f664f2453b669cc",
+  "evidence": {
+    "registered_witnesses": "data/werner_v2_full_certified.json",
+    "core": "data/complete_core_upper.json",
+    "registered_upper": "data/registered_upper.json"
+  }
+}

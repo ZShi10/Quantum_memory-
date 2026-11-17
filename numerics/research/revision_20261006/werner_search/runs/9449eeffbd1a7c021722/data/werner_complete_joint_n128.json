@@ -1,0 +1,145 @@
+{
+  "results": [
+    {
+      "Q": 0.24875,
+      "results": {
+        "M1": {
+          "rate": 4.977727269328606e-06,
+          "ED": "LC1_000_v1",
+          "m": 1,
+          "M": 1,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 0,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "SPC",
+                "mode": "otp_compressed",
+                "n": 128,
+                "classical_B_rounds": 3
+              },
+              "contribution": 4.977727269328606e-06
+            }
+          ],
+          "final_numerical_screen_upper": 4.9777274749211425e-06
+        },
+        "M2": {
+          "rate": 0.003130538231906289,
+          "ED": "LC4_005_v9",
+          "m": 4,
+          "M": 2,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 66,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "Watanabe_2007",
+                "mode": "no_otp_hashed",
+                "n": 2,
+                "classical_B_rounds": 1
+              },
+              "contribution": 0.003130538231906289
+            }
+          ],
+          "final_numerical_screen_upper": 0.0031305382321122582
+        },
+        "M3": {
+          "rate": 0.003130538231906289,
+          "ED": "LC4_005_v9",
+          "m": 4,
+          "M": 2,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 66,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "Watanabe_2007",
+                "mode": "no_otp_hashed",
+                "n": 2,
+                "classical_B_rounds": 1
+              },
+              "contribution": 0.003130538231906289
+            }
+          ],
+          "final_numerical_screen_upper": 0.0031305382321122582
+        },
+        "M4": {
+          "rate": 0.003130538231906289,
+          "ED": "LC4_005_v9",
+          "m": 4,
+          "M": 2,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 66,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "Watanabe_2007",
+                "mode": "no_otp_hashed",
+                "n": 2,
+                "classical_B_rounds": 1
+              },
+              "contribution": 0.003130538231906289
+            }
+          ],
+          "final_numerical_screen_upper": 0.0031305382321122582
+        }
+      },
+      "round_counts": [
+        {
+          "B": 0,
+          "states": 13900,
+          "distinct_states": 11614,
+          "instruments": 2253
+        },
+        {
+          "B": 1,
+          "states": 1364,
+          "distinct_states": 450,
+          "instruments": 308
+        },
+        {
+          "B": 2,
+          "states": 88,
+          "distinct_states": 35,
+          "instruments": 28
+        },
+        {
+          "B": 3,
+          "states": 36,
+          "distinct_states": 7,
+          "instruments": 9
+        }
+      ],
+      "seconds": 133.59616804122925,
+      "scope": "Complete m<=8 terminal class, all flags; external executable recurrence/tree incumbents used only to prune the union objective, not to claim individual core optimality."
+    }
+  ]
+}

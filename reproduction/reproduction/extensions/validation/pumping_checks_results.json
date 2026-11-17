@@ -1,0 +1,43 @@
+{
+  "scope": "Diagnostics supplement the analytical proof; not a finite-class capacity search.",
+  "normal_form": {
+    "symplectic_matrices": 720,
+    "weight_two_flag_maps": 864,
+    "weight_one_flag_maps": 576,
+    "normal_form_equivalents": 432,
+    "status": "passed; exact integer map comparison"
+  },
+  "SE_invariance": {
+    "random_bell_map_tests": 48000,
+    "largest_SE_defect": -0.003911262363948453,
+    "primitive_inequality_tests": 10000,
+    "smallest_primitive_slack": 1.8028399025871167e-06,
+    "status": "passed; floating diagnostics only, not proof"
+  },
+  "YY_pumping": {
+    "exact_rational_state_and_cost_checks": 440,
+    "status": "passed; YY pumping identity for nonsymmetric general Bell laws"
+  },
+  "positive_three_slot_example": {
+    "Q": "7/25",
+    "inner_Z_pump_ancestry": 3,
+    "Hadamard_between_levels": true,
+    "outer_Z_pump_ancestry": 11,
+    "live_memory": 3,
+    "success_ancestry_raw_leaves": 33,
+    "mean_raw_cost": "4965.51576648509637140137473913500571720117695531803917651005",
+    "output_Bell_probabilities": [
+      "0.668814138962626975349867147586906442117187935435239661746453",
+      "0.00475839727982727384309083871767013860820283136751956709334777",
+      "0.00326306589145414146211447912723189660331417949820404666772756",
+      "0.323164397866091609344927534568191522671295053699036724492471"
+    ],
+    "entropy_interval": "[0.9784400746506599632552914822136422375269397675032653617227970522183923794293195165945, 0.9784400746506599632552914822136422375269397675032653617227970522183923794293195281909]",
+    "rate_interval": "[0.000004341930700302962630270162495681564931303684480166018474035640745066014044500949469695, 0.000004341930700302962630270162495681564931303684480166018474035640745066014044500951818268]",
+    "conservative_rate_bounds": [
+      "0.0000043419",
+      "0.0000043421"
+    ],
+    "status": "exact rational probabilities/cost; mpmath interval logarithms at 80 dps"
+  }
+}

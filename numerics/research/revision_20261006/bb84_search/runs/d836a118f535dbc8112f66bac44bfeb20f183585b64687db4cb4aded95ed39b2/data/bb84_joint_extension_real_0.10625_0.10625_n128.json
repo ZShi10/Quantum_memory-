@@ -1,0 +1,1115 @@
+{
+  "b": 0.10625,
+  "p": 0.10625,
+  "permissions": "real",
+  "nmax": 128,
+  "K": 16,
+  "results": {
+    "M1": {
+      "lower": 0.08468121847500344,
+      "upper_numerical": 0.08468121887313719,
+      "ED": {
+        "family": "explicit_binary_tree",
+        "tree_id": "T_454349e422f05297191e",
+        "tree": {
+          "kind": "raw"
+        },
+        "canonical_tree": "r",
+        "final_axis": "Z",
+        "permissions": "real",
+        "successful_ancestry_inputs": 1,
+        "depth": 0,
+        "retained_memory": 1,
+        "terminal_memory": 1,
+        "memory_upper_bound": 1,
+        "retained_loading_order": "raw",
+        "terminal_implementation": "immediate_measurement",
+        "retry_rule": "retry_failed_child_locally;discard_both_children_and_restart_parent_on_parent_failure",
+        "raw_cost_model": "expected_all_consumed_raw_pairs_including_retries",
+        "memory_model": "peak_local_live_qubits_including_input_port;no_external_quantum_buffer",
+        "memory_is_achievable_upper_bound": true,
+        "global_minimality_proved": false,
+        "memory_proof_kind": "exact_in_registered_depth_first_and_terminal_reduction_schedule_class",
+        "depth_first_retained_schedule_minimal": true,
+        "terminal_classical_storage": "unlimited_and_not_counted_as_quantum_memory",
+        "terminal_raw_cost_unchanged": true,
+        "pooled_B_substitution": false,
+        "family_memberships": [
+          "complete_ordered_tree_leaf_bound",
+          "variable_decoder_raw_pump"
+        ]
+      },
+      "classical_B_rounds": 0,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "linear",
+            "code": "XC0024",
+            "n": 4,
+            "mode": "no_otp"
+          },
+          "allocation": 0.1851225926042905,
+          "allocation_exact": "370245185208581/2000000000000000"
+        },
+        {
+          "AD": {
+            "kind": "Watanabe_2007",
+            "n": 2,
+            "mode": "no_otp_hashed"
+          },
+          "allocation": 0.8148774073957095,
+          "allocation_exact": "1629754814791419/2000000000000000"
+        }
+      ],
+      "certificate": {
+        "lower": 0.08468121847500344,
+        "upper": 0.08468121857637381,
+        "gap": 1.0137037043111974e-10,
+        "argmin": 0.03816986083984375,
+        "cells": 97,
+        "converged": true,
+        "atol": 2.5e-10,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        0.03653034053800956,
+        0.043284910052482965,
+        0.0398603588208257,
+        0.038183369125612224,
+        0.03735384546910198,
+        0.037767857310264046,
+        0.03797542560072019,
+        0.03807934638328845,
+        0.03813134809414738,
+        0.038157354731359415
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.774111479552642,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.22588852044735794
+      ],
+      "nmax": 128,
+      "converged": true,
+      "iterations": 11,
+      "history": [
+        {
+          "numerical_minimum": 0.08467656924540291,
+          "upper": 0.08564441911180147,
+          "worst_t": 0.03653034053800956,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08463345701454919,
+          "upper": 0.08471816359229305,
+          "worst_t": 0.043284910052482965,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08467621437239928,
+          "upper": 0.08469609040164135,
+          "worst_t": 0.0398603588208257,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08468121860403514,
+          "upper": 0.0846860399683465,
+          "worst_t": 0.038183369125612224,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08468004766903356,
+          "upper": 0.08468123537975154,
+          "worst_t": 0.03735384546910198,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.084680927941234,
+          "upper": 0.08468122705522016,
+          "worst_t": 0.037767857310264046,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.0846811477898801,
+          "upper": 0.08468122284683509,
+          "worst_t": 0.03797542560072019,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08468120192966977,
+          "upper": 0.08468122073096163,
+          "worst_t": 0.03807934638328845,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08468121496281485,
+          "upper": 0.08468121967012275,
+          "worst_t": 0.03813134809414738,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08468121795937163,
+          "upper": 0.08468121913890188,
+          "worst_t": 0.038157354731359415,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "lower": 0.08468121847500344,
+          "upper": 0.08468121887313719,
+          "worst_t": 0.03816986083984375,
+          "cells": 97
+        }
+      ],
+      "finite_class_upper_numerical": 0.08468121913890188
+    },
+    "M2": {
+      "lower": 0.1493459998780798,
+      "upper_numerical": 0.14934600008874638,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "R",
+        "final_axis": "Z",
+        "depth": 1,
+        "memory_upper_bound": 2,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 2,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "classical_B_rounds": 0,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "SPC",
+            "n": 110,
+            "mode": "no_otp"
+          },
+          "allocation": 1.0,
+          "allocation_exact": "1"
+        }
+      ],
+      "certificate": {
+        "lower": 0.1493459998780798,
+        "upper": 0.14934600008575843,
+        "gap": 2.0767862429771355e-10,
+        "argmin": 1.0,
+        "cells": 85,
+        "converged": true,
+        "atol": 2.5e-10,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nmax": 128,
+      "converged": true,
+      "iterations": 1,
+      "history": [
+        {
+          "lower": 0.1493459998780798,
+          "upper": 0.14934600008874638,
+          "worst_t": 1.0,
+          "cells": 85
+        }
+      ],
+      "finite_class_upper_numerical": 0.1493460000861964
+    },
+    "M3": {
+      "lower": 0.1493459998780798,
+      "upper_numerical": 0.14934600008874638,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "R",
+        "final_axis": "Z",
+        "depth": 1,
+        "memory_upper_bound": 2,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 2,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "classical_B_rounds": 0,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "SPC",
+            "n": 110,
+            "mode": "no_otp"
+          },
+          "allocation": 1.0,
+          "allocation_exact": "1"
+        }
+      ],
+      "certificate": {
+        "lower": 0.1493459998780798,
+        "upper": 0.14934600008575843,
+        "gap": 2.0767862429771355e-10,
+        "argmin": 1.0,
+        "cells": 85,
+        "converged": true,
+        "atol": 2.5e-10,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nmax": 128,
+      "converged": true,
+      "iterations": 1,
+      "history": [
+        {
+          "lower": 0.1493459998780798,
+          "upper": 0.14934600008874638,
+          "worst_t": 1.0,
+          "cells": 85
+        }
+      ],
+      "finite_class_upper_numerical": 0.1493460000861964
+    },
+    "M4": {
+      "lower": 0.1493459998780798,
+      "upper_numerical": 0.14934600008874638,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "R",
+        "final_axis": "Z",
+        "depth": 1,
+        "memory_upper_bound": 2,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 2,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "classical_B_rounds": 0,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "SPC",
+            "n": 110,
+            "mode": "no_otp"
+          },
+          "allocation": 1.0,
+          "allocation_exact": "1"
+        }
+      ],
+      "certificate": {
+        "lower": 0.1493459998780798,
+        "upper": 0.14934600008575843,
+        "gap": 2.0767862429771355e-10,
+        "argmin": 1.0,
+        "cells": 85,
+        "converged": true,
+        "atol": 2.5e-10,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nmax": 128,
+      "converged": true,
+      "iterations": 1,
+      "history": [
+        {
+          "lower": 0.1493459998780798,
+          "upper": 0.14934600008874638,
+          "worst_t": 1.0,
+          "cells": 85
+        }
+      ],
+      "finite_class_upper_numerical": 0.1493460000861964
+    },
+    "M5": {
+      "lower": 0.1493459998780798,
+      "upper_numerical": 0.14934600008874638,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "R",
+        "final_axis": "Z",
+        "depth": 1,
+        "memory_upper_bound": 2,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 2,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "classical_B_rounds": 0,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "SPC",
+            "n": 110,
+            "mode": "no_otp"
+          },
+          "allocation": 1.0,
+          "allocation_exact": "1"
+        }
+      ],
+      "certificate": {
+        "lower": 0.1493459998780798,
+        "upper": 0.14934600008575843,
+        "gap": 2.0767862429771355e-10,
+        "argmin": 1.0,
+        "cells": 85,
+        "converged": true,
+        "atol": 2.5e-10,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nmax": 128,
+      "converged": true,
+      "iterations": 1,
+      "history": [
+        {
+          "lower": 0.1493459998780798,
+          "upper": 0.14934600008874638,
+          "worst_t": 1.0,
+          "cells": 85
+        }
+      ],
+      "finite_class_upper_numerical": 0.1493460000861964
+    },
+    "M6": {
+      "lower": 0.1493459998780798,
+      "upper_numerical": 0.14934600008874638,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "R",
+        "final_axis": "Z",
+        "depth": 1,
+        "memory_upper_bound": 2,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 2,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "classical_B_rounds": 0,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "SPC",
+            "n": 110,
+            "mode": "no_otp"
+          },
+          "allocation": 1.0,
+          "allocation_exact": "1"
+        }
+      ],
+      "certificate": {
+        "lower": 0.1493459998780798,
+        "upper": 0.14934600008575843,
+        "gap": 2.0767862429771355e-10,
+        "argmin": 1.0,
+        "cells": 85,
+        "converged": true,
+        "atol": 2.5e-10,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nmax": 128,
+      "converged": true,
+      "iterations": 1,
+      "history": [
+        {
+          "lower": 0.1493459998780798,
+          "upper": 0.14934600008874638,
+          "worst_t": 1.0,
+          "cells": 85
+        }
+      ],
+      "finite_class_upper_numerical": 0.1493460000861964
+    },
+    "M7": {
+      "lower": 0.1493459998780798,
+      "upper_numerical": 0.14934600008874638,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "R",
+        "final_axis": "Z",
+        "depth": 1,
+        "memory_upper_bound": 2,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 2,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "classical_B_rounds": 0,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "SPC",
+            "n": 110,
+            "mode": "no_otp"
+          },
+          "allocation": 1.0,
+          "allocation_exact": "1"
+        }
+      ],
+      "certificate": {
+        "lower": 0.1493459998780798,
+        "upper": 0.14934600008575843,
+        "gap": 2.0767862429771355e-10,
+        "argmin": 1.0,
+        "cells": 85,
+        "converged": true,
+        "atol": 2.5e-10,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nmax": 128,
+      "converged": true,
+      "iterations": 1,
+      "history": [
+        {
+          "lower": 0.1493459998780798,
+          "upper": 0.14934600008874638,
+          "worst_t": 1.0,
+          "cells": 85
+        }
+      ],
+      "finite_class_upper_numerical": 0.1493460000861964
+    },
+    "M8": {
+      "lower": 0.1493459998780798,
+      "upper_numerical": 0.14934600008874638,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "R",
+        "final_axis": "Z",
+        "depth": 1,
+        "memory_upper_bound": 2,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 2,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "classical_B_rounds": 0,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "SPC",
+            "n": 110,
+            "mode": "no_otp"
+          },
+          "allocation": 1.0,
+          "allocation_exact": "1"
+        }
+      ],
+      "certificate": {
+        "lower": 0.1493459998780798,
+        "upper": 0.14934600008575843,
+        "gap": 2.0767862429771355e-10,
+        "argmin": 1.0,
+        "cells": 85,
+        "converged": true,
+        "atol": 2.5e-10,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nmax": 128,
+      "converged": true,
+      "iterations": 1,
+      "history": [
+        {
+          "lower": 0.1493459998780798,
+          "upper": 0.14934600008874638,
+          "worst_t": 1.0,
+          "cells": 85
+        }
+      ],
+      "finite_class_upper_numerical": 0.1493460000861964
+    }
+  },
+  "evaluated": {
+    "6_B0": {
+      "lower": 0.1493459998780798,
+      "upper_numerical": 0.14934600008874638,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "R",
+        "final_axis": "Z",
+        "depth": 1,
+        "memory_upper_bound": 2,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 2,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "classical_B_rounds": 0,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "SPC",
+            "n": 110,
+            "mode": "no_otp"
+          },
+          "allocation": 1.0,
+          "allocation_exact": "1"
+        }
+      ],
+      "certificate": {
+        "lower": 0.1493459998780798,
+        "upper": 0.14934600008575843,
+        "gap": 2.0767862429771355e-10,
+        "argmin": 1.0,
+        "cells": 85,
+        "converged": true,
+        "atol": 2.5e-10,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "nmax": 128,
+      "converged": true,
+      "iterations": 1,
+      "history": [
+        {
+          "lower": 0.1493459998780798,
+          "upper": 0.14934600008874638,
+          "worst_t": 1.0,
+          "cells": 85
+        }
+      ]
+    },
+    "44970_B0": {
+      "lower": 0.08468121847500344,
+      "upper_numerical": 0.08468121887313719,
+      "ED": {
+        "family": "explicit_binary_tree",
+        "tree_id": "T_454349e422f05297191e",
+        "tree": {
+          "kind": "raw"
+        },
+        "canonical_tree": "r",
+        "final_axis": "Z",
+        "permissions": "real",
+        "successful_ancestry_inputs": 1,
+        "depth": 0,
+        "retained_memory": 1,
+        "terminal_memory": 1,
+        "memory_upper_bound": 1,
+        "retained_loading_order": "raw",
+        "terminal_implementation": "immediate_measurement",
+        "retry_rule": "retry_failed_child_locally;discard_both_children_and_restart_parent_on_parent_failure",
+        "raw_cost_model": "expected_all_consumed_raw_pairs_including_retries",
+        "memory_model": "peak_local_live_qubits_including_input_port;no_external_quantum_buffer",
+        "memory_is_achievable_upper_bound": true,
+        "global_minimality_proved": false,
+        "memory_proof_kind": "exact_in_registered_depth_first_and_terminal_reduction_schedule_class",
+        "depth_first_retained_schedule_minimal": true,
+        "terminal_classical_storage": "unlimited_and_not_counted_as_quantum_memory",
+        "terminal_raw_cost_unchanged": true,
+        "pooled_B_substitution": false,
+        "family_memberships": [
+          "complete_ordered_tree_leaf_bound",
+          "variable_decoder_raw_pump"
+        ]
+      },
+      "classical_B_rounds": 0,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "linear",
+            "code": "XC0024",
+            "n": 4,
+            "mode": "no_otp"
+          },
+          "allocation": 0.1851225926042905,
+          "allocation_exact": "370245185208581/2000000000000000"
+        },
+        {
+          "AD": {
+            "kind": "Watanabe_2007",
+            "n": 2,
+            "mode": "no_otp_hashed"
+          },
+          "allocation": 0.8148774073957095,
+          "allocation_exact": "1629754814791419/2000000000000000"
+        }
+      ],
+      "certificate": {
+        "lower": 0.08468121847500344,
+        "upper": 0.08468121857637381,
+        "gap": 1.0137037043111974e-10,
+        "argmin": 0.03816986083984375,
+        "cells": 97,
+        "converged": true,
+        "atol": 2.5e-10,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        0.03653034053800956,
+        0.043284910052482965,
+        0.0398603588208257,
+        0.038183369125612224,
+        0.03735384546910198,
+        0.037767857310264046,
+        0.03797542560072019,
+        0.03807934638328845,
+        0.03813134809414738,
+        0.038157354731359415
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.774111479552642,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.22588852044735794
+      ],
+      "nmax": 128,
+      "converged": true,
+      "iterations": 11,
+      "history": [
+        {
+          "numerical_minimum": 0.08467656924540291,
+          "upper": 0.08564441911180147,
+          "worst_t": 0.03653034053800956,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08463345701454919,
+          "upper": 0.08471816359229305,
+          "worst_t": 0.043284910052482965,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08467621437239928,
+          "upper": 0.08469609040164135,
+          "worst_t": 0.0398603588208257,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08468121860403514,
+          "upper": 0.0846860399683465,
+          "worst_t": 0.038183369125612224,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08468004766903356,
+          "upper": 0.08468123537975154,
+          "worst_t": 0.03735384546910198,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.084680927941234,
+          "upper": 0.08468122705522016,
+          "worst_t": 0.037767857310264046,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.0846811477898801,
+          "upper": 0.08468122284683509,
+          "worst_t": 0.03797542560072019,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08468120192966977,
+          "upper": 0.08468122073096163,
+          "worst_t": 0.03807934638328845,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08468121496281485,
+          "upper": 0.08468121967012275,
+          "worst_t": 0.03813134809414738,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "numerical_minimum": 0.08468121795937163,
+          "upper": 0.08468121913890188,
+          "worst_t": 0.038157354731359415,
+          "stage": "floating_cut_discovery"
+        },
+        {
+          "lower": 0.08468121847500344,
+          "upper": 0.08468121887313719,
+          "worst_t": 0.03816986083984375,
+          "cells": 97
+        }
+      ]
+    },
+    "0_B0": {
+      "lower": 0.0,
+      "upper_numerical": 0.08468121913890188,
+      "strategy": [
+        {
+          "AD": {
+            "kind": "linear",
+            "code": "XC0024",
+            "n": 4,
+            "mode": "no_otp"
+          },
+          "allocation": 0.18556027153602989,
+          "allocation_exact": "18556027153602989/100000000000000009"
+        },
+        {
+          "AD": {
+            "kind": "Watanabe_2007",
+            "n": 2,
+            "mode": "no_otp_hashed"
+          },
+          "allocation": 0.8144397284639702,
+          "allocation_exact": "81443972846397020/100000000000000009"
+        }
+      ],
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "",
+        "final_axis": "Z",
+        "depth": 0,
+        "memory_upper_bound": 1,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 1,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "classical_B_rounds": 0,
+      "samples": [
+        0.0,
+        0.00390625,
+        0.015625,
+        0.0625,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        0.03653034053800956,
+        0.043284910052482965,
+        0.0398603588208257,
+        0.038183369125612224,
+        0.03735384546910198,
+        0.037767857310264046,
+        0.03797542560072019,
+        0.03807934638328845,
+        0.03813134809414738
+      ],
+      "sampled_dual": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.8870777813648897,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.11292221863511032
+      ],
+      "nmax": 128,
+      "converged": true,
+      "status": "dominated_by_certified_incumbent_in_numerical_screen",
+      "note": "No new lower witness claimed; the feasible sampled dual is saved for independent outward certification."
+    }
+  },
+  "screening": [
+    {
+      "B": 0,
+      "ER_survivors": 6,
+      "solved": 3
+    },
+    {
+      "B": 1,
+      "ER_survivors": 2,
+      "solved": 0
+    },
+    {
+      "B": 2,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 3,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 4,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 5,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 6,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 7,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 8,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 9,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 10,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 11,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 12,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 13,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 14,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 15,
+      "ER_survivors": 0,
+      "solved": 0
+    },
+    {
+      "B": 16,
+      "ER_survivors": 0,
+      "solved": 0
+    }
+  ],
+  "complete_candidate_screen": true,
+  "scope": {
+    "schema": "bb84_whole_class_20261006_v2",
+    "b": "0.10625",
+    "p": "0.10625",
+    "permissions": "real",
+    "quantum_class": "four_real_decoder_words_depth_0_to_7_and_constant_raw_pumps_r_1_to_160; all_labeled_ordered_binary_trees_leaves_le_5; variable_decoder_raw_pump_checks_le_7",
+    "classical_class": "all_binary_codes_n_1_to_8_via_direct_sum_dominance; repetition_SPC_9_to_nmax; three_Du_modes; Watanabe",
+    "short_max": 8,
+    "ed_extension": true,
+    "tree_leaves": 5,
+    "pump_checks": 7,
+    "registered_quantum_union": "four_real_decoder_words_depth_0_to_7_and_constant_raw_pumps_r_1_to_160; all_labeled_ordered_binary_trees_leaves_le_5; variable_decoder_raw_pump_checks_le_7",
+    "exact_objective_quotient": "equal_xz",
+    "classical_B_max": 16,
+    "nmax": 128,
+    "memory_budgets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "absolute_tolerance": 1e-11,
+    "relative_tolerance": 0.0001,
+    "discovery_initial_tolerance": 1e-09,
+    "security": "ideal_IID_Bell_diagonal_fixed_ED_fixed_B_fixed_AD_mixture_all_hidden_t",
+    "class_exclusions": [
+      "arbitrary_memory_bounded_ED",
+      "general_codes_n_above_8",
+      "mixing_different_ED_or_B",
+      "complete_fixed_block_union"
+    ]
+  },
+  "seconds": 213.5836672782898,
+  "registered_class_manifest": "d836a118f535dbc8112f66bac44bfeb20f183585b64687db4cb4aded95ed39b2"
+}

@@ -1,0 +1,72 @@
+{
+  "results": {
+    "M1": {
+      "upper": 0.4611390268343921,
+      "lower_incumbent": 0.46113902683433255
+    },
+    "M2": {
+      "upper": 0.4611390268343921,
+      "lower_incumbent": 0.46113902683433255
+    },
+    "M3": {
+      "upper": 0.4611390268343921,
+      "lower_incumbent": 0.46113902683433255
+    },
+    "M4": {
+      "upper": 0.4611390268343921,
+      "lower_incumbent": 0.46113902683433255
+    },
+    "M5": {
+      "upper": 0.4611390268343921,
+      "lower_incumbent": 0.46113902683433255
+    },
+    "M6": {
+      "upper": 0.4611390268343921,
+      "lower_incumbent": 0.46113902683433255
+    },
+    "M7": {
+      "upper": 0.4611390268343921,
+      "lower_incumbent": 0.46113902683433255
+    },
+    "M8": {
+      "upper": 0.4611390268343921,
+      "lower_incumbent": 0.46113902683433255
+    }
+  },
+  "history": [
+    {
+      "B": 0,
+      "states": 4,
+      "removed_forever": 25882,
+      "largest_excess": 5.956346527113965e-14
+    },
+    {
+      "B": 1,
+      "states": 0,
+      "removed_forever": 4
+    }
+  ],
+  "seconds": 55.50725555419922,
+  "candidates": 143790,
+  "evaluated_objective_representatives": 25886,
+  "exact_quotient": {
+    "source_family": "equal_xz",
+    "legacy_prefix": 67455,
+    "extension_count": 76335,
+    "legacy_representatives": 23117,
+    "extension_representatives": 2769,
+    "original_candidates": 143790,
+    "retained_candidates": 25886,
+    "extension_map": {
+      "map_file": "equal_xz_map.json",
+      "map_sha256": "bad88b7c464e68521c8211d86fc1e7b3476280ddff407f77b6b373ff06bf9a0a",
+      "validation_sha256": "ad884894e87addc8dabe64c768c57e4702dcaa1309ccd313817fb87c5fcca535",
+      "source_family": "equal_xz",
+      "max_leaves": 5,
+      "max_pump_checks": 7
+    },
+    "legacy_symmetry_source_sha256": "ad78c179c86ea1b41694e021825bb85de8aad57d8491f12c6ca43a022a776c1d",
+    "proof": "Exact state/yield legacy symmetry plus validated exact polynomial extension map; all B prefixes and registered terminal objectives are preserved; chosen representative memory is no larger."
+  },
+  "scope": "All 67455 original four-decoder homogeneous/constant-pumping records and all 76335 extension records. Every allowed B<=16 and complete n<=8 short-code/three-mode menu, rep/SPC<=128, Watanabe. Outward value bounds; lower incumbents may come from either registered or complete-block witnesses."
+}

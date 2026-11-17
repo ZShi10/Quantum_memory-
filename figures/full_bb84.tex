@@ -1,0 +1,71 @@
+\begin{tikzpicture}
+\begin{axis}[qkdaxis,name=top,width=.94\textwidth,height=5.3cm,
+title={(a) Full intermediate Clifford operations},
+xmin=.16,xmax=.24,ymode=log,ymin=1e-7,ymax=.06,xtick distance=.01,
+xlabel={Raw bit and phase error $Q$},ylabel={Secret bits per raw pair},
+legend columns=4,legend style={at={(.99,.99)},anchor=north east}]
+\addplot[mem2] table[x=Q,y=full_R2] {figures/plot_data/full_bb84.dat};
+\addlegendentry{$m=2$}
+\addplot[mem3] table[x=Q,y=full_R3] {figures/plot_data/full_bb84.dat};
+\addlegendentry{$m=3$}
+\addplot[mem4] table[x=Q,y=full_R4] {figures/plot_data/full_bb84.dat};
+\addlegendentry{$m=4$}
+\addplot[mem5] table[x=Q,y=full_R5] {figures/plot_data/full_bb84.dat};
+\addlegendentry{$m=5$}
+\addplot[mem6] table[x=Q,y=full_R6] {figures/plot_data/full_bb84.dat};
+\addlegendentry{$m=6$}
+\addplot[mem7] table[x=Q,y=full_R7] {figures/plot_data/full_bb84.dat};
+\addlegendentry{$m=7$}
+\addplot[mem8] table[x=Q,y=full_R8] {figures/plot_data/full_bb84.dat};
+\addlegendentry{$m=8$}
+\addlegendimage{only marks,mark=triangle,mark options={rotate=180,fill=white},black}
+\addlegendentry{Family upper}
+\addplot[only marks,mark=none,mem2,forget plot,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/full_upper_m2.dat};
+\addplot[only marks,mark=triangle,mark options={rotate=180,fill=white},mem2,mark size=1.5pt,forget plot] table[x=Q,y expr=\thisrow{rate}+\thisrow{gap}] {figures/plot_data/full_upper_m2.dat};
+\addplot[only marks,mark=none,mem3,forget plot,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/full_upper_m3.dat};
+\addplot[only marks,mark=triangle,mark options={rotate=180,fill=white},mem3,mark size=1.5pt,forget plot] table[x=Q,y expr=\thisrow{rate}+\thisrow{gap}] {figures/plot_data/full_upper_m3.dat};
+\addplot[only marks,mark=none,mem4,forget plot,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/full_upper_m4.dat};
+\addplot[only marks,mark=triangle,mark options={rotate=180,fill=white},mem4,mark size=1.5pt,forget plot] table[x=Q,y expr=\thisrow{rate}+\thisrow{gap}] {figures/plot_data/full_upper_m4.dat};
+\addplot[only marks,mark=none,mem6,forget plot,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/full_upper_m6.dat};
+\addplot[only marks,mark=triangle,mark options={rotate=180,fill=white},mem6,mark size=1.5pt,forget plot] table[x=Q,y expr=\thisrow{rate}+\thisrow{gap}] {figures/plot_data/full_upper_m6.dat};
+\end{axis}
+\end{tikzpicture}
+\par\vspace{6pt}
+\begin{tikzpicture}
+\begin{axis}[qkdaxis,width=.44\textwidth,height=4.9cm,
+title={(b) Gate and readout control, $m=2$},xmin=.16,xmax=.24,
+ymode=log,ymin=1e-6,ymax=.06,xtick={.16,.18,.20,.22,.24},
+xlabel={Raw error $Q$},ylabel={Secret bits per raw pair},
+legend style={at={(.02,.04)},anchor=south west}]
+\addplot[mem2] table[x=Q,y=full_R2] {figures/plot_data/full_bb84.dat};
+\addlegendentry{Full / XYZ}
+\addplot[mem2,only marks,mark=*,mark size=1.2pt,forget plot,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/full_operation_bounds.dat};
+\addplot[brown,dashed] table[x=Q,y=real_xyz_R2] {figures/plot_data/full_bb84.dat};
+\addlegendentry{Real / XYZ}
+\addplot[brown,dashed,only marks,mark=*,mark size=1.2pt,forget plot,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/real_xyz_operation_bounds.dat};
+\addplot[black,densely dotted] table[x=Q,y=real_xz_R2] {figures/plot_data/full_bb84.dat};
+\addlegendentry{Real / XZ}
+\addplot[black,densely dotted,only marks,mark=*,mark size=1.2pt,forget plot,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/real_xz_operation_bounds.dat};
+\end{axis}
+\end{tikzpicture}\hspace{6mm}
+\begin{tikzpicture}
+\begin{axis}[qkdaxis,width=.44\textwidth,height=4.9cm,
+title={(c) Guaranteed storage gains},xbar,bar width=7pt,bar shift=0pt,
+xmin=0,xmax=48,ymin=-.5,ymax=5.5,y dir=reverse,ytick={0,1,2,3,4,5},
+yticklabels={$0.19:\ 2\rightarrow3$,$0.20:\ 2\rightarrow3$,$0.21:\ 2\rightarrow3$,
+$0.22:\ 2\rightarrow3$,$0.23:\ 3\rightarrow4$,$0.23:\ 5\rightarrow6$},
+ylabel={$Q$: memory change},xlabel={Rate gain (\%)}]
+\addplot[fill=mem3,draw=none] coordinates {(4.491231498918125,0)};
+\node[anchor=west,font=\scriptsize] at (axis cs:4.891231498918125,0) {$>4.49\%$};
+\addplot[fill=mem3,draw=none] coordinates {(30.02971711623845,1)};
+\node[anchor=west,font=\scriptsize] at (axis cs:30.42971711623845,1) {$>30.02\%$};
+\addplot[fill=mem3,draw=none] coordinates {(38.396614667876186,2)};
+\node[anchor=west,font=\scriptsize] at (axis cs:38.796614667876185,2) {$>38.39\%$};
+\addplot[fill=mem3,draw=none] coordinates {(34.1357076022951,3)};
+\node[anchor=west,font=\scriptsize] at (axis cs:34.5357076022951,3) {$>34.13\%$};
+\addplot[fill=mem4,draw=none] coordinates {(6.777603026443346,4)};
+\node[anchor=west,font=\scriptsize] at (axis cs:7.177603026443347,4) {$>6.77\%$};
+\addplot[fill=mem6,draw=none] coordinates {(12.788609283398111,5)};
+\node[anchor=west,font=\scriptsize] at (axis cs:13.188609283398112,5) {$>12.78\%$};
+\end{axis}
+\end{tikzpicture}

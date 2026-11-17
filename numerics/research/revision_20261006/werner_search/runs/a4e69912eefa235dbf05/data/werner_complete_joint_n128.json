@@ -1,0 +1,176 @@
+{
+  "results": [
+    {
+      "Q": 0.315,
+      "results": {
+        "M1": {
+          "rate": 9.10493898046795e-17,
+          "ED": "LC1_000_v1",
+          "m": 1,
+          "M": 1,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 0,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "linear",
+                "mode": "otp_compressed",
+                "n": 1,
+                "classical_B_rounds": 1,
+                "code": "XC0000"
+              },
+              "contribution": 9.10493898046795e-17
+            }
+          ],
+          "final_numerical_screen_upper": 2.3000000000000175e-13
+        },
+        "M2": {
+          "rate": 1.2790656960034364e-09,
+          "ED": "LC7_006_v64",
+          "m": 7,
+          "M": 2,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 607,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "AD": {
+                "kind": "SPC",
+                "mode": "otp_compressed",
+                "n": 102,
+                "classical_B_rounds": 8
+              },
+              "contribution": 1.2790656960034364e-09
+            }
+          ],
+          "final_numerical_screen_upper": 1.4570712384504868e-09
+        },
+        "M3": {
+          "rate": 1.2790656960034364e-09,
+          "ED": "LC7_006_v64",
+          "m": 7,
+          "M": 2,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 607,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "AD": {
+                "kind": "SPC",
+                "mode": "otp_compressed",
+                "n": 102,
+                "classical_B_rounds": 8
+              },
+              "contribution": 1.2790656960034364e-09
+            }
+          ],
+          "final_numerical_screen_upper": 1.4570712384504868e-09
+        },
+        "M4": {
+          "rate": 1.2790656960034364e-09,
+          "ED": "LC7_006_v64",
+          "m": 7,
+          "M": 2,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 607,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                2,
+                1,
+                0
+              ],
+              "AD": {
+                "kind": "SPC",
+                "mode": "otp_compressed",
+                "n": 102,
+                "classical_B_rounds": 8
+              },
+              "contribution": 1.2790656960034364e-09
+            }
+          ],
+          "final_numerical_screen_upper": 1.4570712384504868e-09
+        }
+      },
+      "round_counts": [
+        {
+          "B": 0,
+          "states": 9284,
+          "distinct_states": 7341,
+          "instruments": 6895
+        },
+        {
+          "B": 1,
+          "states": 9281,
+          "distinct_states": 7168,
+          "instruments": 6892
+        },
+        {
+          "B": 2,
+          "states": 8815,
+          "distinct_states": 6726,
+          "instruments": 6629
+        },
+        {
+          "B": 3,
+          "states": 6382,
+          "distinct_states": 4817,
+          "instruments": 4954
+        },
+        {
+          "B": 4,
+          "states": 1584,
+          "distinct_states": 1079,
+          "instruments": 957
+        },
+        {
+          "B": 5,
+          "states": 313,
+          "distinct_states": 203,
+          "instruments": 196
+        },
+        {
+          "B": 6,
+          "states": 53,
+          "distinct_states": 44,
+          "instruments": 68
+        },
+        {
+          "B": 7,
+          "states": 16,
+          "distinct_states": 16,
+          "instruments": 47
+        },
+        {
+          "B": 8,
+          "states": 4,
+          "distinct_states": 4,
+          "instruments": 39
+        }
+      ],
+      "seconds": 218.45323848724365,
+      "scope": "Complete m<=8 terminal class, all flags; external executable recurrence/tree incumbents used only to prune the union objective, not to claim individual core optimality."
+    }
+  ]
+}

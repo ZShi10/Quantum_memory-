@@ -1,0 +1,98 @@
+{
+  "complete": true,
+  "fingerprint": "3863e14ce213c51b53e0a9d09e667d64f8e35aed4b85a99f74d9561eae1360c1",
+  "b": 0.21125,
+  "p": 0.21125,
+  "results": {
+    "M1": {
+      "lower": 0.0,
+      "upper": 4.602767460915186e-12,
+      "gap_upper": 4.6027674609151865e-12,
+      "converged": true,
+      "uniform_engine_converged": true
+    },
+    "M2": {
+      "lower": 0.0022356273878847903,
+      "upper": 0.002235627566643538,
+      "gap_upper": 1.7875874782150028e-10,
+      "converged": true,
+      "uniform_engine_converged": false
+    },
+    "M3": {
+      "lower": 0.0024064375004925658,
+      "upper": 0.002406437705456709,
+      "gap_upper": 2.0496414331397375e-10,
+      "converged": true,
+      "uniform_engine_converged": false
+    },
+    "M4": {
+      "lower": 0.0024064375004925658,
+      "upper": 0.002406437705456709,
+      "gap_upper": 2.0496414331397375e-10,
+      "converged": true,
+      "uniform_engine_converged": false
+    },
+    "M5": {
+      "lower": 0.003659754360552427,
+      "upper": 0.003659754594359225,
+      "gap_upper": 2.3380679770729223e-10,
+      "converged": true,
+      "uniform_engine_converged": false
+    },
+    "M6": {
+      "lower": 0.003659754360552427,
+      "upper": 0.003659754594359225,
+      "gap_upper": 2.3380679770729223e-10,
+      "converged": true,
+      "uniform_engine_converged": false
+    },
+    "M7": {
+      "lower": 0.003659754360552427,
+      "upper": 0.003659754594359225,
+      "gap_upper": 2.3380679770729223e-10,
+      "converged": true,
+      "uniform_engine_converged": false
+    },
+    "M8": {
+      "lower": 0.003659754360552427,
+      "upper": 0.003659754594359225,
+      "gap_upper": 2.3380679770729223e-10,
+      "converged": true,
+      "uniform_engine_converged": false
+    }
+  },
+  "required_gaps": {
+    "M1": 1e-11,
+    "M2": 2.2356273878847905e-07,
+    "M3": 2.4064375004925657e-07,
+    "M4": 2.4064375004925657e-07,
+    "M5": 3.6597543605524276e-07,
+    "M6": 3.6597543605524276e-07,
+    "M7": 3.6597543605524276e-07,
+    "M8": 3.6597543605524276e-07
+  },
+  "phases": [
+    {
+      "iteration": 0,
+      "requested_global_tolerance": 1e-09,
+      "discovery_seconds": 157.9928798675537,
+      "upper_seconds": 265.33568358421326,
+      "evaluated_fixed_menu_problems": 18,
+      "required_gaps": {
+        "M1": 1e-11,
+        "M2": 2.2356273878847905e-07,
+        "M3": 2.4064375004925657e-07,
+        "M4": 2.4064375004925657e-07,
+        "M5": 3.6597543605524276e-07,
+        "M6": 3.6597543605524276e-07,
+        "M7": 3.6597543605524276e-07,
+        "M8": 3.6597543605524276e-07
+      },
+      "unresolved_budget_gaps": {}
+    }
+  ],
+  "seconds": 423.3365638256073,
+  "source": "data\\bb84_joint_extension_real_0.21125_0.21125_n128.json",
+  "certificate": "data\\bb84_joint_extension_real_0.21125_0.21125_n128_menu_certified.json",
+  "interpretation": "Certified complete registered recurrence/pump/B/AD class at this exact input; not unrestricted fixed-memory optimum and not the separate complete fixed-block union."
+}

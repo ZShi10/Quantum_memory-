@@ -1,0 +1,100 @@
+{
+  "status": "certified",
+  "Q": 0.0625,
+  "spec": {
+    "Q": "0.0625",
+    "permissions": "enlarged_axes",
+    "complete_Werner_terminal_m_max": 8,
+    "homogeneous_depth": 7,
+    "constant_pump_inputs": 160,
+    "ordered_tree_leaves": 5,
+    "variable_pump_checks": 7,
+    "all_codes_n_max": 8,
+    "endpoint_n_max": 128,
+    "classical_B_max": 16,
+    "abs_tol": 1e-11,
+    "rel_tol": 1e-05,
+    "source_digest": "fa6d280a318ffbf7083ec589d0e1e4e3338fcac688513f03595d0d6111e5c608"
+  },
+  "results": {
+    "M1": {
+      "lower": 0.46113902683433255,
+      "upper": 0.46113902683442537,
+      "gap": 9.28146448586631e-14,
+      "target": 4.611390268343326e-06,
+      "converged": true,
+      "registered_achievable": 0.46113902683436225,
+      "complete_block_achievable": 0.46113902683436225
+    },
+    "M2": {
+      "lower": 0.46113902683433255,
+      "upper": 0.46113902683442537,
+      "gap": 9.28146448586631e-14,
+      "target": 4.611390268343326e-06,
+      "converged": true,
+      "registered_achievable": 0.46113902683436225,
+      "complete_block_achievable": 0.46113902683436225
+    },
+    "M3": {
+      "lower": 0.46113902683433255,
+      "upper": 0.46113902683442537,
+      "gap": 9.28146448586631e-14,
+      "target": 4.611390268343326e-06,
+      "converged": true,
+      "registered_achievable": 0.46113902683436225,
+      "complete_block_achievable": 0.46113902683436225
+    },
+    "M4": {
+      "lower": 0.46113902683433255,
+      "upper": 0.46113902683442537,
+      "gap": 9.28146448586631e-14,
+      "target": 4.611390268343326e-06,
+      "converged": true,
+      "registered_achievable": 0.46113902683436225,
+      "complete_block_achievable": 0.46113902683436225
+    },
+    "M5": {
+      "lower": 0.46113902683433255,
+      "upper": 0.46113902683442537,
+      "gap": 9.28146448586631e-14,
+      "target": 4.611390268343326e-06,
+      "converged": true,
+      "registered_achievable": 0.46113902683436225,
+      "complete_block_achievable": 0.46113902683436225
+    },
+    "M6": {
+      "lower": 0.46113902683433255,
+      "upper": 0.46113902683442537,
+      "gap": 9.28146448586631e-14,
+      "target": 4.611390268343326e-06,
+      "converged": true,
+      "registered_achievable": 0.46113902683436225,
+      "complete_block_achievable": 0.46113902683436225
+    },
+    "M7": {
+      "lower": 0.46113902683433255,
+      "upper": 0.46113902683442537,
+      "gap": 9.28146448586631e-14,
+      "target": 4.611390268343326e-06,
+      "converged": true,
+      "registered_achievable": 0.46113902683436225,
+      "complete_block_achievable": 0.46113902683436225
+    },
+    "M8": {
+      "lower": 0.46113902683433255,
+      "upper": 0.46113902683442537,
+      "gap": 9.28146448586631e-14,
+      "target": 4.611390268343326e-06,
+      "converged": true,
+      "registered_achievable": 0.46113902683436225,
+      "complete_block_achievable": 0.46113902683436225
+    }
+  },
+  "seconds": 62.487085819244385,
+  "job_id": "399e666d59bd0c2445c1",
+  "evidence": {
+    "registered_witnesses": "data/werner_v2_full_certified.json",
+    "core": "data/complete_core_upper.json",
+    "registered_upper": "data/registered_upper.json"
+  }
+}

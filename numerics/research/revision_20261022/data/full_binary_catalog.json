@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "nodes": 696826,
+  "quantum_operation_count": 54,
+  "canonical_check_count": 9,
+  "homogeneous_depth": 7,
+  "homogeneous_level_nodes": [
+    1,
+    6,
+    36,
+    216,
+    1296,
+    7776,
+    46656,
+    279936
+  ],
+  "variable_pump_checks": 7,
+  "variable_pump_level_nodes": [
+    1,
+    6,
+    36,
+    216,
+    1296,
+    7776,
+    46656,
+    279936
+  ],
+  "ordered_tree_leaves": 5,
+  "tree_layer_nodes": {
+    "1": 1,
+    "2": 9,
+    "3": 81,
+    "4": 1134,
+    "5": 16767
+  },
+  "constant_native_pump_inputs": 160,
+  "constant_native_maps": 54,
+  "final_axes": [
+    "X",
+    "Y",
+    "Z"
+  ],
+  "memory_budgets": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "terminal_records": 2090478,
+  "source": "symmetric BB84; fresh raw X/Z symmetry only",
+  "normalization": "All zero-relative-check two-input Clifford maps with weight-two check. Weight-one maps are dominated independent-child pass-throughs.",
+  "memory": "Registered depth-first child preparation, independent retries, recursively removable terminal product measurements; peak includes incoming ports.",
+  "exclusions": [
+    "arbitrary recursive acceptance flags",
+    "public-dependent decoder selection",
+    "multiple quantum outputs",
+    "other tree/word/ancestry cutoffs",
+    "arbitrary retry/recycling"
+  ],
+  "sha256": "e2b655df704b4579e45570355eeba8b9f1c81e49fd9c9d12163f694bfa33f0f6",
+  "source_sha256": "e69c239b7096c04d695de01786b4904f7694bab880eabcded1d79756e70fd926"
+}

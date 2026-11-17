@@ -1,0 +1,527 @@
+{
+  "status": "complete_interval_evaluation_of_frozen_zero_syndrome_control_family",
+  "Q": "7/25",
+  "graph_count": 290,
+  "graph_dual_pairs": 56000,
+  "nonseparable_outputs": 56000,
+  "B_max": 16,
+  "classical_terminal": "Watanabe",
+  "arithmetic": "Integer Walsh transforms and exact integer stopping DP; outward binary64 operations and atanh-series entropy bounds; no unsafe fast-math.",
+  "scope": "All catalog graph representatives N<=8 and every nonzero logical dual. Only zero relative syndrome retained; all legal deterministic eager-stopping input orders. No arbitrary ED, no arbitrary retained subsets, and no general-code terminal optimum.",
+  "catalog_coverage": "Graph representatives supplied by source; cross-cut ranks and all costs recomputed independently.",
+  "winners": {
+    "N1_m1": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N1_m2": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N1_m3": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N1_m4": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N2_m1": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N2_m2": {
+      "graph": "LC2_001",
+      "N": 2,
+      "dual": 1,
+      "minimum_memory": 2,
+      "B_rounds": 4,
+      "Bell_counts": [
+        1780,
+        812,
+        196,
+        196
+      ],
+      "acceptance_numerator": 2984,
+      "attempt_cost_numerator": 10000,
+      "common_denominator": 5000
+    },
+    "N2_m3": {
+      "graph": "LC2_001",
+      "N": 2,
+      "dual": 1,
+      "minimum_memory": 2,
+      "B_rounds": 4,
+      "Bell_counts": [
+        1780,
+        812,
+        196,
+        196
+      ],
+      "acceptance_numerator": 2984,
+      "attempt_cost_numerator": 10000,
+      "common_denominator": 5000
+    },
+    "N2_m4": {
+      "graph": "LC2_001",
+      "N": 2,
+      "dual": 1,
+      "minimum_memory": 2,
+      "B_rounds": 4,
+      "Bell_counts": [
+        1780,
+        812,
+        196,
+        196
+      ],
+      "acceptance_numerator": 2984,
+      "attempt_cost_numerator": 10000,
+      "common_denominator": 5000
+    },
+    "N3_m1": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N3_m2": {
+      "graph": "LC3_002",
+      "N": 3,
+      "dual": 4,
+      "minimum_memory": 2,
+      "B_rounds": 4,
+      "Bell_counts": [
+        57304,
+        36008,
+        2744,
+        2744
+      ],
+      "acceptance_numerator": 98800,
+      "attempt_cost_numerator": 649200,
+      "common_denominator": 250000
+    },
+    "N3_m3": {
+      "graph": "LC3_002",
+      "N": 3,
+      "dual": 4,
+      "minimum_memory": 2,
+      "B_rounds": 4,
+      "Bell_counts": [
+        57304,
+        36008,
+        2744,
+        2744
+      ],
+      "acceptance_numerator": 98800,
+      "attempt_cost_numerator": 649200,
+      "common_denominator": 250000
+    },
+    "N3_m4": {
+      "graph": "LC3_002",
+      "N": 3,
+      "dual": 4,
+      "minimum_memory": 2,
+      "B_rounds": 4,
+      "Bell_counts": [
+        57304,
+        36008,
+        2744,
+        2744
+      ],
+      "acceptance_numerator": 98800,
+      "attempt_cost_numerator": 649200,
+      "common_denominator": 250000
+    },
+    "N4_m1": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N4_m2": {
+      "graph": "LC4_003",
+      "N": 4,
+      "dual": 8,
+      "minimum_memory": 2,
+      "B_rounds": 4,
+      "Bell_counts": [
+        1913872,
+        1445360,
+        38416,
+        38416
+      ],
+      "acceptance_numerator": 3436064,
+      "attempt_cost_numerator": 37400000,
+      "common_denominator": 12500000
+    },
+    "N4_m3": {
+      "graph": "LC4_003",
+      "N": 4,
+      "dual": 8,
+      "minimum_memory": 2,
+      "B_rounds": 4,
+      "Bell_counts": [
+        1913872,
+        1445360,
+        38416,
+        38416
+      ],
+      "acceptance_numerator": 3436064,
+      "attempt_cost_numerator": 37400000,
+      "common_denominator": 12500000
+    },
+    "N4_m4": {
+      "graph": "LC4_003",
+      "N": 4,
+      "dual": 8,
+      "minimum_memory": 2,
+      "B_rounds": 4,
+      "Bell_counts": [
+        1913872,
+        1445360,
+        38416,
+        38416
+      ],
+      "acceptance_numerator": 3436064,
+      "attempt_cost_numerator": 37400000,
+      "common_denominator": 12500000
+    },
+    "N5_m1": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N5_m2": {
+      "graph": "LC5_009",
+      "N": 5,
+      "dual": 9,
+      "minimum_memory": 2,
+      "B_rounds": 2,
+      "Bell_counts": [
+        47854368,
+        8057952,
+        11473056,
+        4642848
+      ],
+      "acceptance_numerator": 72028224,
+      "attempt_cost_numerator": 2049240000,
+      "common_denominator": 625000000
+    },
+    "N5_m3": {
+      "graph": "LC5_010",
+      "N": 5,
+      "dual": 5,
+      "minimum_memory": 3,
+      "B_rounds": 2,
+      "Bell_counts": [
+        44439264,
+        8057952,
+        8057952,
+        4642848
+      ],
+      "acceptance_numerator": 65198016,
+      "attempt_cost_numerator": 2402846400,
+      "common_denominator": 625000000
+    },
+    "N5_m4": {
+      "graph": "LC5_010",
+      "N": 5,
+      "dual": 5,
+      "minimum_memory": 3,
+      "B_rounds": 2,
+      "Bell_counts": [
+        44439264,
+        8057952,
+        8057952,
+        4642848
+      ],
+      "acceptance_numerator": 65198016,
+      "attempt_cost_numerator": 2402846400,
+      "common_denominator": 625000000
+    },
+    "N6_m1": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N6_m2": {
+      "graph": "LC6_020",
+      "N": 6,
+      "dual": 17,
+      "minimum_memory": 2,
+      "B_rounds": 2,
+      "Bell_counts": [
+        1428969600,
+        250967808,
+        312439680,
+        128024064
+      ],
+      "acceptance_numerator": 2120401152,
+      "attempt_cost_numerator": 104378640000,
+      "common_denominator": 31250000000
+    },
+    "N6_m3": {
+      "graph": "LC6_023",
+      "N": 6,
+      "dual": 17,
+      "minimum_memory": 3,
+      "B_rounds": 2,
+      "Bell_counts": [
+        1461223360,
+        467637184,
+        157242176,
+        98805952
+      ],
+      "acceptance_numerator": 2184908672,
+      "attempt_cost_numerator": 112101600000,
+      "common_denominator": 31250000000
+    },
+    "N6_m4": {
+      "graph": "LC6_025",
+      "N": 6,
+      "dual": 3,
+      "minimum_memory": 4,
+      "B_rounds": 2,
+      "Bell_counts": [
+        1276807744,
+        283221568,
+        157242176,
+        98805952
+      ],
+      "acceptance_numerator": 1816077440,
+      "attempt_cost_numerator": 138622080000,
+      "common_denominator": 31250000000
+    },
+    "N7_m1": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N7_m2": {
+      "graph": "LC6_020",
+      "N": 6,
+      "dual": 17,
+      "minimum_memory": 2,
+      "B_rounds": 2,
+      "Bell_counts": [
+        1428969600,
+        250967808,
+        312439680,
+        128024064
+      ],
+      "acceptance_numerator": 2120401152,
+      "attempt_cost_numerator": 104378640000,
+      "common_denominator": 31250000000
+    },
+    "N7_m3": {
+      "graph": "LC6_023",
+      "N": 6,
+      "dual": 17,
+      "minimum_memory": 3,
+      "B_rounds": 2,
+      "Bell_counts": [
+        1461223360,
+        467637184,
+        157242176,
+        98805952
+      ],
+      "acceptance_numerator": 2184908672,
+      "attempt_cost_numerator": 112101600000,
+      "common_denominator": 31250000000
+    },
+    "N7_m4": {
+      "graph": "LC6_025",
+      "N": 6,
+      "dual": 3,
+      "minimum_memory": 4,
+      "B_rounds": 2,
+      "Bell_counts": [
+        1276807744,
+        283221568,
+        157242176,
+        98805952
+      ],
+      "acceptance_numerator": 1816077440,
+      "attempt_cost_numerator": 138622080000,
+      "common_denominator": 31250000000
+    },
+    "N8_m1": {
+      "graph": "LC1_000",
+      "N": 1,
+      "dual": 1,
+      "minimum_memory": 1,
+      "B_rounds": 0,
+      "Bell_counts": [
+        58,
+        14,
+        14,
+        14
+      ],
+      "acceptance_numerator": 100,
+      "attempt_cost_numerator": 100,
+      "common_denominator": 100
+    },
+    "N8_m2": {
+      "graph": "LC6_020",
+      "N": 6,
+      "dual": 17,
+      "minimum_memory": 2,
+      "B_rounds": 2,
+      "Bell_counts": [
+        1428969600,
+        250967808,
+        312439680,
+        128024064
+      ],
+      "acceptance_numerator": 2120401152,
+      "attempt_cost_numerator": 104378640000,
+      "common_denominator": 31250000000
+    },
+    "N8_m3": {
+      "graph": "LC6_023",
+      "N": 6,
+      "dual": 17,
+      "minimum_memory": 3,
+      "B_rounds": 2,
+      "Bell_counts": [
+        1461223360,
+        467637184,
+        157242176,
+        98805952
+      ],
+      "acceptance_numerator": 2184908672,
+      "attempt_cost_numerator": 112101600000,
+      "common_denominator": 31250000000
+    },
+    "N8_m4": {
+      "graph": "LC6_025",
+      "N": 6,
+      "dual": 3,
+      "minimum_memory": 4,
+      "B_rounds": 2,
+      "Bell_counts": [
+        1276807744,
+        283221568,
+        157242176,
+        98805952
+      ],
+      "acceptance_numerator": 1816077440,
+      "attempt_cost_numerator": 138622080000,
+      "common_denominator": 31250000000
+    }
+  },
+  "seconds": 12.709512710571289
+}

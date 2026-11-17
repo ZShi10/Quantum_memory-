@@ -1,0 +1,421 @@
+{
+  "results": {
+    "0.05_M1": {
+      "Q": 0.05,
+      "budget": "M1",
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194446,
+      "ED": {
+        "family": "explicit_binary_tree",
+        "tree_id": "T_454349e422f05297191e",
+        "tree": {
+          "kind": "raw"
+        },
+        "canonical_tree": "r",
+        "final_axis": "Z",
+        "permissions": "enlarged_axes",
+        "successful_ancestry_inputs": 1,
+        "depth": 0,
+        "retained_memory": 1,
+        "terminal_memory": 1,
+        "memory_upper_bound": 1,
+        "retained_loading_order": "raw",
+        "terminal_implementation": "immediate_measurement",
+        "retry_rule": "retry_failed_child_locally;discard_both_children_and_restart_parent_on_parent_failure",
+        "raw_cost_model": "expected_all_consumed_raw_pairs_including_retries",
+        "memory_model": "peak_local_live_qubits_including_input_port;no_external_quantum_buffer",
+        "memory_is_achievable_upper_bound": true,
+        "global_minimality_proved": false,
+        "memory_proof_kind": "exact_in_registered_depth_first_and_terminal_reduction_schedule_class",
+        "depth_first_retained_schedule_minimal": true,
+        "terminal_classical_storage": "unlimited_and_not_counted_as_quantum_memory",
+        "terminal_raw_cost_unchanged": true,
+        "pooled_B_substitution": false,
+        "legacy_record": {
+          "family": "real_decoder_recurrence",
+          "path": "",
+          "final_axis": "Z",
+          "depth": 0,
+          "memory_upper_bound": 1,
+          "minimal_memory_proved": false,
+          "successful_ancestry_inputs": 1,
+          "decoder_register_model": "v2_four_real_primitives"
+        }
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "expected_raw_pairs_per_ED_output": 1.0,
+      "ED_yield_per_raw_pair": 1.0,
+      "scope": "Independent outward replay of this executable witness only"
+    },
+    "0.05_M2": {
+      "Q": 0.05,
+      "budget": "M2",
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194446,
+      "ED": {
+        "family": "explicit_binary_tree",
+        "tree_id": "T_454349e422f05297191e",
+        "tree": {
+          "kind": "raw"
+        },
+        "canonical_tree": "r",
+        "final_axis": "Z",
+        "permissions": "enlarged_axes",
+        "successful_ancestry_inputs": 1,
+        "depth": 0,
+        "retained_memory": 1,
+        "terminal_memory": 1,
+        "memory_upper_bound": 1,
+        "retained_loading_order": "raw",
+        "terminal_implementation": "immediate_measurement",
+        "retry_rule": "retry_failed_child_locally;discard_both_children_and_restart_parent_on_parent_failure",
+        "raw_cost_model": "expected_all_consumed_raw_pairs_including_retries",
+        "memory_model": "peak_local_live_qubits_including_input_port;no_external_quantum_buffer",
+        "memory_is_achievable_upper_bound": true,
+        "global_minimality_proved": false,
+        "memory_proof_kind": "exact_in_registered_depth_first_and_terminal_reduction_schedule_class",
+        "depth_first_retained_schedule_minimal": true,
+        "terminal_classical_storage": "unlimited_and_not_counted_as_quantum_memory",
+        "terminal_raw_cost_unchanged": true,
+        "pooled_B_substitution": false,
+        "legacy_record": {
+          "family": "real_decoder_recurrence",
+          "path": "",
+          "final_axis": "Z",
+          "depth": 0,
+          "memory_upper_bound": 1,
+          "minimal_memory_proved": false,
+          "successful_ancestry_inputs": 1,
+          "decoder_register_model": "v2_four_real_primitives"
+        }
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "expected_raw_pairs_per_ED_output": 1.0,
+      "ED_yield_per_raw_pair": 1.0,
+      "scope": "Independent outward replay of this executable witness only"
+    },
+    "0.05_M3": {
+      "Q": 0.05,
+      "budget": "M3",
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194446,
+      "ED": {
+        "family": "explicit_binary_tree",
+        "tree_id": "T_454349e422f05297191e",
+        "tree": {
+          "kind": "raw"
+        },
+        "canonical_tree": "r",
+        "final_axis": "Z",
+        "permissions": "enlarged_axes",
+        "successful_ancestry_inputs": 1,
+        "depth": 0,
+        "retained_memory": 1,
+        "terminal_memory": 1,
+        "memory_upper_bound": 1,
+        "retained_loading_order": "raw",
+        "terminal_implementation": "immediate_measurement",
+        "retry_rule": "retry_failed_child_locally;discard_both_children_and_restart_parent_on_parent_failure",
+        "raw_cost_model": "expected_all_consumed_raw_pairs_including_retries",
+        "memory_model": "peak_local_live_qubits_including_input_port;no_external_quantum_buffer",
+        "memory_is_achievable_upper_bound": true,
+        "global_minimality_proved": false,
+        "memory_proof_kind": "exact_in_registered_depth_first_and_terminal_reduction_schedule_class",
+        "depth_first_retained_schedule_minimal": true,
+        "terminal_classical_storage": "unlimited_and_not_counted_as_quantum_memory",
+        "terminal_raw_cost_unchanged": true,
+        "pooled_B_substitution": false,
+        "legacy_record": {
+          "family": "real_decoder_recurrence",
+          "path": "",
+          "final_axis": "Z",
+          "depth": 0,
+          "memory_upper_bound": 1,
+          "minimal_memory_proved": false,
+          "successful_ancestry_inputs": 1,
+          "decoder_register_model": "v2_four_real_primitives"
+        }
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "expected_raw_pairs_per_ED_output": 1.0,
+      "ED_yield_per_raw_pair": 1.0,
+      "scope": "Independent outward replay of this executable witness only"
+    },
+    "0.05_M4": {
+      "Q": 0.05,
+      "budget": "M4",
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194446,
+      "ED": {
+        "family": "explicit_binary_tree",
+        "tree_id": "T_454349e422f05297191e",
+        "tree": {
+          "kind": "raw"
+        },
+        "canonical_tree": "r",
+        "final_axis": "Z",
+        "permissions": "enlarged_axes",
+        "successful_ancestry_inputs": 1,
+        "depth": 0,
+        "retained_memory": 1,
+        "terminal_memory": 1,
+        "memory_upper_bound": 1,
+        "retained_loading_order": "raw",
+        "terminal_implementation": "immediate_measurement",
+        "retry_rule": "retry_failed_child_locally;discard_both_children_and_restart_parent_on_parent_failure",
+        "raw_cost_model": "expected_all_consumed_raw_pairs_including_retries",
+        "memory_model": "peak_local_live_qubits_including_input_port;no_external_quantum_buffer",
+        "memory_is_achievable_upper_bound": true,
+        "global_minimality_proved": false,
+        "memory_proof_kind": "exact_in_registered_depth_first_and_terminal_reduction_schedule_class",
+        "depth_first_retained_schedule_minimal": true,
+        "terminal_classical_storage": "unlimited_and_not_counted_as_quantum_memory",
+        "terminal_raw_cost_unchanged": true,
+        "pooled_B_substitution": false,
+        "legacy_record": {
+          "family": "real_decoder_recurrence",
+          "path": "",
+          "final_axis": "Z",
+          "depth": 0,
+          "memory_upper_bound": 1,
+          "minimal_memory_proved": false,
+          "successful_ancestry_inputs": 1,
+          "decoder_register_model": "v2_four_real_primitives"
+        }
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "expected_raw_pairs_per_ED_output": 1.0,
+      "ED_yield_per_raw_pair": 1.0,
+      "scope": "Independent outward replay of this executable witness only"
+    },
+    "0.05_M5": {
+      "Q": 0.05,
+      "budget": "M5",
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194446,
+      "ED": {
+        "family": "explicit_binary_tree",
+        "tree_id": "T_454349e422f05297191e",
+        "tree": {
+          "kind": "raw"
+        },
+        "canonical_tree": "r",
+        "final_axis": "Z",
+        "permissions": "enlarged_axes",
+        "successful_ancestry_inputs": 1,
+        "depth": 0,
+        "retained_memory": 1,
+        "terminal_memory": 1,
+        "memory_upper_bound": 1,
+        "retained_loading_order": "raw",
+        "terminal_implementation": "immediate_measurement",
+        "retry_rule": "retry_failed_child_locally;discard_both_children_and_restart_parent_on_parent_failure",
+        "raw_cost_model": "expected_all_consumed_raw_pairs_including_retries",
+        "memory_model": "peak_local_live_qubits_including_input_port;no_external_quantum_buffer",
+        "memory_is_achievable_upper_bound": true,
+        "global_minimality_proved": false,
+        "memory_proof_kind": "exact_in_registered_depth_first_and_terminal_reduction_schedule_class",
+        "depth_first_retained_schedule_minimal": true,
+        "terminal_classical_storage": "unlimited_and_not_counted_as_quantum_memory",
+        "terminal_raw_cost_unchanged": true,
+        "pooled_B_substitution": false,
+        "legacy_record": {
+          "family": "real_decoder_recurrence",
+          "path": "",
+          "final_axis": "Z",
+          "depth": 0,
+          "memory_upper_bound": 1,
+          "minimal_memory_proved": false,
+          "successful_ancestry_inputs": 1,
+          "decoder_register_model": "v2_four_real_primitives"
+        }
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "expected_raw_pairs_per_ED_output": 1.0,
+      "ED_yield_per_raw_pair": 1.0,
+      "scope": "Independent outward replay of this executable witness only"
+    },
+    "0.05_M6": {
+      "Q": 0.05,
+      "budget": "M6",
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194446,
+      "ED": {
+        "family": "explicit_binary_tree",
+        "tree_id": "T_454349e422f05297191e",
+        "tree": {
+          "kind": "raw"
+        },
+        "canonical_tree": "r",
+        "final_axis": "Z",
+        "permissions": "enlarged_axes",
+        "successful_ancestry_inputs": 1,
+        "depth": 0,
+        "retained_memory": 1,
+        "terminal_memory": 1,
+        "memory_upper_bound": 1,
+        "retained_loading_order": "raw",
+        "terminal_implementation": "immediate_measurement",
+        "retry_rule": "retry_failed_child_locally;discard_both_children_and_restart_parent_on_parent_failure",
+        "raw_cost_model": "expected_all_consumed_raw_pairs_including_retries",
+        "memory_model": "peak_local_live_qubits_including_input_port;no_external_quantum_buffer",
+        "memory_is_achievable_upper_bound": true,
+        "global_minimality_proved": false,
+        "memory_proof_kind": "exact_in_registered_depth_first_and_terminal_reduction_schedule_class",
+        "depth_first_retained_schedule_minimal": true,
+        "terminal_classical_storage": "unlimited_and_not_counted_as_quantum_memory",
+        "terminal_raw_cost_unchanged": true,
+        "pooled_B_substitution": false,
+        "legacy_record": {
+          "family": "real_decoder_recurrence",
+          "path": "",
+          "final_axis": "Z",
+          "depth": 0,
+          "memory_upper_bound": 1,
+          "minimal_memory_proved": false,
+          "successful_ancestry_inputs": 1,
+          "decoder_register_model": "v2_four_real_primitives"
+        }
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "expected_raw_pairs_per_ED_output": 1.0,
+      "ED_yield_per_raw_pair": 1.0,
+      "scope": "Independent outward replay of this executable witness only"
+    },
+    "0.05_M7": {
+      "Q": 0.05,
+      "budget": "M7",
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194446,
+      "ED": {
+        "family": "explicit_binary_tree",
+        "tree_id": "T_454349e422f05297191e",
+        "tree": {
+          "kind": "raw"
+        },
+        "canonical_tree": "r",
+        "final_axis": "Z",
+        "permissions": "enlarged_axes",
+        "successful_ancestry_inputs": 1,
+        "depth": 0,
+        "retained_memory": 1,
+        "terminal_memory": 1,
+        "memory_upper_bound": 1,
+        "retained_loading_order": "raw",
+        "terminal_implementation": "immediate_measurement",
+        "retry_rule": "retry_failed_child_locally;discard_both_children_and_restart_parent_on_parent_failure",
+        "raw_cost_model": "expected_all_consumed_raw_pairs_including_retries",
+        "memory_model": "peak_local_live_qubits_including_input_port;no_external_quantum_buffer",
+        "memory_is_achievable_upper_bound": true,
+        "global_minimality_proved": false,
+        "memory_proof_kind": "exact_in_registered_depth_first_and_terminal_reduction_schedule_class",
+        "depth_first_retained_schedule_minimal": true,
+        "terminal_classical_storage": "unlimited_and_not_counted_as_quantum_memory",
+        "terminal_raw_cost_unchanged": true,
+        "pooled_B_substitution": false,
+        "legacy_record": {
+          "family": "real_decoder_recurrence",
+          "path": "",
+          "final_axis": "Z",
+          "depth": 0,
+          "memory_upper_bound": 1,
+          "minimal_memory_proved": false,
+          "successful_ancestry_inputs": 1,
+          "decoder_register_model": "v2_four_real_primitives"
+        }
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "expected_raw_pairs_per_ED_output": 1.0,
+      "ED_yield_per_raw_pair": 1.0,
+      "scope": "Independent outward replay of this executable witness only"
+    },
+    "0.05_M8": {
+      "Q": 0.05,
+      "budget": "M8",
+      "lower": 0.5443162683193876,
+      "upper": 0.5443162683194446,
+      "ED": {
+        "family": "explicit_binary_tree",
+        "tree_id": "T_454349e422f05297191e",
+        "tree": {
+          "kind": "raw"
+        },
+        "canonical_tree": "r",
+        "final_axis": "Z",
+        "permissions": "enlarged_axes",
+        "successful_ancestry_inputs": 1,
+        "depth": 0,
+        "retained_memory": 1,
+        "terminal_memory": 1,
+        "memory_upper_bound": 1,
+        "retained_loading_order": "raw",
+        "terminal_implementation": "immediate_measurement",
+        "retry_rule": "retry_failed_child_locally;discard_both_children_and_restart_parent_on_parent_failure",
+        "raw_cost_model": "expected_all_consumed_raw_pairs_including_retries",
+        "memory_model": "peak_local_live_qubits_including_input_port;no_external_quantum_buffer",
+        "memory_is_achievable_upper_bound": true,
+        "global_minimality_proved": false,
+        "memory_proof_kind": "exact_in_registered_depth_first_and_terminal_reduction_schedule_class",
+        "depth_first_retained_schedule_minimal": true,
+        "terminal_classical_storage": "unlimited_and_not_counted_as_quantum_memory",
+        "terminal_raw_cost_unchanged": true,
+        "pooled_B_substitution": false,
+        "legacy_record": {
+          "family": "real_decoder_recurrence",
+          "path": "",
+          "final_axis": "Z",
+          "depth": 0,
+          "memory_upper_bound": 1,
+          "minimal_memory_proved": false,
+          "successful_ancestry_inputs": 1,
+          "decoder_register_model": "v2_four_real_primitives"
+        }
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "expected_raw_pairs_per_ED_output": 1.0,
+      "ED_yield_per_raw_pair": 1.0,
+      "scope": "Independent outward replay of this executable witness only"
+    }
+  },
+  "scope": "New registered-union witnesses, including explicit trees; legacy filename is an interface only"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "transported_maps": 1944,
+  "full_input_frame_pairs": 36,
+  "fresh_BB84_H_reductions": {
+    "XX": {
+      "canonical": "XZ",
+      "output_frame": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "YX": {
+      "canonical": "YZ",
+      "output_frame": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    "ZX": {
+      "canonical": "ZZ",
+      "output_frame": [
+        0,
+        2,
+        1,
+        3
+      ]
+    }
+  },
+  "invariant": "Each node has the same success probability and accepted Bell law up to an explicit I-fixing output frame. Independent-child retry cost is unchanged. Frames transport local measurement axes, preserving the registered terminal reductions and register width.",
+  "scope": "Inductive normalization for binary zero-check retained-output trees. Does not identify arbitrary public-adaptive or multiple-output instruments.",
+  "source_sha256": "e69c239b7096c04d695de01786b4904f7694bab880eabcded1d79756e70fd926"
+}

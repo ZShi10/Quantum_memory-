@@ -1,0 +1,181 @@
+{
+  "Q": "23/100",
+  "z": "0",
+  "price": "1/10000",
+  "Nmax": 5,
+  "tested": 1254,
+  "passed": true,
+  "not_excluded": [],
+  "maxroot": 0.0,
+  "seconds": 2.7566239489999873,
+  "interval_replay": false,
+  "best_by_Nm": {
+    "N1_m1": {
+      "lower_numerical": 0.0,
+      "upper": 2.1947693160968417e-36,
+      "graph": "atlas_1",
+      "adj": [
+        0
+      ],
+      "dual": 1
+    },
+    "N1_m2": {
+      "lower_numerical": 0.0,
+      "upper": 2.1947693160968417e-36,
+      "graph": "atlas_1",
+      "adj": [
+        0
+      ],
+      "dual": 1
+    },
+    "N1_m3": {
+      "lower_numerical": 0.0,
+      "upper": 2.1947693160968417e-36,
+      "graph": "atlas_1",
+      "adj": [
+        0
+      ],
+      "dual": 1
+    },
+    "N2_m1": {
+      "lower_numerical": 0.0,
+      "upper": 4.228872061818009e-27,
+      "graph": "atlas_2",
+      "adj": [
+        0,
+        0
+      ],
+      "dual": 3
+    },
+    "N2_m2": {
+      "lower_numerical": 0.0,
+      "upper": 3.697322204190477e-21,
+      "graph": "atlas_3",
+      "adj": [
+        2,
+        1
+      ],
+      "dual": 3
+    },
+    "N2_m3": {
+      "lower_numerical": 0.0,
+      "upper": 3.697322204190477e-21,
+      "graph": "atlas_3",
+      "adj": [
+        2,
+        1
+      ],
+      "dual": 3
+    },
+    "N3_m1": {
+      "lower_numerical": 0.0,
+      "upper": 1.8015981533958013e-24,
+      "graph": "atlas_4",
+      "adj": [
+        0,
+        0,
+        0
+      ],
+      "dual": 7
+    },
+    "N3_m2": {
+      "lower_numerical": 0.0,
+      "upper": 4.5441018550218334e-21,
+      "graph": "atlas_6",
+      "adj": [
+        6,
+        1,
+        1
+      ],
+      "dual": 3
+    },
+    "N3_m3": {
+      "lower_numerical": 0.0,
+      "upper": 4.5441018550218334e-21,
+      "graph": "atlas_6",
+      "adj": [
+        6,
+        1,
+        1
+      ],
+      "dual": 3
+    },
+    "N4_m1": {
+      "lower_numerical": 0.0,
+      "upper": 1.5746649757079716e-22,
+      "graph": "atlas_8",
+      "adj": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual": 15
+    },
+    "N4_m2": {
+      "lower_numerical": 2.5599057363192233e-07,
+      "upper": 2.5737430646236515e-07,
+      "graph": "atlas_18",
+      "adj": [
+        14,
+        13,
+        11,
+        7
+      ],
+      "dual": 15
+    },
+    "N4_m3": {
+      "lower_numerical": 2.5599057363192233e-07,
+      "upper": 2.5737430646236515e-07,
+      "graph": "atlas_18",
+      "adj": [
+        14,
+        13,
+        11,
+        7
+      ],
+      "dual": 15
+    },
+    "N5_m1": {
+      "lower_numerical": 0.0,
+      "upper": 9.529121372113263e-11,
+      "graph": "atlas_19",
+      "adj": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual": 31
+    },
+    "N5_m2": {
+      "lower_numerical": 3.3404470551655814e-05,
+      "upper": 3.340594250329729e-05,
+      "graph": "atlas_52",
+      "adj": [
+        30,
+        29,
+        27,
+        23,
+        15
+      ],
+      "dual": 31
+    },
+    "N5_m3": {
+      "lower_numerical": 3.3404470551655814e-05,
+      "upper": 3.340594250329729e-05,
+      "graph": "atlas_52",
+      "adj": [
+        30,
+        29,
+        27,
+        23,
+        15
+      ],
+      "dual": 31
+    }
+  },
+  "unique_states": 2895,
+  "scope": "complete real graph/H measurements at symmetric BB84 source; all key/check splits; arbitrary public-syndrome-adaptive order and stopping within the complete-measurement compiler model; B=0..16 plus Watanabe; X/Z axes. Fixed known z is an upper relaxation, not an executable z-dependent policy."
+}

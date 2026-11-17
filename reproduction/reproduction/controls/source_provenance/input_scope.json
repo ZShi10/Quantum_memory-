@@ -1,0 +1,258 @@
+{
+  "security_and_source_model": {
+    "assumptions": [
+      "ideal local gates, storage and measurements",
+      "IID Bell-diagonal raw pairs and collective Eve purification",
+      "authenticated classical communication",
+      "asymptotic information reconciliation and privacy amplification",
+      "no finite-key or general coherent-attack claim"
+    ],
+    "bell_order": [
+      "I",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "Werner": "(1-3Q/2,Q/2,Q/2,Q/2)",
+    "BB84": "(1-b-p+z,b-z,z,p-z), max(0,b+p-1)<=z<=min(b,p); reported error region b+p<1/2",
+    "reported_BB84_points": "symmetric b=p=Q, real-operation permission",
+    "BB84_twirl": false,
+    "BB84_policy_information": "One fixed ED instrument, fixed per-public-ED-flag B choice and fixed AD input-bit allocations chosen from raw (b,p). Independent tests/observed classical statistics may set universal IR lengths, costs, OTP lengths and abort margins, but do not reselect ED or AD from inferred hidden z.",
+    "security_implementation": "Reconcile all designated public streams independently and use one joint privacy-amplification map. Per-stream positive gross entropy bounds describe the same post-IR cq state; they are not z-dependent retention rules. Net OTP costs remain signed before infimum over z.",
+    "renewal_qualification": "Fix a target number of successful independent ED productions, prove secrecy for the untruncated product process including public histories, then apply raw-budget abort as a subnormalized map. Do not assume conditioning on a raw-budget stopping event preserves product states.",
+    "OTP_resources": "All consumed secret masks are charged, including unsuccessful classical groups as specified by the action. No free mask recycling or constant-size-seed bootstrap is claimed.",
+    "not_all_experimental_BB84_protocols": "Protocols that use ED data to estimate hidden state and then redesign ED/AD are outside the fixed-information optimization."
+  },
+  "resource_contract": {
+    "M": "Peak simultaneously live local qubits per party, including incoming ports and ancillas, excluding released measured systems and all classical storage; no uncounted external quantum buffer.",
+    "m": "Fixed-block input count, or successful ancestry leaves for a recursive construction; not a memory count and not an expected cost.",
+    "C": "Expected total consumed raw pairs per successful ED output, including every failed attempt and local retry.",
+    "n": "Number of ED output bits entering one classical AD block; contributes no quantum memory after terminal measurement.",
+    "rate_unit": "Net secret bits per consumed raw pair; final basis sifting/time-of-flight and hardware clock rate are not included.",
+    "M_reporting": {
+      "complete_rank_one_terminal_measurement": "Exact minimum of the specified complete POVM: 1+min_order max_proper_prefix cut_entanglement_rank, with signed streaming compiler. This is not a retained-output or arbitrary coarse-grained-instrument minimum.",
+      "recursive_construction": "Executable upper bound, minimal only in the registered depth-first plus terminal-reduction schedule class. No arbitrary-circuit memory minimum.",
+      "objective_equivalence": "Retain the least certified executable M among exactly equivalent catalog records; this operation is not a proof of globally minimal memory for that rate function."
+    },
+    "fixed_block": "Every attempt consumes all m inputs; public ED flag f contributes P_f/m times its conditional classical rate. All flags are included. An exact terminal-memory compiler alone does not optimize stopping or raw-pair cost.",
+    "recursive_retry": "Produce a successful child while holding any completed sibling; retry a failed child locally; on parent failure discard both children and restart the parent. C_T=(C_L+C_R)/s_T.",
+    "recursive_schedule": "M_ret(T)=min(max(M_L,M_R+1),max(M_R,M_L+1)); permitted terminal identities can measure/release child outputs and lower live memory while retaining the same local retry semantics and expected cost.",
+    "pooled_B": "A separately declared classical layer; each round contributes s_B/2 to yield. Heterogeneous terminal comparison is not silently replaced by same-distribution pooled B.",
+    "arbitrary_early_abort_in_main_class": false,
+    "early_abort_example": "The independent ZX example includes a valid optional M=2 early-left-check protocol, but it is not silently added to the fixed-block all-input class or its optimality certificates."
+  },
+  "policy_composition": {
+    "one_ED_per_protocol": true,
+    "mix_different_ED_instruments": false,
+    "public_ED_flags": "One fixed instrument may have different predetermined classical B/AD policies for different public flags; do not replace max_ED inf_z sum_flags by sum_flags max_ED or inf_z max_ED.",
+    "recursive_B_prefix": "One fixed integer B in 0..16 for a selected recursive ED construction; no mixture across different B prefixes in the declared recursive class.",
+    "classical_action_mixtures": "Fixed nonnegative rational allocations summing to one, measured in consumed ED-output bits; may mix declared codes and modes without knowledge of z.",
+    "BB84_objective": "max_fixed_ED,allowed_fixed_B,allowed_fixed_AD_allocations inf_compatible_z net_rate; the infimum includes z-dependent ED yield and signed OTP cost.",
+    "state_dependent_upper_relaxation": "Allowed only as an upper bound; it is not an implementable lower protocol. A complete-block upper dominated by an independently certified registered lower suffices to close the union gap."
+  },
+  "finite_ED_class": {
+    "reported_memory_budgets": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Werner_complete_fixed_terminal": {
+      "max_m": 8,
+      "coverage": "All fixed one-terminal-bit Clifford rank-one stabilizer-basis measurements, all public ED flags and all nonzero logical duals, modulo exact Werner input symmetry and outcome-frame statistics.",
+      "instrument_count": 6895,
+      "conditional_state_count": 100281,
+      "LC_class_counts_by_m": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 6,
+        "5": 11,
+        "6": 26,
+        "7": 59,
+        "8": 182
+      },
+      "exact_compiled_terminal_M_counts": {
+        "1": 36,
+        "2": 2631,
+        "3": 3543,
+        "4": 685
+      },
+      "permission": "Every retained rate-statistics class has a real H/CNOT terminal realization for IID Werner input; local input rotations can be applied at loading. This symmetry cannot be transferred to arbitrary Bell-diagonal input.",
+      "not_claimed": "Not all quantum-output Clifford circuits, arbitrary ancillary instruments, adaptive quantum branching, or all protocols of memory <=8."
+    },
+    "BB84_complete_fixed_terminal": {
+      "max_m": 5,
+      "main_permission": "real stabilizer measurements realizable by H/CNOT; all compatible input Bell weights retained without Werner twirl",
+      "m5_real": {
+        "complete_bases": 4590,
+        "qubit_permutation_orbits": 172,
+        "full_Bell_law_instruments": 2662,
+        "exact_terminal_M_counts": {
+          "1": 50,
+          "2": 2484,
+          "3": 128
+        }
+      },
+      "m5_full_separate_library": {
+        "complete_bases": 75735,
+        "qubit_permutation_orbits": 1503,
+        "full_Bell_law_instruments": 30267,
+        "exact_terminal_M_counts": {
+          "1": 231,
+          "2": 27837,
+          "3": 2199
+        }
+      },
+      "all_m_le_5_symmetric_all_flag_representatives": {
+        "real": 265,
+        "full": 2262
+      },
+      "full_library_is_main_real_frontier": false,
+      "quotient_restriction": "The b=p input-symmetry reduction and all-flag outcome equivalence are not valid automatically for asymmetric inputs or zero-flag-only ablations.",
+      "full_rate_certification": "Separate full-permission library validation is not proof that every full-permission rate point has been optimized/certified. Read each point evidence."
+    },
+    "legacy_registered_recursive": {
+      "decoders": [
+        "Z",
+        "X",
+        "R",
+        "C"
+      ],
+      "homogeneous_words": "All four-decoder words of depth 0..7, with identical successful child states at each level; successful ancestry 2^depth.",
+      "constant_decoder_raw_pumps": "Each of the four decoders repeatedly combines its survivor with one fresh raw pair; successful ancestry 1..160.",
+      "terminal_axes": {
+        "real_BB84": [
+          "X",
+          "Z"
+        ],
+        "Werner_enlarged_axes": [
+          "X",
+          "Y",
+          "Z"
+        ]
+      },
+      "record_count_before_exact_objective_quotient": {
+        "real": 44970,
+        "enlarged_axes": 67455
+      },
+      "full_label_meaning": "Enlarged terminal-axis permission for the same four real decoder primitives, not all full-Clifford recursive protocols."
+    },
+    "new_explicit_binary_trees": {
+      "ordered_tree_leaf_bound": 5,
+      "variable_pump_check_bound": 7,
+      "all_labeled_ordered_trees_by_leaves": {
+        "1": 1,
+        "2": 4,
+        "3": 32,
+        "4": 320,
+        "5": 3584
+      },
+      "all_variable_pumps_by_checks": {
+        "0": 1,
+        "1": 4,
+        "2": 16,
+        "3": 64,
+        "4": 256,
+        "5": 1024,
+        "6": 4096,
+        "7": 16384
+      },
+      "duplicate_trees_between_families": 341,
+      "unique_structural_trees": 25445,
+      "real_terminal_candidates": 50890,
+      "enlarged_axis_terminal_candidates": 76335,
+      "complete_within_declared_syntax": true,
+      "all_memory_bounded_protocols": false,
+      "excludes": [
+        "other Clifford primitives",
+        "nonbinary primitives",
+        "multiple quantum outputs",
+        "outcome-dependent decoder selection",
+        "failed-branch recycling",
+        "unbounded ancestry",
+        "cross-tree quantum pooling",
+        "arbitrary non-Clifford operations"
+      ]
+    },
+    "exact_objective_quotient": {
+      "source_family": "(1-2b+z,b-z,z,b-z)",
+      "equivalence": "exact_polynomial_U_and_D_after_normalization;common_integer_scale;bit_sector_preserving_frames",
+      "counts": {
+        "real": {
+          "record_count": 50890,
+          "representative_count": 1714
+        },
+        "full": {
+          "record_count": 76335,
+          "representative_count": 2769
+        }
+      },
+      "all_B_prefixes_preserved": true,
+      "basis": "Exact integer polynomial identities for unnormalized Bell weights and retry denominator, up to the eight bit-sector-preserving affine Pauli frames.",
+      "asymmetric_BB84_quotient_enabled": false
+    }
+  },
+  "finite_classical_class": {
+    "pooled_B_rounds_inclusive": [
+      0,
+      16
+    ],
+    "binary_linear_codes": "Every coordinate-permutation class of binary [n,k] code for 1<=n<=8 and 1<=k<=n, including zero columns. These are classical codes, not quantum [[n,k,d]] codes.",
+    "all_short_classes": 612,
+    "n8_classes": 341,
+    "reduced_indecomposable_kernels": 132,
+    "reduction": "Exact direct-sum and zero-column domination by fixed input-bit allocations; signed OTP costs retained. Reduction remains valid under inf_z because the allocation is z-independent.",
+    "long_endpoints": {
+      "repetition_[n,1,n]": "9<=n<=128",
+      "SPC_[n,n-1,2]": "9<=n<=128"
+    },
+    "Du_modes": [
+      "no_otp",
+      "otp_plain",
+      "otp_compressed"
+    ],
+    "hashed_syndrome_scope": "Benchmark uses three Du coefficients, with signed compressed-OTP cost H(S)/n, plus Watanabe. Known-source certificates also transfer to the precisely specified public-tag coefficient h_c=max(r_no,c,r_comp,c) by objective equality. This is not an optimization over every public-hashing protocol.",
+    "Watanabe": "Two-bit hashed two-way classical communication terminal, no secret OTP seed.",
+    "all_public_AD_syndromes": true,
+    "general_codes_longer_than_8": false,
+    "endpoint_codes_universally_optimal": false
+  },
+  "theory_vs_numerics": {
+    "two_qubit_positivity": "Ideal two-qubit construction gives positive rate at each fixed Werner Q<1/3 and BB84 b+p<1/2 with sufficiently large finite pumping/AD parameters. Strict interior only; not a finite-cutoff numerical certificate and not a claim that two qubits are necessary.",
+    "boundary": "Q=1/3 Werner and a compatible separable BB84 state at b+p=1/2 prevent a strictly positive guaranteed boundary rate.",
+    "free_Y_baseline": "Sun arXiv:2410.19334v2 already reaches BB84 Q<1/4 with memory-free Y measurement plus classical processing. Memory improvement must be compared under matched measurement permissions.",
+    "novelty_limits": "Do not claim first small-memory purification, first ED+AD framework, first n<=5 general-Bell/n<=8 Werner enumeration, or a general CRO 20%/27.6% converse.",
+    "point_evidence_rule": "Only certified_optimum carries a complete finite-class upper. Dense Werner selected-policy enclosures certify feasibility, not a complete-class optimum. No continuum optimality is inferred."
+  },
+  "public_hash_scope": {
+    "known_Werner": {
+      "coefficient": "h_c=max(r_no,c,r_comp,c)",
+      "whole_class_upper_transfer": true,
+      "reason": "Known-source menu equality holds separately in every ED flag pool; same ED, B, codes, yields, costs and memory. No change to positive parts or syndrome-dependent mode selection.",
+      "AD_secret_masks_required": false
+    },
+    "BB84_unknown_z": {
+      "feasible_lower_inheritance": true,
+      "whole_class_upper_transfer_automatic": false,
+      "reason": "max inside inf_z need not equal fixed-mode or fixed-mixture benchmark; multi-state duals require a separate check."
+    },
+    "not_claimed": "Optimality of every public-hashed transcript; universal uselessness of OTP; new invention of hashed reconciliation."
+  },
+  "explicitly_deferred_or_excluded": [
+    "all memory-bounded Clifford/LOCC protocols",
+    "global infinite-depth or unbounded-code optimum",
+    "arbitrary adaptive ED/recycling/scheduling/early-abort optimization",
+    "cross-ED protocol mixtures",
+    "outcome-dependent redesign from estimated hidden state",
+    "arbitrary noisy quantum memories or gates",
+    "finite-key and coherent-attack security",
+    "general CRO upper-bound theorem",
+    "general BB84 public-tag max-min optimum unless separately certified",
+    "all public-hashing protocols beyond the specified coefficient menu"
+  ]
+}

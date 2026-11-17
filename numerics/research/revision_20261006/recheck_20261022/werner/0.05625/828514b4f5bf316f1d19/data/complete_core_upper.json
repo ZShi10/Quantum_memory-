@@ -1,0 +1,127 @@
+{
+  "Q": 0.05625,
+  "results": {
+    "M1": {
+      "union_lower": 0.5019445094396737,
+      "core_upper": 0.5019445094397684,
+      "limiting_core_ED": "LC1_000_v1",
+      "core_cannot_improve_union_by_more_than": 9.470202400052587e-14
+    },
+    "M2": {
+      "union_lower": 0.5019445094396737,
+      "core_upper": 0.5019445094397684,
+      "limiting_core_ED": "LC1_000_v1",
+      "core_cannot_improve_union_by_more_than": 9.470202400052587e-14
+    },
+    "M3": {
+      "union_lower": 0.5019445094396737,
+      "core_upper": 0.5019445094397684,
+      "limiting_core_ED": "LC1_000_v1",
+      "core_cannot_improve_union_by_more_than": 9.470202400052587e-14
+    },
+    "M4": {
+      "union_lower": 0.5019445094396737,
+      "core_upper": 0.5019445094397684,
+      "limiting_core_ED": "LC1_000_v1",
+      "core_cannot_improve_union_by_more_than": 9.470202400052587e-14
+    },
+    "M5": {
+      "union_lower": 0.5019445094396737,
+      "core_upper": 0.5019445094397684,
+      "limiting_core_ED": "LC1_000_v1",
+      "core_cannot_improve_union_by_more_than": 9.470202400052587e-14
+    },
+    "M6": {
+      "union_lower": 0.5019445094396737,
+      "core_upper": 0.5019445094397684,
+      "limiting_core_ED": "LC1_000_v1",
+      "core_cannot_improve_union_by_more_than": 9.470202400052587e-14
+    },
+    "M7": {
+      "union_lower": 0.5019445094396737,
+      "core_upper": 0.5019445094397684,
+      "limiting_core_ED": "LC1_000_v1",
+      "core_cannot_improve_union_by_more_than": 9.470202400052587e-14
+    },
+    "M8": {
+      "union_lower": 0.5019445094396737,
+      "core_upper": 0.5019445094397684,
+      "limiting_core_ED": "LC1_000_v1",
+      "core_cannot_improve_union_by_more_than": 9.470202400052587e-14
+    }
+  },
+  "core_witnesses": [
+    {
+      "ED": "LC1_000_v1",
+      "M": 1,
+      "m": 1,
+      "lower": 0.5019445094396675,
+      "upper": 0.5019445094397396,
+      "branches": [
+        {
+          "state": 0,
+          "AD": {
+            "kind": "Watanabe_2007",
+            "mode": "no_otp_hashed",
+            "n": 2,
+            "classical_B_rounds": 0
+          },
+          "lower": 0.5019445094396676,
+          "upper": 0.5019445094397395
+        }
+      ]
+    }
+  ],
+  "external_lower_sources": [
+    {
+      "source": "werner_v2_full_certified.json",
+      "budget": 1,
+      "lower": 0.5019445094396737
+    },
+    {
+      "source": "werner_v2_full_certified.json",
+      "budget": 2,
+      "lower": 0.5019445094396737
+    },
+    {
+      "source": "werner_v2_full_certified.json",
+      "budget": 3,
+      "lower": 0.5019445094396737
+    },
+    {
+      "source": "werner_v2_full_certified.json",
+      "budget": 4,
+      "lower": 0.5019445094396737
+    },
+    {
+      "source": "werner_v2_full_certified.json",
+      "budget": 5,
+      "lower": 0.5019445094396737
+    },
+    {
+      "source": "werner_v2_full_certified.json",
+      "budget": 6,
+      "lower": 0.5019445094396737
+    },
+    {
+      "source": "werner_v2_full_certified.json",
+      "budget": 7,
+      "lower": 0.5019445094396737
+    },
+    {
+      "source": "werner_v2_full_certified.json",
+      "budget": 8,
+      "lower": 0.5019445094396737
+    }
+  ],
+  "history": [
+    {
+      "B": 0,
+      "active_states": 1,
+      "potentially_competitive_instruments": 1
+    }
+  ],
+  "seconds": 2.4068307876586914,
+  "raw_pair_screening_tolerance": 2.5e-12,
+  "scope": "Complete m<=8 terminal core with n<=8 general codes and endpoint codes<=128, three paid modes, Watanabe and B<=16; outward union upper."
+}

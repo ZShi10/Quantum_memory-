@@ -1,0 +1,5522 @@
+{
+  "status": "passed",
+  "symplectic_full": 720,
+  "symplectic_real": 72,
+  "distinct_zero_flag_maps": 90,
+  "weight_two_maps": 54,
+  "weight_one_maps": 36,
+  "real_distinct_maps": 18,
+  "normal_forms": [
+    {
+      "name": "XX",
+      "check": "XX",
+      "logical_Z": "XI",
+      "logical_X": "YY",
+      "mapping": [
+        0,
+        3,
+        -1,
+        -1,
+        3,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        2,
+        1
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "columns": [
+        4,
+        12,
+        3,
+        2
+      ],
+      "terminal_reduction": {
+        "Z": [
+          "X",
+          "X"
+        ]
+      },
+      "events": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          3,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "XY",
+      "check": "XY",
+      "logical_Z": "XI",
+      "logical_X": "YX",
+      "mapping": [
+        0,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        0,
+        -1,
+        -1,
+        1,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        1
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "columns": [
+        4,
+        14,
+        3,
+        2
+      ],
+      "terminal_reduction": {
+        "Z": [
+          "X",
+          "Y"
+        ]
+      },
+      "events": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          3,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "XZ",
+      "check": "XZ",
+      "logical_Z": "XI",
+      "logical_X": "YX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        3,
+        3,
+        -1,
+        -1,
+        0,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        2,
+        1,
+        -1
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "columns": [
+        4,
+        2,
+        7,
+        12
+      ],
+      "terminal_reduction": {
+        "Z": [
+          "X",
+          "Z"
+        ]
+      },
+      "events": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "YX",
+      "check": "YX",
+      "logical_Z": "YI",
+      "logical_X": "XY",
+      "mapping": [
+        0,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        2,
+        3,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        1
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "columns": [
+        7,
+        12,
+        3,
+        2
+      ],
+      "terminal_reduction": {
+        "Z": [
+          "Y",
+          "X"
+        ]
+      },
+      "events": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          2
+        ],
+        [
+          3,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "YY",
+      "check": "YY",
+      "logical_Z": "YI",
+      "logical_X": "XX",
+      "mapping": [
+        0,
+        -1,
+        3,
+        -1,
+        -1,
+        1,
+        -1,
+        2,
+        3,
+        -1,
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        1
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "columns": [
+        7,
+        14,
+        3,
+        2
+      ],
+      "terminal_reduction": {
+        "Z": [
+          "Y",
+          "Y"
+        ]
+      },
+      "events": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          3,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "YZ",
+      "check": "YZ",
+      "logical_Z": "YI",
+      "logical_X": "XX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        3,
+        -1,
+        1,
+        2,
+        -1,
+        3,
+        -1,
+        -1,
+        0,
+        -1,
+        2,
+        1,
+        -1
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "columns": [
+        3,
+        2,
+        7,
+        12
+      ],
+      "terminal_reduction": {
+        "Z": [
+          "Y",
+          "Z"
+        ]
+      },
+      "events": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          3,
+          1,
+          2
+        ],
+        [
+          3,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "ZX",
+      "check": "ZX",
+      "logical_Z": "ZI",
+      "logical_X": "XY",
+      "mapping": [
+        0,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        2,
+        1,
+        3,
+        0,
+        -1,
+        -1
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "columns": [
+        7,
+        12,
+        4,
+        2
+      ],
+      "terminal_reduction": {
+        "Z": [
+          "Z",
+          "X"
+        ]
+      },
+      "events": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          1,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "ZY",
+      "check": "ZY",
+      "logical_Z": "ZI",
+      "logical_X": "XX",
+      "mapping": [
+        0,
+        -1,
+        3,
+        -1,
+        -1,
+        1,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        1,
+        3,
+        -1,
+        0,
+        -1
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "columns": [
+        11,
+        10,
+        4,
+        6
+      ],
+      "terminal_reduction": {
+        "Z": [
+          "Z",
+          "Y"
+        ]
+      },
+      "events": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "name": "ZZ",
+      "check": "ZZ",
+      "logical_Z": "ZI",
+      "logical_X": "XX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        3,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        2,
+        1,
+        -1,
+        3,
+        -1,
+        -1,
+        0
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "columns": [
+        3,
+        2,
+        4,
+        12
+      ],
+      "terminal_reduction": {
+        "Z": [
+          "Z",
+          "Z"
+        ]
+      },
+      "events": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ]
+      ]
+    }
+  ],
+  "physical_maps": [
+    {
+      "columns": [
+        7,
+        2,
+        1,
+        9
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "ZZ",
+      "logical_X": "ZI",
+      "logical_Z": "YX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        1,
+        -1,
+        2,
+        3,
+        -1,
+        -1,
+        3,
+        2,
+        -1,
+        1,
+        -1,
+        -1,
+        0
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZZ",
+      "output_permutation": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "columns": [
+        7,
+        2,
+        6,
+        9
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "YZ",
+      "logical_X": "YI",
+      "logical_Z": "ZX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        1,
+        -1,
+        2,
+        3,
+        -1,
+        1,
+        -1,
+        -1,
+        0,
+        -1,
+        3,
+        2,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "YZ",
+      "output_permutation": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "columns": [
+        6,
+        2,
+        1,
+        9
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "ZZ",
+      "logical_X": "ZI",
+      "logical_Z": "XX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        1,
+        -1,
+        3,
+        2,
+        -1,
+        -1,
+        2,
+        3,
+        -1,
+        1,
+        -1,
+        -1,
+        0
+      ],
+      "real_implementable": true,
+      "canonical_check": "ZZ",
+      "output_permutation": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "columns": [
+        6,
+        2,
+        7,
+        9
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "YZ",
+      "logical_X": "YI",
+      "logical_Z": "XX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        1,
+        -1,
+        3,
+        2,
+        -1,
+        1,
+        -1,
+        -1,
+        0,
+        -1,
+        2,
+        3,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "YZ",
+      "output_permutation": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "columns": [
+        1,
+        2,
+        6,
+        9
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "XZ",
+      "logical_X": "XI",
+      "logical_Z": "ZX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        0,
+        -1,
+        2,
+        3,
+        -1,
+        -1,
+        3,
+        2,
+        -1
+      ],
+      "real_implementable": true,
+      "canonical_check": "XZ",
+      "output_permutation": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "columns": [
+        1,
+        2,
+        7,
+        9
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "XZ",
+      "logical_X": "XI",
+      "logical_Z": "YX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        0,
+        -1,
+        3,
+        2,
+        -1,
+        -1,
+        2,
+        3,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "XZ",
+      "output_permutation": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "columns": [
+        3,
+        2,
+        5,
+        13
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "ZZ",
+      "logical_X": "XX",
+      "logical_Z": "YX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        1,
+        3,
+        -1,
+        -1,
+        3,
+        1,
+        -1,
+        2,
+        -1,
+        -1,
+        0
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZZ",
+      "output_permutation": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "columns": [
+        3,
+        2,
+        6,
+        13
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "YZ",
+      "logical_X": "XX",
+      "logical_Z": "ZX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        1,
+        3,
+        -1,
+        2,
+        -1,
+        -1,
+        0,
+        -1,
+        3,
+        1,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "YZ",
+      "output_permutation": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "columns": [
+        6,
+        2,
+        5,
+        13
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "ZZ",
+      "logical_X": "YX",
+      "logical_Z": "XX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        3,
+        1,
+        -1,
+        -1,
+        1,
+        3,
+        -1,
+        2,
+        -1,
+        -1,
+        0
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZZ",
+      "output_permutation": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "columns": [
+        14,
+        10,
+        11,
+        13
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "YZ",
+      "logical_X": "ZX",
+      "logical_Z": "XX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        3,
+        1,
+        -1,
+        2,
+        -1,
+        -1,
+        0,
+        -1,
+        1,
+        3,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "YZ",
+      "output_permutation": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "columns": [
+        5,
+        2,
+        6,
+        13
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "XZ",
+      "logical_X": "YX",
+      "logical_Z": "ZX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        2,
+        2,
+        -1,
+        -1,
+        0,
+        -1,
+        1,
+        3,
+        -1,
+        -1,
+        3,
+        1,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "XZ",
+      "output_permutation": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "columns": [
+        5,
+        2,
+        3,
+        13
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "XZ",
+      "logical_X": "ZX",
+      "logical_Z": "YX",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        2,
+        2,
+        -1,
+        -1,
+        0,
+        -1,
+        3,
+        1,
+        -1,
+        -1,
+        1,
+        3,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "XZ",
+      "output_permutation": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "columns": [
+        3,
+        2,
+        4,
+        12
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZZ",
+      "logical_X": "XX",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        3,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        2,
+        1,
+        -1,
+        3,
+        -1,
+        -1,
+        0
+      ],
+      "real_implementable": true,
+      "canonical_check": "ZZ",
+      "output_permutation": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "columns": [
+        3,
+        2,
+        7,
+        12
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YZ",
+      "logical_X": "XX",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        3,
+        -1,
+        1,
+        2,
+        -1,
+        3,
+        -1,
+        -1,
+        0,
+        -1,
+        2,
+        1,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "YZ",
+      "output_permutation": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "columns": [
+        7,
+        2,
+        4,
+        12
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZZ",
+      "logical_X": "YX",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        3,
+        -1,
+        2,
+        1,
+        -1,
+        -1,
+        1,
+        2,
+        -1,
+        3,
+        -1,
+        -1,
+        0
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZZ",
+      "output_permutation": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "columns": [
+        7,
+        2,
+        3,
+        12
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YZ",
+      "logical_X": "ZX",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        3,
+        -1,
+        2,
+        1,
+        -1,
+        3,
+        -1,
+        -1,
+        0,
+        -1,
+        1,
+        2,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "YZ",
+      "output_permutation": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "columns": [
+        4,
+        2,
+        7,
+        12
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XZ",
+      "logical_X": "YX",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        3,
+        3,
+        -1,
+        -1,
+        0,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        2,
+        1,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "XZ",
+      "output_permutation": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "columns": [
+        4,
+        2,
+        3,
+        12
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XZ",
+      "logical_X": "ZX",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        3,
+        3,
+        -1,
+        -1,
+        0,
+        -1,
+        2,
+        1,
+        -1,
+        -1,
+        1,
+        2,
+        -1
+      ],
+      "real_implementable": true,
+      "canonical_check": "XZ",
+      "output_permutation": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "columns": [
+        6,
+        11,
+        1,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "ZY",
+      "logical_X": "ZI",
+      "logical_Z": "XZ",
+      "mapping": [
+        0,
+        -1,
+        1,
+        -1,
+        -1,
+        2,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        2,
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZY",
+      "output_permutation": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "columns": [
+        6,
+        11,
+        7,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "YY",
+      "logical_X": "YI",
+      "logical_Z": "XZ",
+      "mapping": [
+        0,
+        -1,
+        1,
+        -1,
+        -1,
+        2,
+        -1,
+        3,
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        3,
+        -1,
+        2
+      ],
+      "real_implementable": false,
+      "canonical_check": "YY",
+      "output_permutation": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "columns": [
+        14,
+        10,
+        1,
+        3
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "ZY",
+      "logical_X": "ZI",
+      "logical_Z": "XX",
+      "mapping": [
+        0,
+        -1,
+        1,
+        -1,
+        -1,
+        3,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        3,
+        1,
+        -1,
+        0,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZY",
+      "output_permutation": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "columns": [
+        7,
+        11,
+        6,
+        2
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "YY",
+      "logical_X": "YI",
+      "logical_Z": "ZZ",
+      "mapping": [
+        0,
+        -1,
+        1,
+        -1,
+        -1,
+        3,
+        -1,
+        2,
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        3
+      ],
+      "real_implementable": false,
+      "canonical_check": "YY",
+      "output_permutation": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "columns": [
+        1,
+        2,
+        6,
+        11
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "XY",
+      "logical_X": "XI",
+      "logical_Z": "ZX",
+      "mapping": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        2
+      ],
+      "real_implementable": false,
+      "canonical_check": "XY",
+      "output_permutation": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "columns": [
+        1,
+        11,
+        6,
+        2
+      ],
+      "gates": [
+        [
+          "s",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "XY",
+      "logical_X": "XI",
+      "logical_Z": "ZZ",
+      "mapping": [
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        0,
+        -1,
+        -1,
+        3,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        3
+      ],
+      "real_implementable": false,
+      "canonical_check": "XY",
+      "output_permutation": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "columns": [
+        3,
+        2,
+        5,
+        15
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZY",
+      "logical_X": "XX",
+      "logical_Z": "YX",
+      "mapping": [
+        0,
+        -1,
+        2,
+        -1,
+        -1,
+        1,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        1,
+        2,
+        -1,
+        0,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZY",
+      "output_permutation": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "columns": [
+        3,
+        2,
+        6,
+        15
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YY",
+      "logical_X": "XX",
+      "logical_Z": "ZX",
+      "mapping": [
+        0,
+        -1,
+        2,
+        -1,
+        -1,
+        1,
+        -1,
+        3,
+        2,
+        -1,
+        0,
+        -1,
+        -1,
+        3,
+        -1,
+        1
+      ],
+      "real_implementable": true,
+      "canonical_check": "YY",
+      "output_permutation": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "columns": [
+        14,
+        10,
+        5,
+        7
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "ZY",
+      "logical_X": "YX",
+      "logical_Z": "XX",
+      "mapping": [
+        0,
+        -1,
+        2,
+        -1,
+        -1,
+        3,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        3,
+        2,
+        -1,
+        0,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZY",
+      "output_permutation": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "columns": [
+        6,
+        2,
+        3,
+        15
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YY",
+      "logical_X": "ZX",
+      "logical_Z": "XX",
+      "mapping": [
+        0,
+        -1,
+        2,
+        -1,
+        -1,
+        3,
+        -1,
+        1,
+        2,
+        -1,
+        0,
+        -1,
+        -1,
+        1,
+        -1,
+        3
+      ],
+      "real_implementable": true,
+      "canonical_check": "YY",
+      "output_permutation": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "columns": [
+        5,
+        15,
+        3,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XY",
+      "logical_X": "ZZ",
+      "logical_Z": "YZ",
+      "mapping": [
+        0,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        0,
+        -1,
+        -1,
+        1,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        1
+      ],
+      "real_implementable": false,
+      "canonical_check": "XY",
+      "output_permutation": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "columns": [
+        5,
+        2,
+        3,
+        15
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XY",
+      "logical_X": "ZX",
+      "logical_Z": "YX",
+      "mapping": [
+        0,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        0,
+        -1,
+        -1,
+        3,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        3
+      ],
+      "real_implementable": false,
+      "canonical_check": "XY",
+      "output_permutation": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "columns": [
+        11,
+        10,
+        4,
+        6
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "ZY",
+      "logical_X": "XX",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        -1,
+        3,
+        -1,
+        -1,
+        1,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        1,
+        3,
+        -1,
+        0,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZY",
+      "output_permutation": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "columns": [
+        7,
+        14,
+        3,
+        2
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YY",
+      "logical_X": "ZZ",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        -1,
+        3,
+        -1,
+        -1,
+        1,
+        -1,
+        2,
+        3,
+        -1,
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        1
+      ],
+      "real_implementable": false,
+      "canonical_check": "YY",
+      "output_permutation": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "columns": [
+        3,
+        14,
+        4,
+        2
+      ],
+      "gates": [
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZY",
+      "logical_X": "XZ",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        -1,
+        3,
+        -1,
+        -1,
+        2,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        2,
+        3,
+        -1,
+        0,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZY",
+      "output_permutation": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "columns": [
+        15,
+        10,
+        11,
+        6
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "YY",
+      "logical_X": "ZX",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        -1,
+        3,
+        -1,
+        -1,
+        2,
+        -1,
+        1,
+        3,
+        -1,
+        0,
+        -1,
+        -1,
+        1,
+        -1,
+        2
+      ],
+      "real_implementable": false,
+      "canonical_check": "YY",
+      "output_permutation": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "columns": [
+        4,
+        14,
+        3,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XY",
+      "logical_X": "ZZ",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        0,
+        -1,
+        -1,
+        1,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        1
+      ],
+      "real_implementable": false,
+      "canonical_check": "XY",
+      "output_permutation": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "columns": [
+        4,
+        10,
+        11,
+        6
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "XY",
+      "logical_X": "ZX",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        0,
+        -1,
+        -1,
+        2,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        2
+      ],
+      "real_implementable": false,
+      "canonical_check": "XY",
+      "output_permutation": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "columns": [
+        6,
+        9,
+        1,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "ZX",
+      "logical_X": "ZI",
+      "logical_Z": "XZ",
+      "mapping": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        3,
+        -1,
+        -1,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -1
+      ],
+      "real_implementable": true,
+      "canonical_check": "ZX",
+      "output_permutation": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "columns": [
+        6,
+        9,
+        7,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "YX",
+      "logical_X": "YI",
+      "logical_Z": "XZ",
+      "mapping": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        3,
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        3,
+        2
+      ],
+      "real_implementable": false,
+      "canonical_check": "YX",
+      "output_permutation": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "columns": [
+        7,
+        9,
+        1,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "ZX",
+      "logical_X": "ZI",
+      "logical_Z": "YZ",
+      "mapping": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        3,
+        2,
+        -1,
+        -1,
+        2,
+        3,
+        1,
+        0,
+        -1,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZX",
+      "output_permutation": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "columns": [
+        7,
+        9,
+        6,
+        2
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "YX",
+      "logical_X": "YI",
+      "logical_Z": "ZZ",
+      "mapping": [
+        0,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        3,
+        2,
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        3
+      ],
+      "real_implementable": false,
+      "canonical_check": "YX",
+      "output_permutation": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "columns": [
+        1,
+        9,
+        7,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "XX",
+      "logical_X": "XI",
+      "logical_Z": "YZ",
+      "mapping": [
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        3,
+        -1,
+        -1,
+        3,
+        2
+      ],
+      "real_implementable": false,
+      "canonical_check": "XX",
+      "output_permutation": [
+        0,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "columns": [
+        1,
+        9,
+        6,
+        2
+      ],
+      "gates": [
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "XX",
+      "logical_X": "XI",
+      "logical_Z": "ZZ",
+      "mapping": [
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        3,
+        2,
+        -1,
+        -1,
+        2,
+        3
+      ],
+      "real_implementable": true,
+      "canonical_check": "XX",
+      "output_permutation": [
+        0,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "columns": [
+        6,
+        13,
+        5,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "ZX",
+      "logical_X": "YZ",
+      "logical_Z": "XZ",
+      "mapping": [
+        0,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        3,
+        -1,
+        -1,
+        3,
+        1,
+        2,
+        0,
+        -1,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZX",
+      "output_permutation": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "columns": [
+        6,
+        13,
+        3,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "YX",
+      "logical_X": "ZZ",
+      "logical_Z": "XZ",
+      "mapping": [
+        0,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        3,
+        2,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        3,
+        1
+      ],
+      "real_implementable": false,
+      "canonical_check": "YX",
+      "output_permutation": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "columns": [
+        3,
+        13,
+        5,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "ZX",
+      "logical_X": "XZ",
+      "logical_Z": "YZ",
+      "mapping": [
+        0,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        3,
+        1,
+        -1,
+        -1,
+        1,
+        3,
+        2,
+        0,
+        -1,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZX",
+      "output_permutation": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "columns": [
+        3,
+        13,
+        6,
+        2
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "YX",
+      "logical_X": "XZ",
+      "logical_Z": "ZZ",
+      "mapping": [
+        0,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        3,
+        1,
+        2,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        3
+      ],
+      "real_implementable": false,
+      "canonical_check": "YX",
+      "output_permutation": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "columns": [
+        5,
+        13,
+        3,
+        2
+      ],
+      "gates": [
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "XX",
+      "logical_X": "ZZ",
+      "logical_Z": "YZ",
+      "mapping": [
+        0,
+        2,
+        -1,
+        -1,
+        2,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        3,
+        -1,
+        -1,
+        3,
+        1
+      ],
+      "real_implementable": false,
+      "canonical_check": "XX",
+      "output_permutation": [
+        0,
+        1,
+        3,
+        2
+      ]
+    },
+    {
+      "columns": [
+        5,
+        13,
+        6,
+        2
+      ],
+      "gates": [
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "XX",
+      "logical_X": "YZ",
+      "logical_Z": "ZZ",
+      "mapping": [
+        0,
+        2,
+        -1,
+        -1,
+        2,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        3,
+        1,
+        -1,
+        -1,
+        1,
+        3
+      ],
+      "real_implementable": false,
+      "canonical_check": "XX",
+      "output_permutation": [
+        0,
+        3,
+        1,
+        2
+      ]
+    },
+    {
+      "columns": [
+        7,
+        12,
+        4,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZX",
+      "logical_X": "YZ",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        2,
+        1,
+        3,
+        0,
+        -1,
+        -1
+      ],
+      "real_implementable": false,
+      "canonical_check": "ZX",
+      "output_permutation": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "columns": [
+        7,
+        12,
+        3,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YX",
+      "logical_X": "ZZ",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        2,
+        3,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        1
+      ],
+      "real_implementable": false,
+      "canonical_check": "YX",
+      "output_permutation": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "columns": [
+        3,
+        12,
+        4,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZX",
+      "logical_X": "XZ",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        1,
+        -1,
+        -1,
+        1,
+        2,
+        3,
+        0,
+        -1,
+        -1
+      ],
+      "real_implementable": true,
+      "canonical_check": "ZX",
+      "output_permutation": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "columns": [
+        3,
+        12,
+        7,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YX",
+      "logical_X": "XZ",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        1,
+        3,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        2
+      ],
+      "real_implementable": false,
+      "canonical_check": "YX",
+      "output_permutation": [
+        0,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "columns": [
+        4,
+        12,
+        3,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XX",
+      "logical_X": "ZZ",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        3,
+        -1,
+        -1,
+        3,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        2,
+        1
+      ],
+      "real_implementable": true,
+      "canonical_check": "XX",
+      "output_permutation": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "columns": [
+        4,
+        12,
+        7,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XX",
+      "logical_X": "YZ",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        3,
+        -1,
+        -1,
+        3,
+        0,
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        1,
+        -1,
+        -1,
+        1,
+        2
+      ],
+      "real_implementable": false,
+      "canonical_check": "XX",
+      "output_permutation": [
+        0,
+        2,
+        1,
+        3
+      ]
+    }
+  ],
+  "weight_one_instruments": [
+    {
+      "columns": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "gates": [],
+      "check": "IZ",
+      "logical_X": "XI",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        2,
+        3,
+        -1,
+        -1,
+        3
+      ],
+      "real_implementable": true
+    },
+    {
+      "columns": [
+        1,
+        2,
+        5,
+        8
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "IZ",
+      "logical_X": "XI",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        0,
+        1,
+        -1,
+        -1,
+        1,
+        3,
+        -1,
+        -1,
+        3,
+        2,
+        -1,
+        -1,
+        2
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        5,
+        2,
+        4,
+        8
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "IZ",
+      "logical_X": "YI",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        -1,
+        -1,
+        2,
+        1,
+        -1,
+        -1,
+        1,
+        3,
+        -1,
+        -1,
+        3
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        5,
+        2,
+        1,
+        8
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "IZ",
+      "logical_X": "ZI",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        0,
+        2,
+        -1,
+        -1,
+        2,
+        3,
+        -1,
+        -1,
+        3,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        4,
+        2,
+        5,
+        8
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "IZ",
+      "logical_X": "YI",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        0,
+        3,
+        -1,
+        -1,
+        3,
+        1,
+        -1,
+        -1,
+        1,
+        2,
+        -1,
+        -1,
+        2
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        4,
+        2,
+        1,
+        8
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "IZ",
+      "logical_X": "ZI",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        -1,
+        -1,
+        0,
+        3,
+        -1,
+        -1,
+        3,
+        2,
+        -1,
+        -1,
+        2,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "real_implementable": true
+    },
+    {
+      "columns": [
+        1,
+        10,
+        4,
+        2
+      ],
+      "gates": [
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "IY",
+      "logical_X": "XI",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        -1,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        3,
+        -1,
+        3,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        1,
+        10,
+        5,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "IY",
+      "logical_X": "XI",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        -1,
+        0,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        2,
+        -1,
+        2,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        5,
+        10,
+        4,
+        2
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "IY",
+      "logical_X": "YI",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        -1,
+        0,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        3,
+        -1,
+        3,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        5,
+        10,
+        1,
+        2
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "IY",
+      "logical_X": "ZI",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        -1,
+        0,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        4,
+        10,
+        5,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "IY",
+      "logical_X": "YI",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        -1,
+        0,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        1,
+        -1,
+        1,
+        -1,
+        2,
+        -1,
+        2,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        4,
+        10,
+        1,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "IY",
+      "logical_X": "ZI",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        -1,
+        0,
+        -1,
+        3,
+        -1,
+        3,
+        -1,
+        2,
+        -1,
+        2,
+        -1,
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        1,
+        8,
+        4,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "IX",
+      "logical_X": "XI",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        0,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        2,
+        2,
+        -1,
+        -1,
+        3,
+        3,
+        -1,
+        -1
+      ],
+      "real_implementable": true
+    },
+    {
+      "columns": [
+        1,
+        8,
+        5,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "IX",
+      "logical_X": "XI",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        0,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        3,
+        3,
+        -1,
+        -1,
+        2,
+        2,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        5,
+        8,
+        4,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "IX",
+      "logical_X": "YI",
+      "logical_Z": "ZI",
+      "mapping": [
+        0,
+        0,
+        -1,
+        -1,
+        2,
+        2,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        3,
+        3,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        5,
+        8,
+        1,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ]
+      ],
+      "check": "IX",
+      "logical_X": "ZI",
+      "logical_Z": "YI",
+      "mapping": [
+        0,
+        0,
+        -1,
+        -1,
+        2,
+        2,
+        -1,
+        -1,
+        3,
+        3,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        4,
+        8,
+        5,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ]
+      ],
+      "check": "IX",
+      "logical_X": "YI",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        0,
+        -1,
+        -1,
+        3,
+        3,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1,
+        2,
+        2,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        4,
+        8,
+        1,
+        2
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "IX",
+      "logical_X": "ZI",
+      "logical_Z": "XI",
+      "mapping": [
+        0,
+        0,
+        -1,
+        -1,
+        3,
+        3,
+        -1,
+        -1,
+        2,
+        2,
+        -1,
+        -1,
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "real_implementable": true
+    },
+    {
+      "columns": [
+        3,
+        1,
+        8,
+        12
+      ],
+      "gates": [
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZI",
+      "logical_X": "IX",
+      "logical_Z": "ZZ",
+      "mapping": [
+        0,
+        1,
+        2,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "real_implementable": true
+    },
+    {
+      "columns": [
+        11,
+        1,
+        3,
+        12
+      ],
+      "gates": [
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YI",
+      "logical_X": "IX",
+      "logical_Z": "YZ",
+      "mapping": [
+        0,
+        1,
+        2,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        8,
+        1,
+        3,
+        12
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XI",
+      "logical_X": "IX",
+      "logical_Z": "XZ",
+      "mapping": [
+        0,
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": true
+    },
+    {
+      "columns": [
+        3,
+        1,
+        8,
+        13
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZI",
+      "logical_X": "IX",
+      "logical_Z": "ZY",
+      "mapping": [
+        0,
+        1,
+        3,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        1,
+        3,
+        2
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        15,
+        9,
+        7,
+        5
+      ],
+      "gates": [
+        [
+          "cx",
+          0,
+          1
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "YI",
+      "logical_X": "YX",
+      "logical_Z": "YY",
+      "mapping": [
+        0,
+        1,
+        3,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        1,
+        3,
+        2,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        8,
+        1,
+        3,
+        13
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XI",
+      "logical_X": "IX",
+      "logical_Z": "XY",
+      "mapping": [
+        0,
+        1,
+        3,
+        2,
+        0,
+        1,
+        3,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        3,
+        13,
+        8,
+        12
+      ],
+      "gates": [
+        [
+          "s",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZI",
+      "logical_X": "IY",
+      "logical_Z": "ZZ",
+      "mapping": [
+        0,
+        2,
+        1,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        2,
+        1,
+        3
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        7,
+        5,
+        15,
+        12
+      ],
+      "gates": [
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YI",
+      "logical_X": "YY",
+      "logical_Z": "YZ",
+      "mapping": [
+        0,
+        2,
+        1,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        2,
+        1,
+        3,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        8,
+        13,
+        3,
+        12
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XI",
+      "logical_X": "IY",
+      "logical_Z": "XZ",
+      "mapping": [
+        0,
+        2,
+        1,
+        3,
+        0,
+        2,
+        1,
+        3,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        3,
+        13,
+        8,
+        1
+      ],
+      "gates": [
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZI",
+      "logical_X": "IZ",
+      "logical_Z": "ZY",
+      "mapping": [
+        0,
+        2,
+        3,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        2,
+        3,
+        1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        7,
+        5,
+        15,
+        9
+      ],
+      "gates": [
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "h",
+          1
+        ]
+      ],
+      "check": "YI",
+      "logical_X": "YZ",
+      "logical_Z": "YY",
+      "mapping": [
+        0,
+        2,
+        3,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        2,
+        3,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        8,
+        13,
+        3,
+        1
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XI",
+      "logical_X": "IZ",
+      "logical_Z": "XY",
+      "mapping": [
+        0,
+        2,
+        3,
+        1,
+        0,
+        2,
+        3,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        3,
+        12,
+        8,
+        13
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZI",
+      "logical_X": "IY",
+      "logical_Z": "ZX",
+      "mapping": [
+        0,
+        3,
+        1,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        3,
+        1,
+        2
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        7,
+        12,
+        15,
+        5
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YI",
+      "logical_X": "YY",
+      "logical_Z": "YX",
+      "mapping": [
+        0,
+        3,
+        1,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        3,
+        1,
+        2,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        8,
+        12,
+        3,
+        13
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XI",
+      "logical_X": "IY",
+      "logical_Z": "XX",
+      "mapping": [
+        0,
+        3,
+        1,
+        2,
+        0,
+        3,
+        1,
+        2,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        3,
+        12,
+        8,
+        1
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "ZI",
+      "logical_X": "IZ",
+      "logical_Z": "ZX",
+      "mapping": [
+        0,
+        3,
+        2,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        3,
+        2,
+        1
+      ],
+      "real_implementable": true
+    },
+    {
+      "columns": [
+        11,
+        12,
+        3,
+        1
+      ],
+      "gates": [
+        [
+          "h",
+          1
+        ],
+        [
+          "s",
+          0
+        ],
+        [
+          "h",
+          0
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "YI",
+      "logical_X": "IZ",
+      "logical_Z": "YX",
+      "mapping": [
+        0,
+        3,
+        2,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        0,
+        3,
+        2,
+        1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": false
+    },
+    {
+      "columns": [
+        8,
+        12,
+        3,
+        1
+      ],
+      "gates": [
+        [
+          "h",
+          0
+        ],
+        [
+          "h",
+          1
+        ],
+        [
+          "cx",
+          1,
+          0
+        ],
+        [
+          "cx",
+          0,
+          1
+        ]
+      ],
+      "check": "XI",
+      "logical_X": "IZ",
+      "logical_Z": "XX",
+      "mapping": [
+        0,
+        3,
+        2,
+        1,
+        0,
+        3,
+        2,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "real_implementable": true
+    }
+  ],
+  "dense_validation": {
+    "tested": 1440,
+    "maximum_error": 2.2371143170757382e-17,
+    "method": "Independent dense complex 4x4 unitary conjugation"
+  },
+  "source_sha256": "fee599bf0096253c5902618ba63d445d4b7a0ea5c8a5e8a99574f84daca35f7c",
+  "scope": "Complete two-input zero-relative-check bilateral Clifford maps on independent Bell-diagonal children. Output permutations retained explicitly.",
+  "reduction": "All 54 weight-two maps are nine canonical checks followed by one of six I-fixing Bell permutations. Such frames must be transported to parent input axes and final readout. Weight-one maps pass the independent unmeasured child up to a frame and consume extra inputs.",
+  "not_proved_here": "Whole recursive-family coverage/cost/memory transport requires the separate recursive normalization verification."
+}

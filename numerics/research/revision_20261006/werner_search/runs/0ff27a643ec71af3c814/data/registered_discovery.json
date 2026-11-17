@@ -1,0 +1,230 @@
+{
+  "results": {
+    "M1": {
+      "rate": 0.024789057256535508,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "",
+        "final_axis": "Z",
+        "depth": 0,
+        "memory_upper_bound": 1,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 1,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "AD": {
+        "kind": "linear",
+        "code": "XC0122",
+        "n": 6,
+        "mode": "no_otp",
+        "classical_B_rounds": 1
+      },
+      "source_index": 0,
+      "mode_achievable_maxima": [
+        0.024789057256535508,
+        0.017579437252640814,
+        0.021206533572285708
+      ],
+      "largest_screened_bound": 0.021885162574791027
+    },
+    "M2": {
+      "rate": 0.0426086222599192,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "Z",
+        "final_axis": "X",
+        "depth": 1,
+        "memory_upper_bound": 2,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 2,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 1
+      },
+      "source_index": 3,
+      "mode_achievable_maxima": [
+        0.0370155901271289,
+        0.03701559012712889,
+        0.03718936800403284
+      ],
+      "largest_screened_bound": 0.0414876151551754
+    },
+    "M3": {
+      "rate": 0.0481124921363978,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "ZX",
+        "final_axis": "Y",
+        "depth": 2,
+        "memory_upper_bound": 3,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 4,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "source_index": 12,
+      "mode_achievable_maxima": [
+        0.038484899946797754,
+        0.0370155901271289,
+        0.03821029878502104
+      ],
+      "largest_screened_bound": 0.04807719247474104
+    },
+    "M4": {
+      "rate": 0.0481124921363978,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "ZX",
+        "final_axis": "Y",
+        "depth": 2,
+        "memory_upper_bound": 3,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 4,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "source_index": 12,
+      "mode_achievable_maxima": [
+        0.038484899946797754,
+        0.0370155901271289,
+        0.03821029878502104
+      ],
+      "largest_screened_bound": 0.04807719247474104
+    },
+    "M5": {
+      "rate": 0.0481124921363978,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "ZX",
+        "final_axis": "Y",
+        "depth": 2,
+        "memory_upper_bound": 3,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 4,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "source_index": 12,
+      "mode_achievable_maxima": [
+        0.038484899946797754,
+        0.0370155901271289,
+        0.03821029878502104
+      ],
+      "largest_screened_bound": 0.04807719247474104
+    },
+    "M6": {
+      "rate": 0.0481124921363978,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "ZX",
+        "final_axis": "Y",
+        "depth": 2,
+        "memory_upper_bound": 3,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 4,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "source_index": 12,
+      "mode_achievable_maxima": [
+        0.038484899946797754,
+        0.0370155901271289,
+        0.03821029878502104
+      ],
+      "largest_screened_bound": 0.04807719247474104
+    },
+    "M7": {
+      "rate": 0.0481124921363978,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "ZX",
+        "final_axis": "Y",
+        "depth": 2,
+        "memory_upper_bound": 3,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 4,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "source_index": 12,
+      "mode_achievable_maxima": [
+        0.038484899946797754,
+        0.0370155901271289,
+        0.03821029878502104
+      ],
+      "largest_screened_bound": 0.04807719247474104
+    },
+    "M8": {
+      "rate": 0.0481124921363978,
+      "ED": {
+        "family": "real_decoder_recurrence",
+        "path": "ZX",
+        "final_axis": "Y",
+        "depth": 2,
+        "memory_upper_bound": 3,
+        "minimal_memory_proved": false,
+        "successful_ancestry_inputs": 4,
+        "decoder_register_model": "v2_four_real_primitives"
+      },
+      "AD": {
+        "kind": "Watanabe_2007",
+        "n": 2,
+        "mode": "no_otp_hashed",
+        "classical_B_rounds": 0
+      },
+      "source_index": 12,
+      "mode_achievable_maxima": [
+        0.038484899946797754,
+        0.0370155901271289,
+        0.03821029878502104
+      ],
+      "largest_screened_bound": 0.04807719247474104
+    }
+  },
+  "round_counts": [
+    {
+      "B_round": 0,
+      "states": 113,
+      "distinct_AD_inputs": 18,
+      "SPC_evaluations": 1
+    },
+    {
+      "B_round": 1,
+      "states": 17,
+      "distinct_AD_inputs": 3,
+      "SPC_evaluations": 1
+    }
+  ],
+  "numerical_tolerance": 3.125e-13,
+  "scope": "All declared homogeneous, constant raw-pump, variable raw-pump and ordered-tree candidates; new complete n<=8 classical menu. Floating discovery only.",
+  "Q": 0.1796875
+}

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "same_fresh_enclosure": true,
+  "source_sha256": "46319fe752174944cf5ae815f1fa2d0b73dfba576da38e69c20b87e08e7a22a7",
+  "result": {
+    "Q_left": "5599/20000",
+    "Q_right": "5601/20000",
+    "low_memory_upper": 0.0002423220074904884,
+    "high_memory_lower": 0.0002477188088793562,
+    "gap": 5.3968013888677955e-06,
+    "cases": 56000,
+    "witness": {
+      "graph": "LC6_025",
+      "dual": 3,
+      "N": 6,
+      "memory": 4,
+      "input_order": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        5
+      ],
+      "B": 2
+    },
+    "largest_upper_case": {
+      "graph": "LC6_023",
+      "dual": 49,
+      "N": 6
+    }
+  }
+}

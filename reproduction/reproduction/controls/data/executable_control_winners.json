@@ -1,0 +1,1359 @@
+[
+  {
+    "peak_memory": 2,
+    "input_order": [
+      2,
+      5,
+      1,
+      4,
+      0,
+      3
+    ],
+    "gates": [
+      [
+        "h",
+        2
+      ],
+      [
+        "cx",
+        5,
+        2
+      ],
+      [
+        "h",
+        5
+      ],
+      [
+        "cx",
+        1,
+        5
+      ],
+      [
+        "h",
+        1
+      ],
+      [
+        "cx",
+        4,
+        1
+      ],
+      [
+        "h",
+        4
+      ],
+      [
+        "cx",
+        0,
+        4
+      ],
+      [
+        "h",
+        0
+      ],
+      [
+        "cx",
+        3,
+        0
+      ],
+      [
+        "h",
+        3
+      ]
+    ],
+    "events": [
+      {
+        "action": "load",
+        "input": 2,
+        "slot": 0
+      },
+      {
+        "action": "load",
+        "input": 5,
+        "slot": 1
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          2
+        ],
+        "slots": [
+          0
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          5,
+          2
+        ],
+        "slots": [
+          1,
+          0
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 2,
+        "slot": 0,
+        "original_generator_mask": 4,
+        "offset": 0
+      },
+      {
+        "action": "load",
+        "input": 1,
+        "slot": 0
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          5
+        ],
+        "slots": [
+          1
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          1,
+          5
+        ],
+        "slots": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 5,
+        "slot": 1,
+        "original_generator_mask": 32,
+        "offset": 0
+      },
+      {
+        "action": "load",
+        "input": 4,
+        "slot": 1
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          1
+        ],
+        "slots": [
+          0
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          4,
+          1
+        ],
+        "slots": [
+          1,
+          0
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 1,
+        "slot": 0,
+        "original_generator_mask": 2,
+        "offset": 0
+      },
+      {
+        "action": "load",
+        "input": 0,
+        "slot": 0
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          4
+        ],
+        "slots": [
+          1
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          0,
+          4
+        ],
+        "slots": [
+          0,
+          1
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 4,
+        "slot": 1,
+        "original_generator_mask": 16,
+        "offset": 0
+      },
+      {
+        "action": "load",
+        "input": 3,
+        "slot": 1
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          0
+        ],
+        "slots": [
+          0
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          3,
+          0
+        ],
+        "slots": [
+          1,
+          0
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 0,
+        "slot": 0,
+        "original_generator_mask": 1,
+        "offset": 0
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          3
+        ],
+        "slots": [
+          1
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 3,
+        "slot": 1,
+        "original_generator_mask": 8,
+        "offset": 0
+      }
+    ],
+    "measurements": [
+      {
+        "wire": 2,
+        "slot": 0,
+        "original_generator_mask": 4,
+        "offset": 0
+      },
+      {
+        "wire": 5,
+        "slot": 1,
+        "original_generator_mask": 32,
+        "offset": 0
+      },
+      {
+        "wire": 1,
+        "slot": 0,
+        "original_generator_mask": 2,
+        "offset": 0
+      },
+      {
+        "wire": 4,
+        "slot": 1,
+        "original_generator_mask": 16,
+        "offset": 0
+      },
+      {
+        "wire": 0,
+        "slot": 0,
+        "original_generator_mask": 1,
+        "offset": 0
+      },
+      {
+        "wire": 3,
+        "slot": 1,
+        "original_generator_mask": 8,
+        "offset": 0
+      }
+    ],
+    "graph": "LC6_020",
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "logical_dual": 17,
+    "key_generator": 0,
+    "public_check_rule": "All generator coefficient masks a with parity(a & logical_dual)=0. Reconstruct only these public combinations after each load; all other intermediate records remain private.",
+    "Q": "7/25",
+    "mean_attempt_cost": "1304733/390625",
+    "acceptance_probability": "16565634/244140625",
+    "mean_raw_cost": "271819375/5521878",
+    "conditioned_Bell_probabilities": [
+      "137825/204514",
+      "12103/102257",
+      "30135/204514",
+      "6174/102257"
+    ],
+    "B_rounds": 2,
+    "classical_terminal": "Watanabe",
+    "dense_signed_observable_residual": 1.1102230246251565e-16,
+    "legal_orders_bruteforced": 8,
+    "all_orders_examined": 720,
+    "all_Pauli_errors_examined": 4096,
+    "final_reconstruction": [
+      {
+        "original_generator": 0,
+        "measurement_mask": 16,
+        "offset": 0
+      },
+      {
+        "original_generator": 1,
+        "measurement_mask": 4,
+        "offset": 0
+      },
+      {
+        "original_generator": 2,
+        "measurement_mask": 1,
+        "offset": 0
+      },
+      {
+        "original_generator": 3,
+        "measurement_mask": 32,
+        "offset": 0
+      },
+      {
+        "original_generator": 4,
+        "measurement_mask": 8,
+        "offset": 0
+      },
+      {
+        "original_generator": 5,
+        "measurement_mask": 2,
+        "offset": 0
+      }
+    ],
+    "private_key_reconstruction": {
+      "original_generator": 0,
+      "measurement_mask": 16,
+      "offset": 0
+    },
+    "public_check_reconstruction": [
+      {
+        "original_generator_mask": 2,
+        "measurement_mask": 4,
+        "offset": 0
+      },
+      {
+        "original_generator_mask": 4,
+        "measurement_mask": 1,
+        "offset": 0
+      },
+      {
+        "original_generator_mask": 8,
+        "measurement_mask": 32,
+        "offset": 0
+      },
+      {
+        "original_generator_mask": 17,
+        "measurement_mask": 24,
+        "offset": 0
+      },
+      {
+        "original_generator_mask": 32,
+        "measurement_mask": 2,
+        "offset": 0
+      }
+    ],
+    "all_affine_outcomes_checked": 64
+  },
+  {
+    "peak_memory": 3,
+    "input_order": [
+      0,
+      3,
+      1,
+      4,
+      2,
+      5
+    ],
+    "gates": [
+      [
+        "h",
+        3
+      ],
+      [
+        "cx",
+        3,
+        0
+      ],
+      [
+        "h",
+        1
+      ],
+      [
+        "cx",
+        4,
+        1
+      ],
+      [
+        "cx",
+        3,
+        4
+      ],
+      [
+        "h",
+        3
+      ],
+      [
+        "cx",
+        4,
+        3
+      ],
+      [
+        "h",
+        4
+      ],
+      [
+        "h",
+        2
+      ],
+      [
+        "cx",
+        2,
+        4
+      ],
+      [
+        "cx",
+        5,
+        2
+      ],
+      [
+        "h",
+        5
+      ]
+    ],
+    "events": [
+      {
+        "action": "load",
+        "input": 0,
+        "slot": 0
+      },
+      {
+        "action": "load",
+        "input": 3,
+        "slot": 1
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          3
+        ],
+        "slots": [
+          1
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          3,
+          0
+        ],
+        "slots": [
+          1,
+          0
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 0,
+        "slot": 0,
+        "original_generator_mask": 8,
+        "offset": 0
+      },
+      {
+        "action": "load",
+        "input": 1,
+        "slot": 0
+      },
+      {
+        "action": "load",
+        "input": 4,
+        "slot": 2
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          1
+        ],
+        "slots": [
+          0
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          4,
+          1
+        ],
+        "slots": [
+          2,
+          0
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 1,
+        "slot": 0,
+        "original_generator_mask": 2,
+        "offset": 0
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          3,
+          4
+        ],
+        "slots": [
+          1,
+          2
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          3
+        ],
+        "slots": [
+          1
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          4,
+          3
+        ],
+        "slots": [
+          2,
+          1
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 3,
+        "slot": 1,
+        "original_generator_mask": 25,
+        "offset": 1
+      },
+      {
+        "action": "load",
+        "input": 2,
+        "slot": 0
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          4
+        ],
+        "slots": [
+          2
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          2
+        ],
+        "slots": [
+          0
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          2,
+          4
+        ],
+        "slots": [
+          0,
+          2
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 4,
+        "slot": 2,
+        "original_generator_mask": 28,
+        "offset": 0
+      },
+      {
+        "action": "load",
+        "input": 5,
+        "slot": 1
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          5,
+          2
+        ],
+        "slots": [
+          1,
+          0
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 2,
+        "slot": 0,
+        "original_generator_mask": 4,
+        "offset": 0
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          5
+        ],
+        "slots": [
+          1
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 5,
+        "slot": 1,
+        "original_generator_mask": 40,
+        "offset": 0
+      }
+    ],
+    "measurements": [
+      {
+        "wire": 0,
+        "slot": 0,
+        "original_generator_mask": 8,
+        "offset": 0
+      },
+      {
+        "wire": 1,
+        "slot": 0,
+        "original_generator_mask": 2,
+        "offset": 0
+      },
+      {
+        "wire": 3,
+        "slot": 1,
+        "original_generator_mask": 25,
+        "offset": 1
+      },
+      {
+        "wire": 4,
+        "slot": 2,
+        "original_generator_mask": 28,
+        "offset": 0
+      },
+      {
+        "wire": 2,
+        "slot": 0,
+        "original_generator_mask": 4,
+        "offset": 0
+      },
+      {
+        "wire": 5,
+        "slot": 1,
+        "original_generator_mask": 40,
+        "offset": 0
+      }
+    ],
+    "graph": "LC6_023",
+    "edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "logical_dual": 17,
+    "key_generator": 0,
+    "public_check_rule": "All generator coefficient masks a with parity(a & logical_dual)=0. Reconstruct only these public combinations after each load; all other intermediate records remain private.",
+    "Q": "7/25",
+    "mean_attempt_cost": "280254/78125",
+    "acceptance_probability": "17069599/244140625",
+    "mean_raw_cost": "875793750/17069599",
+    "conditioned_Bell_probabilities": [
+      "22831615/34139198",
+      "7306831/34139198",
+      "2456909/34139198",
+      "1543843/34139198"
+    ],
+    "B_rounds": 2,
+    "classical_terminal": "Watanabe",
+    "dense_signed_observable_residual": 1.1102230246251565e-16,
+    "legal_orders_bruteforced": 432,
+    "all_orders_examined": 720,
+    "all_Pauli_errors_examined": 4096,
+    "final_reconstruction": [
+      {
+        "original_generator": 0,
+        "measurement_mask": 28,
+        "offset": 1
+      },
+      {
+        "original_generator": 1,
+        "measurement_mask": 2,
+        "offset": 0
+      },
+      {
+        "original_generator": 2,
+        "measurement_mask": 16,
+        "offset": 0
+      },
+      {
+        "original_generator": 3,
+        "measurement_mask": 1,
+        "offset": 0
+      },
+      {
+        "original_generator": 4,
+        "measurement_mask": 25,
+        "offset": 0
+      },
+      {
+        "original_generator": 5,
+        "measurement_mask": 33,
+        "offset": 0
+      }
+    ],
+    "private_key_reconstruction": {
+      "original_generator": 0,
+      "measurement_mask": 28,
+      "offset": 1
+    },
+    "public_check_reconstruction": [
+      {
+        "original_generator_mask": 2,
+        "measurement_mask": 2,
+        "offset": 0
+      },
+      {
+        "original_generator_mask": 4,
+        "measurement_mask": 16,
+        "offset": 0
+      },
+      {
+        "original_generator_mask": 8,
+        "measurement_mask": 1,
+        "offset": 0
+      },
+      {
+        "original_generator_mask": 17,
+        "measurement_mask": 5,
+        "offset": 1
+      },
+      {
+        "original_generator_mask": 32,
+        "measurement_mask": 33,
+        "offset": 0
+      }
+    ],
+    "all_affine_outcomes_checked": 64
+  },
+  {
+    "peak_memory": 4,
+    "input_order": [
+      0,
+      1,
+      2,
+      4,
+      3,
+      5
+    ],
+    "gates": [
+      [
+        "h",
+        0
+      ],
+      [
+        "h",
+        1
+      ],
+      [
+        "cx",
+        1,
+        0
+      ],
+      [
+        "cx",
+        2,
+        0
+      ],
+      [
+        "cx",
+        4,
+        0
+      ],
+      [
+        "cx",
+        2,
+        4
+      ],
+      [
+        "h",
+        1
+      ],
+      [
+        "h",
+        2
+      ],
+      [
+        "cx",
+        2,
+        1
+      ],
+      [
+        "cx",
+        4,
+        1
+      ],
+      [
+        "cx",
+        2,
+        3
+      ],
+      [
+        "h",
+        2
+      ],
+      [
+        "cx",
+        3,
+        2
+      ],
+      [
+        "h",
+        4
+      ],
+      [
+        "cx",
+        3,
+        4
+      ],
+      [
+        "h",
+        3
+      ],
+      [
+        "cx",
+        5,
+        3
+      ],
+      [
+        "h",
+        5
+      ]
+    ],
+    "events": [
+      {
+        "action": "load",
+        "input": 0,
+        "slot": 0
+      },
+      {
+        "action": "load",
+        "input": 1,
+        "slot": 1
+      },
+      {
+        "action": "load",
+        "input": 2,
+        "slot": 2
+      },
+      {
+        "action": "load",
+        "input": 4,
+        "slot": 3
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          0
+        ],
+        "slots": [
+          0
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          1
+        ],
+        "slots": [
+          1
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          1,
+          0
+        ],
+        "slots": [
+          1,
+          0
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          2,
+          0
+        ],
+        "slots": [
+          2,
+          0
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          4,
+          0
+        ],
+        "slots": [
+          3,
+          0
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 0,
+        "slot": 0,
+        "original_generator_mask": 3,
+        "offset": 0
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          2,
+          4
+        ],
+        "slots": [
+          2,
+          3
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          1
+        ],
+        "slots": [
+          1
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          2
+        ],
+        "slots": [
+          2
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          2,
+          1
+        ],
+        "slots": [
+          2,
+          1
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          4,
+          1
+        ],
+        "slots": [
+          3,
+          1
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 1,
+        "slot": 1,
+        "original_generator_mask": 20,
+        "offset": 1
+      },
+      {
+        "action": "load",
+        "input": 3,
+        "slot": 0
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          2,
+          3
+        ],
+        "slots": [
+          2,
+          0
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          2
+        ],
+        "slots": [
+          2
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          3,
+          2
+        ],
+        "slots": [
+          0,
+          2
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 2,
+        "slot": 2,
+        "original_generator_mask": 30,
+        "offset": 0
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          4
+        ],
+        "slots": [
+          3
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          3,
+          4
+        ],
+        "slots": [
+          0,
+          3
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 4,
+        "slot": 3,
+        "original_generator_mask": 6,
+        "offset": 0
+      },
+      {
+        "action": "load",
+        "input": 5,
+        "slot": 1
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          3
+        ],
+        "slots": [
+          0
+        ]
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "cx",
+          5,
+          3
+        ],
+        "slots": [
+          1,
+          0
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 3,
+        "slot": 0,
+        "original_generator_mask": 28,
+        "offset": 1
+      },
+      {
+        "action": "gate",
+        "gate": [
+          "h",
+          5
+        ],
+        "slots": [
+          1
+        ]
+      },
+      {
+        "action": "measure_Z",
+        "wire": 5,
+        "slot": 1,
+        "original_generator_mask": 52,
+        "offset": 1
+      }
+    ],
+    "measurements": [
+      {
+        "wire": 0,
+        "slot": 0,
+        "original_generator_mask": 3,
+        "offset": 0
+      },
+      {
+        "wire": 1,
+        "slot": 1,
+        "original_generator_mask": 20,
+        "offset": 1
+      },
+      {
+        "wire": 2,
+        "slot": 2,
+        "original_generator_mask": 30,
+        "offset": 0
+      },
+      {
+        "wire": 4,
+        "slot": 3,
+        "original_generator_mask": 6,
+        "offset": 0
+      },
+      {
+        "wire": 3,
+        "slot": 0,
+        "original_generator_mask": 28,
+        "offset": 1
+      },
+      {
+        "wire": 5,
+        "slot": 1,
+        "original_generator_mask": 52,
+        "offset": 1
+      }
+    ],
+    "graph": "LC6_025",
+    "edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "logical_dual": 3,
+    "key_generator": 0,
+    "public_check_rule": "All generator coefficient masks a with parity(a & logical_dual)=0. Reconstruct only these public combinations after each load; all other intermediate records remain private.",
+    "Q": "7/25",
+    "mean_attempt_cost": "1732776/390625",
+    "acceptance_probability": "2837621/48828125",
+    "mean_raw_cost": "216597000/2837621",
+    "conditioned_Bell_probabilities": [
+      "19950121/28376210",
+      "4425337/28376210",
+      "84721/978490",
+      "1543843/28376210"
+    ],
+    "B_rounds": 2,
+    "classical_terminal": "Watanabe",
+    "dense_signed_observable_residual": 4.440892098500626e-16,
+    "legal_orders_bruteforced": 720,
+    "all_orders_examined": 720,
+    "all_Pauli_errors_examined": 4096,
+    "final_reconstruction": [
+      {
+        "original_generator": 0,
+        "measurement_mask": 21,
+        "offset": 1
+      },
+      {
+        "original_generator": 1,
+        "measurement_mask": 20,
+        "offset": 1
+      },
+      {
+        "original_generator": 2,
+        "measurement_mask": 28,
+        "offset": 1
+      },
+      {
+        "original_generator": 3,
+        "measurement_mask": 18,
+        "offset": 0
+      },
+      {
+        "original_generator": 4,
+        "measurement_mask": 30,
+        "offset": 0
+      },
+      {
+        "original_generator": 5,
+        "measurement_mask": 34,
+        "offset": 0
+      }
+    ],
+    "private_key_reconstruction": {
+      "original_generator": 0,
+      "measurement_mask": 21,
+      "offset": 1
+    },
+    "public_check_reconstruction": [
+      {
+        "original_generator_mask": 3,
+        "measurement_mask": 1,
+        "offset": 0
+      },
+      {
+        "original_generator_mask": 4,
+        "measurement_mask": 28,
+        "offset": 1
+      },
+      {
+        "original_generator_mask": 8,
+        "measurement_mask": 18,
+        "offset": 0
+      },
+      {
+        "original_generator_mask": 16,
+        "measurement_mask": 30,
+        "offset": 0
+      },
+      {
+        "original_generator_mask": 32,
+        "measurement_mask": 34,
+        "offset": 0
+      }
+    ],
+    "all_affine_outcomes_checked": 64
+  }
+]

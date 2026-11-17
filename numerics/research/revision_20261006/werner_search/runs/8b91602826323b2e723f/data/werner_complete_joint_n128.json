@@ -1,0 +1,212 @@
+{
+  "results": [
+    {
+      "Q": 0.26875,
+      "results": {
+        "M1": {
+          "rate": 1.766011647002285e-17,
+          "ED": "LC3_000_v1",
+          "m": 3,
+          "M": 1,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 0,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "linear",
+                "mode": "otp_compressed",
+                "n": 1,
+                "classical_B_rounds": 1,
+                "code": "XC0000"
+              },
+              "contribution": 1.732807918985506e-17
+            },
+            {
+              "syndrome": 1,
+              "state": 1,
+              "factor": 2,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "linear",
+                "mode": "no_otp",
+                "n": 6,
+                "classical_B_rounds": 3,
+                "code": "XC0062"
+              },
+              "contribution": 1.4024679342827297e-19
+            },
+            {
+              "syndrome": 2,
+              "state": 1,
+              "factor": 2,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "linear",
+                "mode": "no_otp",
+                "n": 6,
+                "classical_B_rounds": 3,
+                "code": "XC0062"
+              },
+              "contribution": 1.4024679342827297e-19
+            },
+            {
+              "syndrome": 3,
+              "state": 2,
+              "factor": 4,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "linear",
+                "mode": "no_otp",
+                "n": 6,
+                "classical_B_rounds": 3,
+                "code": "XC0062"
+              },
+              "contribution": 5.1543693311245616e-20
+            }
+          ],
+          "final_numerical_screen_upper": 2.3267237035200127e-13
+        },
+        "M2": {
+          "rate": 0.0006920630316919277,
+          "ED": "LC4_005_v9",
+          "m": 4,
+          "M": 2,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 66,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "linear",
+                "mode": "otp_compressed",
+                "n": 7,
+                "classical_B_rounds": 2,
+                "code": "XC0269"
+              },
+              "contribution": 0.0006920630316919277
+            }
+          ],
+          "final_numerical_screen_upper": 0.0006920630318979141
+        },
+        "M3": {
+          "rate": 0.0007710103855625619,
+          "ED": "LC5_010_v31",
+          "m": 5,
+          "M": 3,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 273,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "linear",
+                "mode": "no_otp",
+                "n": 7,
+                "classical_B_rounds": 1,
+                "code": "XC0269"
+              },
+              "contribution": 0.0007710103855625618
+            }
+          ],
+          "final_numerical_screen_upper": 0.0007710103857679735
+        },
+        "M4": {
+          "rate": 0.0007710103855625619,
+          "ED": "LC5_010_v31",
+          "m": 5,
+          "M": 3,
+          "branches": [
+            {
+              "syndrome": 0,
+              "state": 273,
+              "factor": 1,
+              "bell_permutation": [
+                3,
+                1,
+                2,
+                0
+              ],
+              "AD": {
+                "kind": "linear",
+                "mode": "no_otp",
+                "n": 7,
+                "classical_B_rounds": 1,
+                "code": "XC0269"
+              },
+              "contribution": 0.0007710103855625618
+            }
+          ],
+          "final_numerical_screen_upper": 0.0007710103857679735
+        }
+      },
+      "round_counts": [
+        {
+          "B": 0,
+          "states": 17763,
+          "distinct_states": 15446,
+          "instruments": 4069
+        },
+        {
+          "B": 1,
+          "states": 7080,
+          "distinct_states": 5169,
+          "instruments": 1552
+        },
+        {
+          "B": 2,
+          "states": 580,
+          "distinct_states": 199,
+          "instruments": 178
+        },
+        {
+          "B": 3,
+          "states": 85,
+          "distinct_states": 26,
+          "instruments": 40
+        },
+        {
+          "B": 4,
+          "states": 36,
+          "distinct_states": 5,
+          "instruments": 37
+        }
+      ],
+      "seconds": 226.28114008903503,
+      "scope": "Complete m<=8 terminal class, all flags; external executable recurrence/tree incumbents used only to prune the union objective, not to claim individual core optimality."
+    }
+  ]
+}

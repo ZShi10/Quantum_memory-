@@ -1,0 +1,70 @@
+{
+  "complete": true,
+  "fingerprint": "87fded440ee413d1212a239b1be72441f2a2eac19ee0a34b75afc812b4fbbc7a",
+  "b": 0.2425,
+  "p": 0.2425,
+  "results": {
+    "M1": {
+      "lower": 0.0,
+      "upper": 9.875165352366604e-13,
+      "gap_upper": 9.875165352366606e-13,
+      "converged": true
+    },
+    "M2": {
+      "lower": 2.995286507677185e-08,
+      "upper": 2.99583571376318e-08,
+      "gap_upper": 5.492060859949605e-12,
+      "converged": true
+    },
+    "M3": {
+      "lower": 2.995286507677185e-08,
+      "upper": 2.99583571376318e-08,
+      "gap_upper": 5.492060859949605e-12,
+      "converged": true
+    },
+    "M4": {
+      "lower": 2.995286507677185e-08,
+      "upper": 2.99583571376318e-08,
+      "gap_upper": 5.492060859949605e-12,
+      "converged": true
+    },
+    "M5": {
+      "lower": 8.808770382509246e-08,
+      "upper": 8.809270360347278e-08,
+      "gap_upper": 4.999778380320117e-12,
+      "converged": true
+    },
+    "M6": {
+      "lower": 6.462955126555926e-06,
+      "upper": 6.463051070874096e-06,
+      "gap_upper": 9.594431817004467e-11,
+      "converged": true
+    },
+    "M7": {
+      "lower": 5.8407351308228336e-05,
+      "upper": 5.840810371434642e-05,
+      "gap_upper": 7.524061180818948e-10,
+      "converged": true
+    },
+    "M8": {
+      "lower": 5.8407351308228336e-05,
+      "upper": 5.840810371434642e-05,
+      "gap_upper": 7.524061180818948e-10,
+      "converged": true
+    }
+  },
+  "required_gaps": {
+    "M1": 1e-11,
+    "M2": 1e-11,
+    "M3": 1e-11,
+    "M4": 1e-11,
+    "M5": 1e-11,
+    "M6": 6.462955126555926e-10,
+    "M7": 5.840735130822834e-09,
+    "M8": 5.840735130822834e-09
+  },
+  "source": "data/bb84_joint_extension_real_0.24250_0.24250_n128.json",
+  "certificate": "data/bb84_joint_extension_real_0.24250_0.24250_n128_menu_certified.json",
+  "seconds": 1091.7894097061362,
+  "interpretation": "Complete unchanged registered finite class. Combine with independent complete real m<=5 block upper for total union; not unrestricted fixed-memory optimum."
+}

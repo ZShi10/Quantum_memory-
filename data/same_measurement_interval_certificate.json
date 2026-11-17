@@ -1,0 +1,905 @@
+{
+  "status": "certified",
+  "source": "Werner",
+  "Q_interval": [
+    "3/20",
+    "1/5"
+  ],
+  "input_N": 5,
+  "graph": {
+    "N": 5,
+    "edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "original_min_memory": 2
+  },
+  "dual": 5,
+  "all_orders_checked": 120,
+  "order_checks": [
+    {
+      "memory": 2,
+      "orders": 8,
+      "nonnegative_difference_bernstein_min": "0"
+    },
+    {
+      "memory": 3,
+      "orders": 120,
+      "nonnegative_difference_bernstein_min": "0"
+    }
+  ],
+  "selected": {
+    "2": {
+      "order": [
+        3,
+        2,
+        1,
+        4,
+        0
+      ],
+      "cost_polynomial_lambda": [
+        "13/4",
+        "0",
+        "5/4",
+        "1/2",
+        "0",
+        "0"
+      ]
+    },
+    "3": {
+      "order": [
+        3,
+        2,
+        4,
+        0,
+        1
+      ],
+      "cost_polynomial_lambda": [
+        "25/8",
+        "0",
+        "5/4",
+        "0",
+        "5/8",
+        "0"
+      ]
+    }
+  },
+  "difference_polynomial_lambda": [
+    "1/8",
+    "0",
+    "0",
+    "1/2",
+    "-5/8",
+    "0"
+  ],
+  "acceptance_polynomial_lambda": [
+    "1/16",
+    "0",
+    "1/8",
+    "1/4",
+    "5/16",
+    "1/4"
+  ],
+  "rate_gap_lower": 0.0003385128483517674,
+  "rate_ratio_lower": 1.037029578173984,
+  "rate_3_lower": 0.008485210839088424,
+  "leaves": [
+    {
+      "Q_left": "3/20",
+      "Q_right": "301/2000",
+      "rate_3_lower": 0.03324725463931084,
+      "rate_gap_lower": 0.0012069025412107283,
+      "rate_ratio_lower": 1.037029578173984,
+      "classical_coefficient_lower": 0.39735262011459677
+    },
+    {
+      "Q_left": "301/2000",
+      "Q_right": "151/1000",
+      "rate_3_lower": 0.03294313512821979,
+      "rate_gap_lower": 0.0011975937653622626,
+      "rate_ratio_lower": 1.037086914985734,
+      "classical_coefficient_lower": 0.39498920771339924
+    },
+    {
+      "Q_left": "151/1000",
+      "Q_right": "303/2000",
+      "rate_3_lower": 0.03264020630942884,
+      "rate_gap_lower": 0.0011882844366869693,
+      "rate_ratio_lower": 1.0371438652214686,
+      "classical_coefficient_lower": 0.39262126743523035
+    },
+    {
+      "Q_left": "303/2000",
+      "Q_right": "19/125",
+      "rate_3_lower": 0.03233846551268564,
+      "rate_gap_lower": 0.0011789750099986524,
+      "rate_ratio_lower": 1.0372004298608324,
+      "classical_coefficient_lower": 0.3902487901301053
+    },
+    {
+      "Q_left": "19/125",
+      "Q_right": "61/400",
+      "rate_3_lower": 0.03203791007184182,
+      "rate_gap_lower": 0.0011696659359063336,
+      "rate_ratio_lower": 1.0372566098863656,
+      "classical_coefficient_lower": 0.38787176677784324
+    },
+    {
+      "Q_left": "61/400",
+      "Q_right": "153/1000",
+      "rate_3_lower": 0.031738537324804555,
+      "rate_gap_lower": 0.0011603576608329755,
+      "rate_ratio_lower": 1.0373124062834869,
+      "classical_coefficient_lower": 0.38549018848934796
+    },
+    {
+      "Q_left": "153/1000",
+      "Q_right": "307/2000",
+      "rate_3_lower": 0.03144034461348818,
+      "rate_gap_lower": 0.001151050627034157,
+      "rate_ratio_lower": 1.0373678200404757,
+      "classical_coefficient_lower": 0.3831040465078935
+    },
+    {
+      "Q_left": "307/2000",
+      "Q_right": "77/500",
+      "rate_3_lower": 0.031143329283767455,
+      "rate_gap_lower": 0.001141745272616762,
+      "rate_ratio_lower": 1.037422852148455,
+      "classical_coefficient_lower": 0.38071333221043263
+    },
+    {
+      "Q_left": "77/500",
+      "Q_right": "309/2000",
+      "rate_3_lower": 0.030847488685431145,
+      "rate_gap_lower": 0.0011324420315576265,
+      "rate_ratio_lower": 1.0374775036013728,
+      "classical_coefficient_lower": 0.3783180371089137
+    },
+    {
+      "Q_left": "309/2000",
+      "Q_right": "31/200",
+      "rate_3_lower": 0.030552820172136116,
+      "rate_gap_lower": 0.0011231413337221597,
+      "rate_ratio_lower": 1.037531775395986,
+      "classical_coefficient_lower": 0.3759181528516065
+    },
+    {
+      "Q_left": "31/200",
+      "Q_right": "311/2000",
+      "rate_3_lower": 0.030259321101362528,
+      "rate_gap_lower": 0.0011138436048829573,
+      "rate_ratio_lower": 1.0375856685318414,
+      "classical_coefficient_lower": 0.37351367122444673
+    },
+    {
+      "Q_left": "311/2000",
+      "Q_right": "39/250",
+      "rate_3_lower": 0.0299669888343692,
+      "rate_gap_lower": 0.0011045492667383708,
+      "rate_ratio_lower": 1.037639184011258,
+      "classical_coefficient_lower": 0.3711045841523852
+    },
+    {
+      "Q_left": "39/250",
+      "Q_right": "313/2000",
+      "rate_3_lower": 0.029675820736150257,
+      "rate_gap_lower": 0.0010952587369310804,
+      "rate_ratio_lower": 1.037692322839311,
+      "classical_coefficient_lower": 0.3686908837007577
+    },
+    {
+      "Q_left": "313/2000",
+      "Q_right": "157/1000",
+      "rate_3_lower": 0.029385814175391663,
+      "rate_gap_lower": 0.0010859724290666136,
+      "rate_ratio_lower": 1.0377450860238102,
+      "classical_coefficient_lower": 0.36627256207665754
+    },
+    {
+      "Q_left": "157/1000",
+      "Q_right": "63/400",
+      "rate_3_lower": 0.029096966524429547,
+      "rate_gap_lower": 0.001076690752731888,
+      "rate_ratio_lower": 1.0377974745752863,
+      "classical_coefficient_lower": 0.36384961163033297
+    },
+    {
+      "Q_left": "63/400",
+      "Q_right": "79/500",
+      "rate_3_lower": 0.02880927515920709,
+      "rate_gap_lower": 0.0010674141135136482,
+      "rate_ratio_lower": 1.0378494895069696,
+      "classical_coefficient_lower": 0.36142202485657254
+    },
+    {
+      "Q_left": "79/500",
+      "Q_right": "317/2000",
+      "rate_3_lower": 0.028522737459234945,
+      "rate_gap_lower": 0.0010581429130169945,
+      "rate_ratio_lower": 1.0379011318347746,
+      "classical_coefficient_lower": 0.3589897943961374
+    },
+    {
+      "Q_left": "317/2000",
+      "Q_right": "159/1000",
+      "rate_3_lower": 0.028237350807549827,
+      "rate_gap_lower": 0.0010488775488837934,
+      "rate_ratio_lower": 1.037952402577279,
+      "classical_coefficient_lower": 0.35655291303717523
+    },
+    {
+      "Q_left": "159/1000",
+      "Q_right": "319/2000",
+      "rate_3_lower": 0.02795311259067474,
+      "rate_gap_lower": 0.0010396184148111073,
+      "rate_ratio_lower": 1.038003302755708,
+      "classical_coefficient_lower": 0.3541113737166593
+    },
+    {
+      "Q_left": "319/2000",
+      "Q_right": "4/25",
+      "rate_3_lower": 0.027670020198579445,
+      "rate_gap_lower": 0.001030365900569586,
+      "rate_ratio_lower": 1.0380538333939149,
+      "classical_coefficient_lower": 0.35166516952183385
+    },
+    {
+      "Q_left": "4/25",
+      "Q_right": "321/2000",
+      "rate_3_lower": 0.027388071024642104,
+      "rate_gap_lower": 0.0010211203920218578,
+      "rate_ratio_lower": 1.0381039955183624,
+      "classical_coefficient_lower": 0.34921429369167895
+    },
+    {
+      "Q_left": "321/2000",
+      "Q_right": "161/1000",
+      "rate_3_lower": 0.02710726246561052,
+      "rate_gap_lower": 0.0010118822711408634,
+      "rate_ratio_lower": 1.0381537901581057,
+      "classical_coefficient_lower": 0.34675873961837494
+    },
+    {
+      "Q_left": "161/1000",
+      "Q_right": "323/2000",
+      "rate_3_lower": 0.02682759192156506,
+      "rate_gap_lower": 0.0010026519160282047,
+      "rate_ratio_lower": 1.0382032183447727,
+      "classical_coefficient_lower": 0.3442985008487916
+    },
+    {
+      "Q_left": "323/2000",
+      "Q_right": "81/500",
+      "rate_3_lower": 0.026549056795881147,
+      "rate_gap_lower": 0.0009934297009324385,
+      "rate_ratio_lower": 1.0382522811125463,
+      "classical_coefficient_lower": 0.3418335710859765
+    },
+    {
+      "Q_left": "81/500",
+      "Q_right": "13/80",
+      "rate_3_lower": 0.026271654495192795,
+      "rate_gap_lower": 0.0009842159962673619,
+      "rate_ratio_lower": 1.0383009794981453,
+      "classical_coefficient_lower": 0.3393639441906611
+    },
+    {
+      "Q_left": "13/80",
+      "Q_right": "163/1000",
+      "rate_3_lower": 0.02599538242935675,
+      "rate_gap_lower": 0.0009750111686302798,
+      "rate_ratio_lower": 1.0383493145408063,
+      "classical_coefficient_lower": 0.3368896141827787
+    },
+    {
+      "Q_left": "163/1000",
+      "Q_right": "327/2000",
+      "rate_3_lower": 0.02572023801141667,
+      "rate_gap_lower": 0.0009658155808202289,
+      "rate_ratio_lower": 1.0383972872822653,
+      "classical_coefficient_lower": 0.33441057524298673
+    },
+    {
+      "Q_left": "327/2000",
+      "Q_right": "41/250",
+      "rate_3_lower": 0.025446218657568433,
+      "rate_gap_lower": 0.000956629591856204,
+      "rate_ratio_lower": 1.0384448987667383,
+      "classical_coefficient_lower": 0.3319268217142089
+    },
+    {
+      "Q_left": "41/250",
+      "Q_right": "329/2000",
+      "rate_3_lower": 0.025173321787125568,
+      "rate_gap_lower": 0.0009474535569953427,
+      "rate_ratio_lower": 1.038492150040903,
+      "classical_coefficient_lower": 0.3294383481031819
+    },
+    {
+      "Q_left": "329/2000",
+      "Q_right": "33/200",
+      "rate_3_lower": 0.024901544822485074,
+      "rate_gap_lower": 0.0009382878277510869,
+      "rate_ratio_lower": 1.0385390421538796,
+      "classical_coefficient_lower": 0.3269451490820124
+    },
+    {
+      "Q_left": "33/200",
+      "Q_right": "331/2000",
+      "rate_3_lower": 0.024630885189094148,
+      "rate_gap_lower": 0.0009291327519113321,
+      "rate_ratio_lower": 1.038585576157213,
+      "classical_coefficient_lower": 0.32444721948974947
+    },
+    {
+      "Q_left": "331/2000",
+      "Q_right": "83/500",
+      "rate_3_lower": 0.02436134031541707,
+      "rate_gap_lower": 0.0009199886735565435,
+      "rate_ratio_lower": 1.0386317531048526,
+      "classical_coefficient_lower": 0.3219445543339637
+    },
+    {
+      "Q_left": "83/500",
+      "Q_right": "333/2000",
+      "rate_3_lower": 0.024092907632902484,
+      "rate_gap_lower": 0.0009108559330778462,
+      "rate_ratio_lower": 1.038677574053134,
+      "classical_coefficient_lower": 0.3194371487923356
+    },
+    {
+      "Q_left": "333/2000",
+      "Q_right": "167/1000",
+      "rate_3_lower": 0.023825584575951738,
+      "rate_gap_lower": 0.0009017348671951101,
+      "rate_ratio_lower": 1.0387230400607605,
+      "classical_coefficient_lower": 0.3169249982142615
+    },
+    {
+      "Q_left": "167/1000",
+      "Q_right": "67/400",
+      "rate_3_lower": 0.02355936858188665,
+      "rate_gap_lower": 0.0008926258089749748,
+      "rate_ratio_lower": 1.038768152188783,
+      "classical_coefficient_lower": 0.31440809812245735
+    },
+    {
+      "Q_left": "67/400",
+      "Q_right": "21/125",
+      "rate_3_lower": 0.02329425709091894,
+      "rate_gap_lower": 0.0008835290878488965,
+      "rate_ratio_lower": 1.0388129115005815,
+      "classical_coefficient_lower": 0.31188644421458706
+    },
+    {
+      "Q_left": "21/125",
+      "Q_right": "337/2000",
+      "rate_3_lower": 0.02303024754611892,
+      "rate_gap_lower": 0.0008744450296311245,
+      "rate_ratio_lower": 1.038857319061846,
+      "classical_coefficient_lower": 0.30936003236488646
+    },
+    {
+      "Q_left": "337/2000",
+      "Q_right": "169/1000",
+      "rate_3_lower": 0.022767337393385524,
+      "rate_gap_lower": 0.0008653739565366874,
+      "rate_ratio_lower": 1.038901375940557,
+      "classical_coefficient_lower": 0.3068288586258084
+    },
+    {
+      "Q_left": "169/1000",
+      "Q_right": "339/2000",
+      "rate_3_lower": 0.02250552408141638,
+      "rate_gap_lower": 0.0008563161871993423,
+      "rate_ratio_lower": 1.0389450832069667,
+      "classical_coefficient_lower": 0.30429291922967233
+    },
+    {
+      "Q_left": "339/2000",
+      "Q_right": "17/100",
+      "rate_3_lower": 0.022244805061678165,
+      "rate_gap_lower": 0.0008472720366894911,
+      "rate_ratio_lower": 1.0389884419335793,
+      "classical_coefficient_lower": 0.30175221059032237
+    },
+    {
+      "Q_left": "17/100",
+      "Q_right": "341/2000",
+      "rate_3_lower": 0.021985177788377674,
+      "rate_gap_lower": 0.0008382418165320868,
+      "rate_ratio_lower": 1.039031453195132,
+      "classical_coefficient_lower": 0.29920672930479825
+    },
+    {
+      "Q_left": "341/2000",
+      "Q_right": "171/1000",
+      "rate_3_lower": 0.02172663971843317,
+      "rate_gap_lower": 0.0008292258347245084,
+      "rate_ratio_lower": 1.039074118068575,
+      "classical_coefficient_lower": 0.29665647215501406
+    },
+    {
+      "Q_left": "171/1000",
+      "Q_right": "343/2000",
+      "rate_3_lower": 0.02146918831144609,
+      "rate_gap_lower": 0.0008202243957544083,
+      "rate_ratio_lower": 1.039116437633053,
+      "classical_coefficient_lower": 0.2941014361094458
+    },
+    {
+      "Q_left": "343/2000",
+      "Q_right": "43/250",
+      "rate_3_lower": 0.021212821029673132,
+      "rate_gap_lower": 0.0008112378006175357,
+      "rate_ratio_lower": 1.0391584129698852,
+      "classical_coefficient_lower": 0.29154161832482745
+    },
+    {
+      "Q_left": "43/250",
+      "Q_right": "69/400",
+      "rate_3_lower": 0.02095753533799885,
+      "rate_gap_lower": 0.0008022663468355398,
+      "rate_ratio_lower": 1.0392000451625454,
+      "classical_coefficient_lower": 0.2889770161478586
+    },
+    {
+      "Q_left": "69/400",
+      "Q_right": "173/1000",
+      "rate_3_lower": 0.020703328703908442,
+      "rate_gap_lower": 0.0007933103284737385,
+      "rate_ratio_lower": 1.0392413352966432,
+      "classical_coefficient_lower": 0.286407627116917
+    },
+    {
+      "Q_left": "173/1000",
+      "Q_right": "347/2000",
+      "rate_3_lower": 0.020450198597461118,
+      "rate_gap_lower": 0.0007843700361588704,
+      "rate_ratio_lower": 1.039282284459904,
+      "classical_coefficient_lower": 0.28383344896378376
+    },
+    {
+      "Q_left": "347/2000",
+      "Q_right": "87/500",
+      "rate_3_lower": 0.020198142491263747,
+      "rate_gap_lower": 0.0007754457570968191,
+      "rate_ratio_lower": 1.0393228937421493,
+      "classical_coefficient_lower": 0.2812544796153756
+    },
+    {
+      "Q_left": "87/500",
+      "Q_right": "349/2000",
+      "rate_3_lower": 0.019947157860444566,
+      "rate_gap_lower": 0.0007665377750902977,
+      "rate_ratio_lower": 1.039363164235277,
+      "classical_coefficient_lower": 0.2786707171954808
+    },
+    {
+      "Q_left": "349/2000",
+      "Q_right": "7/40",
+      "rate_3_lower": 0.019697242182628045,
+      "rate_gap_lower": 0.0007576463705565406,
+      "rate_ratio_lower": 1.0394030970332417,
+      "classical_coefficient_lower": 0.27608216002651537
+    },
+    {
+      "Q_left": "7/40",
+      "Q_right": "351/2000",
+      "rate_3_lower": 0.019448392937908943,
+      "rate_gap_lower": 0.0007487718205449219,
+      "rate_ratio_lower": 1.0394426932320353,
+      "classical_coefficient_lower": 0.2734888066312707
+    },
+    {
+      "Q_left": "351/2000",
+      "Q_right": "22/125",
+      "rate_3_lower": 0.019200607608827927,
+      "rate_gap_lower": 0.0007399143987545981,
+      "rate_ratio_lower": 1.0394819539296667,
+      "classical_coefficient_lower": 0.270890655734686
+    },
+    {
+      "Q_left": "22/125",
+      "Q_right": "353/2000",
+      "rate_3_lower": 0.018953883680346482,
+      "rate_gap_lower": 0.0007310743755520797,
+      "rate_ratio_lower": 1.0395208802261418,
+      "classical_coefficient_lower": 0.2682877062656149
+    },
+    {
+      "Q_left": "353/2000",
+      "Q_right": "177/1000",
+      "rate_3_lower": 0.018708218639822867,
+      "rate_gap_lower": 0.0007222520179888082,
+      "rate_ratio_lower": 1.0395594732234437,
+      "classical_coefficient_lower": 0.2656799573586082
+    },
+    {
+      "Q_left": "177/1000",
+      "Q_right": "71/400",
+      "rate_3_lower": 0.018463609976988066,
+      "rate_gap_lower": 0.0007134475898186903,
+      "rate_ratio_lower": 1.0395977340255131,
+      "classical_coefficient_lower": 0.2630674083557009
+    },
+    {
+      "Q_left": "71/400",
+      "Q_right": "89/500",
+      "rate_3_lower": 0.018220055183922074,
+      "rate_gap_lower": 0.0007046613515156068,
+      "rate_ratio_lower": 1.0396356637382287,
+      "classical_coefficient_lower": 0.26045005880820565
+    },
+    {
+      "Q_left": "89/500",
+      "Q_right": "357/2000",
+      "rate_3_lower": 0.01797755175503066,
+      "rate_gap_lower": 0.0006958935602909009,
+      "rate_ratio_lower": 1.0396732634693857,
+      "classical_coefficient_lower": 0.2578279084785163
+    },
+    {
+      "Q_left": "357/2000",
+      "Q_right": "179/1000",
+      "rate_3_lower": 0.01773609718702222,
+      "rate_gap_lower": 0.0006871444701108315,
+      "rate_ratio_lower": 1.0397105343286768,
+      "classical_coefficient_lower": 0.2552009573419151
+    },
+    {
+      "Q_left": "179/1000",
+      "Q_right": "359/2000",
+      "rate_3_lower": 0.017495688978885038,
+      "rate_gap_lower": 0.0006784143317140012,
+      "rate_ratio_lower": 1.039747477427672,
+      "classical_coefficient_lower": 0.2525692055883882
+    },
+    {
+      "Q_left": "359/2000",
+      "Q_right": "9/50",
+      "rate_3_lower": 0.017256324631864925,
+      "rate_gap_lower": 0.0006697033926287612,
+      "rate_ratio_lower": 1.039784093879798,
+      "classical_coefficient_lower": 0.2499326536244487
+    },
+    {
+      "Q_left": "9/50",
+      "Q_right": "361/2000",
+      "rate_3_lower": 0.017018001649443157,
+      "rate_gap_lower": 0.000661011897190588,
+      "rate_ratio_lower": 1.0398203848003191,
+      "classical_coefficient_lower": 0.24729130207496616
+    },
+    {
+      "Q_left": "361/2000",
+      "Q_right": "181/1000",
+      "rate_3_lower": 0.016780717537314315,
+      "rate_gap_lower": 0.0006523400865594176,
+      "rate_ratio_lower": 1.0398563513063155,
+      "classical_coefficient_lower": 0.24464515178499766
+    },
+    {
+      "Q_left": "181/1000",
+      "Q_right": "363/2000",
+      "rate_3_lower": 0.016544469803365065,
+      "rate_gap_lower": 0.0006436881987369773,
+      "rate_ratio_lower": 1.0398919945166636,
+      "classical_coefficient_lower": 0.24199420382163303
+    },
+    {
+      "Q_left": "363/2000",
+      "Q_right": "91/500",
+      "rate_3_lower": 0.01630925595765262,
+      "rate_gap_lower": 0.0006350564685840649,
+      "rate_ratio_lower": 1.0399273155520168,
+      "classical_coefficient_lower": 0.2393384594758383
+    },
+    {
+      "Q_left": "91/500",
+      "Q_right": "73/400",
+      "rate_3_lower": 0.016075073512383752,
+      "rate_gap_lower": 0.000626445127837811,
+      "rate_ratio_lower": 1.0399623155347832,
+      "classical_coefficient_lower": 0.23667792026430864
+    },
+    {
+      "Q_left": "73/400",
+      "Q_right": "183/1000",
+      "rate_3_lower": 0.01584191998189425,
+      "rate_gap_lower": 0.0006178544051289196,
+      "rate_ratio_lower": 1.0399969955891066,
+      "classical_coefficient_lower": 0.2340125879313288
+    },
+    {
+      "Q_left": "183/1000",
+      "Q_right": "367/2000",
+      "rate_3_lower": 0.015609792882628225,
+      "rate_gap_lower": 0.0006092845259988628,
+      "rate_ratio_lower": 1.0400313568408461,
+      "classical_coefficient_lower": 0.23134246445063342
+    },
+    {
+      "Q_left": "367/2000",
+      "Q_right": "23/125",
+      "rate_3_lower": 0.015378689733117953,
+      "rate_gap_lower": 0.0006007357129170587,
+      "rate_ratio_lower": 1.0400654004175547,
+      "classical_coefficient_lower": 0.22866755202727615
+    },
+    {
+      "Q_left": "23/125",
+      "Q_right": "369/2000",
+      "rate_3_lower": 0.01514860805396383,
+      "rate_gap_lower": 0.0005922081852980129,
+      "rate_ratio_lower": 1.0400991274484594,
+      "classical_coefficient_lower": 0.2259878530995015
+    },
+    {
+      "Q_left": "369/2000",
+      "Q_right": "37/200",
+      "rate_3_lower": 0.014919545367814875,
+      "rate_gap_lower": 0.0005837021595184432,
+      "rate_ratio_lower": 1.0401325390644416,
+      "classical_coefficient_lower": 0.2233033703406256
+    },
+    {
+      "Q_left": "37/200",
+      "Q_right": "371/2000",
+      "rate_3_lower": 0.01469149919934904,
+      "rate_gap_lower": 0.0005752178489343574,
+      "rate_ratio_lower": 1.0401656363980145,
+      "classical_coefficient_lower": 0.22061410666091538
+    },
+    {
+      "Q_left": "371/2000",
+      "Q_right": "93/500",
+      "rate_3_lower": 0.014464366929024206,
+      "rate_gap_lower": 0.0005667515399081955,
+      "rate_ratio_lower": 1.0401984205833046,
+      "classical_coefficient_lower": 0.21791855641742472
+    },
+    {
+      "Q_left": "93/500",
+      "Q_right": "373/2000",
+      "rate_3_lower": 0.014237483594747195,
+      "rate_gap_lower": 0.000558277453571611,
+      "rate_ratio_lower": 1.0402308927560295,
+      "classical_coefficient_lower": 0.2152066942151268
+    },
+    {
+      "Q_left": "373/2000",
+      "Q_right": "187/1000",
+      "rate_3_lower": 0.014011541655312916,
+      "rate_gap_lower": 0.0005498229977355592,
+      "rate_ratio_lower": 1.0402630540534785,
+      "classical_coefficient_lower": 0.21248894852592545
+    },
+    {
+      "Q_left": "187/1000",
+      "Q_right": "3/16",
+      "rate_3_lower": 0.013786612258629283,
+      "rate_gap_lower": 0.0005413912596005474,
+      "rate_ratio_lower": 1.0402949056144908,
+      "classical_coefficient_lower": 0.20976643271948223
+    },
+    {
+      "Q_left": "3/16",
+      "Q_right": "47/250",
+      "rate_3_lower": 0.013562692917218799,
+      "rate_gap_lower": 0.0005329824381126252,
+      "rate_ratio_lower": 1.0403264485794361,
+      "classical_coefficient_lower": 0.2070391510006244
+    },
+    {
+      "Q_left": "47/250",
+      "Q_right": "377/2000",
+      "rate_3_lower": 0.013339781145564234,
+      "rate_gap_lower": 0.0005245967292839749,
+      "rate_ratio_lower": 1.0403576840901922,
+      "classical_coefficient_lower": 0.2043071078236531
+    },
+    {
+      "Q_left": "377/2000",
+      "Q_right": "189/1000",
+      "rate_3_lower": 0.013117874460090023,
+      "rate_gap_lower": 0.0005162343262098883,
+      "rate_ratio_lower": 1.040388613290126,
+      "classical_coefficient_lower": 0.20157030789424443
+    },
+    {
+      "Q_left": "189/1000",
+      "Q_right": "379/2000",
+      "rate_3_lower": 0.012896970379144064,
+      "rate_gap_lower": 0.0005078954190857169,
+      "rate_ratio_lower": 1.0404192373240717,
+      "classical_coefficient_lower": 0.1988287561713555
+    },
+    {
+      "Q_left": "379/2000",
+      "Q_right": "19/100",
+      "rate_3_lower": 0.012677066422979734,
+      "rate_gap_lower": 0.0004995801952237934,
+      "rate_ratio_lower": 1.0404495573383101,
+      "classical_coefficient_lower": 0.1960824578691329
+    },
+    {
+      "Q_left": "19/100",
+      "Q_right": "381/2000",
+      "rate_3_lower": 0.012458160113737975,
+      "rate_gap_lower": 0.0004912888390703129,
+      "rate_ratio_lower": 1.0404795744805473,
+      "classical_coefficient_lower": 0.1933314184588206
+    },
+    {
+      "Q_left": "381/2000",
+      "Q_right": "191/1000",
+      "rate_3_lower": 0.012240248975429914,
+      "rate_gap_lower": 0.00048302153222219663,
+      "rate_ratio_lower": 1.0405092898998953,
+      "classical_coefficient_lower": 0.19057564367067478
+    },
+    {
+      "Q_left": "191/1000",
+      "Q_right": "383/2000",
+      "rate_3_lower": 0.012023330533919317,
+      "rate_gap_lower": 0.0004747784534439077,
+      "rate_ratio_lower": 1.0405387047468495,
+      "classical_coefficient_lower": 0.1878151394958741
+    },
+    {
+      "Q_left": "383/2000",
+      "Q_right": "24/125",
+      "rate_3_lower": 0.011807402316905717,
+      "rate_gap_lower": 0.00046655977868425403,
+      "rate_ratio_lower": 1.0405678201732687,
+      "classical_coefficient_lower": 0.18504991218843855
+    },
+    {
+      "Q_left": "24/125",
+      "Q_right": "77/400",
+      "rate_3_lower": 0.011592461853907087,
+      "rate_gap_lower": 0.00045836568109313205,
+      "rate_ratio_lower": 1.0405966373323534,
+      "classical_coefficient_lower": 0.18227996826713885
+    },
+    {
+      "Q_left": "77/400",
+      "Q_right": "193/1000",
+      "rate_3_lower": 0.01137850667624347,
+      "rate_gap_lower": 0.0004501963310382675,
+      "rate_ratio_lower": 1.040625157378626,
+      "classical_coefficient_lower": 0.17950531451741822
+    },
+    {
+      "Q_left": "193/1000",
+      "Q_right": "387/2000",
+      "rate_3_lower": 0.011165534317020344,
+      "rate_gap_lower": 0.00044205189612190563,
+      "rate_ratio_lower": 1.0406533814679084,
+      "classical_coefficient_lower": 0.17672595799330768
+    },
+    {
+      "Q_left": "387/2000",
+      "Q_right": "97/500",
+      "rate_3_lower": 0.010953542311112239,
+      "rate_gap_lower": 0.0004339325411974707,
+      "rate_ratio_lower": 1.0406813107573023,
+      "classical_coefficient_lower": 0.17394190601934176
+    },
+    {
+      "Q_left": "97/500",
+      "Q_right": "389/2000",
+      "rate_3_lower": 0.010742528195146778,
+      "rate_gap_lower": 0.00042583842838620086,
+      "rate_ratio_lower": 1.0407089464051666,
+      "classical_coefficient_lower": 0.1711531661924782
+    },
+    {
+      "Q_left": "389/2000",
+      "Q_right": "39/200",
+      "rate_3_lower": 0.010532489507488571,
+      "rate_gap_lower": 0.00041776971709373716,
+      "rate_ratio_lower": 1.040736289571098,
+      "classical_coefficient_lower": 0.16835974638401172
+    },
+    {
+      "Q_left": "39/200",
+      "Q_right": "391/2000",
+      "rate_3_lower": 0.010323423788223533,
+      "rate_gap_lower": 0.0004097265640266879,
+      "rate_ratio_lower": 1.0407633414159088,
+      "classical_coefficient_lower": 0.1655616547414904
+    },
+    {
+      "Q_left": "391/2000",
+      "Q_right": "49/250",
+      "rate_3_lower": 0.010115328579143445,
+      "rate_gap_lower": 0.00040170912320916166,
+      "rate_ratio_lower": 1.0407901031016062,
+      "classical_coefficient_lower": 0.1627588996906326
+    },
+    {
+      "Q_left": "49/250",
+      "Q_right": "393/2000",
+      "rate_3_lower": 0.009908201423730565,
+      "rate_gap_lower": 0.0003937175459992615,
+      "rate_ratio_lower": 1.0408165757913708,
+      "classical_coefficient_lower": 0.15995148993724004
+    },
+    {
+      "Q_left": "393/2000",
+      "Q_right": "197/1000",
+      "rate_3_lower": 0.009702039867142251,
+      "rate_gap_lower": 0.0003857519811055387,
+      "rate_ratio_lower": 1.0408427606495354,
+      "classical_coefficient_lower": 0.15713943446910647
+    },
+    {
+      "Q_left": "197/1000",
+      "Q_right": "79/400",
+      "rate_3_lower": 0.009496841456196305,
+      "rate_gap_lower": 0.0003778125746034331,
+      "rate_ratio_lower": 1.040868658841565,
+      "classical_coefficient_lower": 0.15432274255793352
+    },
+    {
+      "Q_left": "79/400",
+      "Q_right": "99/500",
+      "rate_3_lower": 0.009292603739355854,
+      "rate_gap_lower": 0.0003698994699516537,
+      "rate_ratio_lower": 1.0408942715340335,
+      "classical_coefficient_lower": 0.1515014237612334
+    },
+    {
+      "Q_left": "99/500",
+      "Q_right": "397/2000",
+      "rate_3_lower": 0.009089324266714912,
+      "rate_gap_lower": 0.0003620128080085466,
+      "rate_ratio_lower": 1.0409195998946046,
+      "classical_coefficient_lower": 0.1486754879242381
+    },
+    {
+      "Q_left": "397/2000",
+      "Q_right": "199/1000",
+      "rate_3_lower": 0.008887000589983766,
+      "rate_gap_lower": 0.0003541527270484126,
+      "rate_ratio_lower": 1.040944645092009,
+      "classical_coefficient_lower": 0.14584494518179922
+    },
+    {
+      "Q_left": "199/1000",
+      "Q_right": "399/2000",
+      "rate_3_lower": 0.008685630262474884,
+      "rate_gap_lower": 0.0003463193627778046,
+      "rate_ratio_lower": 1.0409694082960235,
+      "classical_coefficient_lower": 0.14300980596029075
+    },
+    {
+      "Q_left": "399/2000",
+      "Q_right": "1/5",
+      "rate_3_lower": 0.008485210839088424,
+      "rate_gap_lower": 0.0003385128483517674,
+      "rate_ratio_lower": 1.0409938906774505,
+      "classical_coefficient_lower": 0.14017008097949932
+    }
+  ],
+  "scope": "One fixed complete terminal measurement, zero syndrome, all legal fixed loading orders, eager rejection, same one-way 1-H terminal. Not an upper bound on other low-memory measurements.",
+  "arithmetic": "Exact rational cost polynomials and Bernstein nonnegativity; outward probability and analytic entropy enclosures on 100 exactly covering Q boxes.",
+  "source_sha256": "35d80f1a69e0eb144da6085fd531fa057436fea92c92004acd4920a0b85fe608"
+}

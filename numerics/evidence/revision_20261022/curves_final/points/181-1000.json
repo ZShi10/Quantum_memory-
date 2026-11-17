@@ -1,0 +1,418 @@
+{
+  "Q": "181/1000",
+  "policy_sha256": "ca294347f3fff072c3e1465b8d5672ed87647b124c87628e0b665f3a74e5345b",
+  "results": {
+    "11dfaeb6be68f369": {
+      "status": "full_interval",
+      "lower": 0.009939105020795543,
+      "certificate": {
+        "lower": 0.009939105020795543,
+        "upper": 0.009939241678360836,
+        "gap": 1.3665756529342155e-07,
+        "argmin": 1.0,
+        "cells": 143,
+        "converged": true,
+        "atol": 1.9878483356721674e-07,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.009939241678360836,
+      "reused_from": "C:\\Users\\Frank\\Desktop\\\u91cf\u5b50\u4fe1\u606f\u2014\u2014QKD\\AKD2\\research\\revision_20261022\\curves_extended\\points\\181-1000.json"
+    },
+    "1602011f77994c81": {
+      "status": "full_interval",
+      "lower": 0.01096010950223947,
+      "certificate": {
+        "lower": 0.01096010950223947,
+        "upper": 0.010960128835150434,
+        "gap": 1.9332910964828254e-08,
+        "argmin": 0.12225341796875,
+        "cells": 227,
+        "converged": true,
+        "atol": 2e-08,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.010961924763617993,
+      "reused_from": "C:\\Users\\Frank\\Desktop\\\u91cf\u5b50\u4fe1\u606f\u2014\u2014QKD\\AKD2\\research\\revision_20261022\\curves_extended\\points\\181-1000.json"
+    },
+    "1e8373e76305fbad": {
+      "status": "full_interval",
+      "lower": 0.012478861355562107,
+      "certificate": {
+        "lower": 0.012478861355562107,
+        "upper": 0.012478878094564699,
+        "gap": 1.6739002592011665e-08,
+        "argmin": 0.47102510929107666,
+        "cells": 243,
+        "converged": true,
+        "atol": 2e-08,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.01496994002287777,
+      "reused_from": "C:\\Users\\Frank\\Desktop\\\u91cf\u5b50\u4fe1\u606f\u2014\u2014QKD\\AKD2\\research\\revision_20261022\\curves_extended\\points\\181-1000.json"
+    },
+    "300a0c27b5d1cc72": {
+      "status": "screened",
+      "known_source_upper": 6.795790390402873e-05,
+      "screening_target": 0.012478861355562107
+    },
+    "39e045683407b05f": {
+      "status": "full_interval",
+      "lower": 0.01583102188140165,
+      "certificate": {
+        "lower": 0.01583102188140165,
+        "upper": 0.015831040438597736,
+        "gap": 1.8557196085344785e-08,
+        "argmin": 0.279022216796875,
+        "cells": 255,
+        "converged": true,
+        "atol": 2e-08,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.01593728545709053,
+      "reused_from": "C:\\Users\\Frank\\Desktop\\\u91cf\u5b50\u4fe1\u606f\u2014\u2014QKD\\AKD2\\research\\revision_20261022\\curves_extended\\points\\181-1000.json"
+    },
+    "8e79cb0efaae25e2": {
+      "status": "screened",
+      "known_source_upper": 0.004973412669663574,
+      "screening_target": 0.012478861355562107
+    },
+    "a70b0fd775d8b259": {
+      "status": "screened",
+      "known_source_upper": 0.004973412669662915,
+      "screening_target": 0.012478861355562107
+    },
+    "aa256cae07e1f82c": {
+      "status": "screened",
+      "known_source_upper": 0.0062016846544996115,
+      "screening_target": 0.012478861355562107
+    },
+    "e84d45b14edc14a8": {
+      "status": "screened",
+      "known_source_upper": 0.01096192476361821,
+      "screening_target": 0.012478861355562107
+    },
+    "0be5a60c56c5a3d4": {
+      "status": "screened",
+      "known_source_upper": 0.009529664544479108,
+      "screening_target": 0.01583102188140165
+    },
+    "1e4f5b87394e850f": {
+      "status": "full_interval",
+      "lower": 0.0005459824204252255,
+      "certificate": {
+        "lower": 0.0005459824204252255,
+        "upper": 0.0005459880072526641,
+        "gap": 5.586827438609082e-09,
+        "argmin": 1.0,
+        "cells": 257,
+        "converged": true,
+        "atol": 1.0919760145053285e-08,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.0005459880072526641
+    },
+    "3ebd7670a05411b9": {
+      "status": "full_interval",
+      "lower": 0.016088463963918248,
+      "certificate": {
+        "lower": 0.016088463963918248,
+        "upper": 0.01608869342097551,
+        "gap": 2.2945705726098997e-07,
+        "argmin": 1.0,
+        "cells": 175,
+        "converged": true,
+        "atol": 3.217738684195102e-07,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.01608869342097551,
+      "reused_from": "C:\\Users\\Frank\\Desktop\\\u91cf\u5b50\u4fe1\u606f\u2014\u2014QKD\\AKD2\\research\\revision_20261022\\curves_extended\\points\\181-1000.json"
+    },
+    "51d3ef133b983526": {
+      "status": "screened",
+      "known_source_upper": 0.015722393236700723,
+      "screening_target": 0.016088463963918248
+    },
+    "599377c231c6a06c": {
+      "status": "full_interval",
+      "lower": 0.015856259319293266,
+      "certificate": {
+        "lower": 0.015856259319293266,
+        "upper": 0.015856278413711105,
+        "gap": 1.9094417838538824e-08,
+        "argmin": 1.0,
+        "cells": 175,
+        "converged": true,
+        "atol": 2e-08,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.015856278413711105,
+      "reused_from": "C:\\Users\\Frank\\Desktop\\\u91cf\u5b50\u4fe1\u606f\u2014\u2014QKD\\AKD2\\research\\revision_20261022\\curves_extended\\points\\181-1000.json"
+    },
+    "5dd41b77896defb8": {
+      "status": "screened",
+      "known_source_upper": 0.0032903166593662913,
+      "screening_target": 0.015856259319293266
+    },
+    "7004d2a4878c487f": {
+      "status": "screened",
+      "known_source_upper": 0.016015281910942574,
+      "screening_target": 0.016088463963918248
+    },
+    "8ac3ebfec388ad31": {
+      "status": "screened",
+      "known_source_upper": 0.014902495015793101,
+      "screening_target": 0.015856259319293266
+    },
+    "915fe386fe6a7934": {
+      "status": "full_interval",
+      "lower": 0.016088674334350375,
+      "certificate": {
+        "lower": 0.016088674334350375,
+        "upper": 0.016088693420973323,
+        "gap": 1.9086622948805143e-08,
+        "argmin": 1.0,
+        "cells": 109,
+        "converged": true,
+        "atol": 2e-08,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.016088693420973323,
+      "reused_from": "C:\\Users\\Frank\\Desktop\\\u91cf\u5b50\u4fe1\u606f\u2014\u2014QKD\\AKD2\\research\\revision_20261022\\curves_extended\\points\\181-1000.json"
+    },
+    "d36fa5329b6c54ff": {
+      "status": "screened",
+      "known_source_upper": 0.0032903166593662913,
+      "screening_target": 0.015856259319293266
+    },
+    "d78cb798c495c2a5": {
+      "status": "full_interval",
+      "lower": 0.015846308336276028,
+      "certificate": {
+        "lower": 0.015846308336276028,
+        "upper": 0.015846326772667067,
+        "gap": 1.8436391038822997e-08,
+        "argmin": 0.199310302734375,
+        "cells": 213,
+        "converged": true,
+        "atol": 2e-08,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.01614695327662732,
+      "reused_from": "C:\\Users\\Frank\\Desktop\\\u91cf\u5b50\u4fe1\u606f\u2014\u2014QKD\\AKD2\\research\\revision_20261022\\curves_extended\\points\\181-1000.json"
+    },
+    "f270d789217422f0": {
+      "status": "screened",
+      "known_source_upper": 0.002428295987058294,
+      "screening_target": 0.015856259319293266
+    },
+    "35d87a26c805ed48": {
+      "status": "full_interval",
+      "lower": 0.01608840080364327,
+      "certificate": {
+        "lower": 0.01608840080364327,
+        "upper": 0.016088693420975,
+        "gap": 2.9261733172983306e-07,
+        "argmin": 1.0,
+        "cells": 105,
+        "converged": true,
+        "atol": 3.217738684195e-07,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.016088693420975,
+      "reused_from": "C:\\Users\\Frank\\Desktop\\\u91cf\u5b50\u4fe1\u606f\u2014\u2014QKD\\AKD2\\research\\revision_20261022\\curves_extended\\points\\181-1000.json"
+    },
+    "398faa5a197f3071": {
+      "status": "screened",
+      "known_source_upper": 0.010985527909522261,
+      "screening_target": 0.016088674334350375
+    },
+    "517f29ec6c3edc17": {
+      "status": "full_interval",
+      "lower": 0.017539855031559772,
+      "certificate": {
+        "lower": 0.017539855031559772,
+        "upper": 0.017539874898363374,
+        "gap": 1.986680360152593e-08,
+        "argmin": 0.0596923828125,
+        "cells": 215,
+        "converged": true,
+        "atol": 2e-08,
+        "arithmetic": "Outward values and derivative intervals; fixed rational allocations; all public syndrome streams; signed OTP costs; whole [0,1]."
+      },
+      "known_source_upper": 0.01816735138992238,
+      "reused_from": "C:\\Users\\Frank\\Desktop\\\u91cf\u5b50\u4fe1\u606f\u2014\u2014QKD\\AKD2\\research\\revision_20261022\\curves_extended\\points\\181-1000.json"
+    },
+    "66455e29ac52da03": {
+      "status": "screened",
+      "known_source_upper": 0.017464347059062857,
+      "screening_target": 0.017539855031559772
+    },
+    "96dab872d3ee18a2": {
+      "status": "screened",
+      "known_source_upper": 0.015501426431707342,
+      "screening_target": 0.017539855031559772
+    },
+    "a564aaced646b413": {
+      "status": "screened",
+      "known_source_upper": 0.01693444647477305,
+      "screening_target": 0.017539855031559772
+    },
+    "a8492ade303a6816": {
+      "status": "screened",
+      "known_source_upper": 0.003987366380520538,
+      "screening_target": 0.017539855031559772
+    },
+    "bdd4a21ed4b48648": {
+      "status": "screened",
+      "known_source_upper": 0.003987366380516898,
+      "screening_target": 0.017539855031559772
+    },
+    "d50d1de0e3ebf07c": {
+      "status": "screened",
+      "known_source_upper": 0.01424843074019031,
+      "screening_target": 0.017539855031559772
+    },
+    "d5bb7dd77f913c20": {
+      "status": "screened",
+      "known_source_upper": 0.010985527909522263,
+      "screening_target": 0.017539855031559772
+    },
+    "e3129ad617f99727": {
+      "status": "screened",
+      "known_source_upper": 0.01608869341937336,
+      "screening_target": 0.017539855031559772
+    },
+    "ebf3cf970ecb0595": {
+      "status": "screened",
+      "known_source_upper": 0.003987361356619712,
+      "screening_target": 0.017539855031559772
+    },
+    "4d6455f062452d7f": {
+      "status": "screened",
+      "known_source_upper": 0.0038943317041849877,
+      "screening_target": 0.017539855031559772
+    },
+    "50c9347d1ce7bedd": {
+      "status": "screened",
+      "known_source_upper": 0.01548384656105724,
+      "screening_target": 0.017539855031559772
+    },
+    "612aadd59f69a750": {
+      "status": "screened",
+      "known_source_upper": 0.0038943317041865424,
+      "screening_target": 0.017539855031559772
+    },
+    "9081f8d145dc7125": {
+      "status": "screened",
+      "known_source_upper": 0.0038943317041849872,
+      "screening_target": 0.017539855031559772
+    },
+    "423ab3d4bd9e54ed": {
+      "status": "screened",
+      "known_source_upper": 0.010922899181583094,
+      "screening_target": 0.017539855031559772
+    },
+    "d14889897fdc6fa7": {
+      "status": "screened",
+      "known_source_upper": 0.0038943317041854587,
+      "screening_target": 0.017539855031559772
+    },
+    "3b013b6c3f381a13": {
+      "status": "screened",
+      "known_source_upper": 0.002500426205030476,
+      "screening_target": 0.017539855031559772
+    },
+    "c5a0e7f215b3d25d": {
+      "status": "screened",
+      "known_source_upper": 0.0038943317041849877,
+      "screening_target": 0.017539855031559772
+    },
+    "caac5d7a8d8a3dfb": {
+      "status": "screened",
+      "known_source_upper": 0.0038943317041849872,
+      "screening_target": 0.017539855031559772
+    },
+    "650e8fd1a3964b1d": {
+      "status": "screened",
+      "known_source_upper": 0.002500426205030476,
+      "screening_target": 0.017539855031559772
+    },
+    "25e95292c0d28751": {
+      "status": "screened",
+      "known_source_upper": 0.0012939793834693793,
+      "screening_target": 0.017539855031559772
+    }
+  },
+  "lower_envelopes": {
+    "real_xz": [
+      0.0,
+      0.0,
+      0.015856259319293266,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772
+    ],
+    "real_xyz": [
+      0.0,
+      0.012478861355562107,
+      0.015856259319293266,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772
+    ],
+    "full": [
+      0.0,
+      0.01583102188140165,
+      0.016088674334350375,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772,
+      0.017539855031559772
+    ]
+  },
+  "winners": {
+    "real_xz": [
+      null,
+      null,
+      "599377c231c6a06c",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17"
+    ],
+    "real_xyz": [
+      null,
+      "1e8373e76305fbad",
+      "599377c231c6a06c",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17"
+    ],
+    "full": [
+      null,
+      "39e045683407b05f",
+      "915fe386fe6a7934",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17",
+      "517f29ec6c3edc17"
+    ]
+  },
+  "base_sha256": "a85a6b2394adde4af5158253e7ce7a7886bb682b07a71a55359fccc99057b9a5",
+  "scope": "Fixed-policy achievable envelopes over every hidden source. Late control winners included; no whole-family or continuum-in-Q optimality claim."
+}

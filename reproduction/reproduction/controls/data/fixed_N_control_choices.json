@@ -1,0 +1,2858 @@
+[
+  {
+    "Q": 0.15,
+    "choices": {
+      "fixed_1_1": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_1": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 1,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_2": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_2": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 1,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_3": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_3": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 1,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_4": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_4": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 1,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_2_1": {
+        "graph": "LC2_000",
+        "dual": 3
+      },
+      "early_2_1": {
+        "graph": "LC2_000",
+        "dual": 3,
+        "B": 0,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.7449999999999999
+      },
+      "fixed_2_2": {
+        "graph": "LC2_001",
+        "dual": 1
+      },
+      "early_2_2": {
+        "graph": "LC2_001",
+        "dual": 1,
+        "B": 0,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.7449999999999999
+      },
+      "fixed_2_3": {
+        "graph": "LC2_001",
+        "dual": 1
+      },
+      "early_2_3": {
+        "graph": "LC2_001",
+        "dual": 1,
+        "B": 0,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.7449999999999999
+      },
+      "fixed_2_4": {
+        "graph": "LC2_001",
+        "dual": 1
+      },
+      "early_2_4": {
+        "graph": "LC2_001",
+        "dual": 1,
+        "B": 0,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.7449999999999999
+      },
+      "fixed_3_1": {
+        "graph": "LC3_000",
+        "dual": 5
+      },
+      "early_3_1": {
+        "graph": "LC3_000",
+        "dual": 5,
+        "B": 0,
+        "mean_attempt_cost": 2.7,
+        "acceptance": 0.6332499999999999
+      },
+      "fixed_3_2": {
+        "graph": "LC3_002",
+        "dual": 5
+      },
+      "early_3_2": {
+        "graph": "LC3_002",
+        "dual": 5,
+        "B": 0,
+        "mean_attempt_cost": 2.745,
+        "acceptance": 0.5439999999999999
+      },
+      "fixed_3_3": {
+        "graph": "LC3_002",
+        "dual": 5
+      },
+      "early_3_3": {
+        "graph": "LC3_002",
+        "dual": 5,
+        "B": 0,
+        "mean_attempt_cost": 2.745,
+        "acceptance": 0.5439999999999999
+      },
+      "fixed_3_4": {
+        "graph": "LC3_002",
+        "dual": 5
+      },
+      "early_3_4": {
+        "graph": "LC3_002",
+        "dual": 5,
+        "B": 0,
+        "mean_attempt_cost": 2.745,
+        "acceptance": 0.5439999999999999
+      },
+      "fixed_4_1": {
+        "graph": "LC4_000",
+        "dual": 12
+      },
+      "early_4_1": {
+        "graph": "LC4_000",
+        "dual": 14,
+        "B": 0,
+        "mean_attempt_cost": 3.33325,
+        "acceptance": 0.5248749999999999
+      },
+      "fixed_4_2": {
+        "graph": "LC4_005",
+        "dual": 6
+      },
+      "early_4_2": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 0,
+        "mean_attempt_cost": 3.49,
+        "acceptance": 0.39756249999999993
+      },
+      "fixed_4_3": {
+        "graph": "LC4_005",
+        "dual": 6
+      },
+      "early_4_3": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 0,
+        "mean_attempt_cost": 3.49,
+        "acceptance": 0.39756249999999993
+      },
+      "fixed_4_4": {
+        "graph": "LC4_005",
+        "dual": 6
+      },
+      "early_4_4": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 0,
+        "mean_attempt_cost": 3.49,
+        "acceptance": 0.39756249999999993
+      },
+      "fixed_5_1": {
+        "graph": "LC5_000",
+        "dual": 12
+      },
+      "early_5_1": {
+        "graph": "LC5_000",
+        "dual": 7,
+        "B": 0,
+        "mean_attempt_cost": 3.8332625,
+        "acceptance": 0.4461437499999999
+      },
+      "fixed_5_2": {
+        "graph": "LC5_006",
+        "dual": 11
+      },
+      "early_5_2": {
+        "graph": "LC5_006",
+        "dual": 17,
+        "B": 0,
+        "mean_attempt_cost": 3.8875625,
+        "acceptance": 0.33792812499999997
+      },
+      "fixed_5_3": {
+        "graph": "LC5_006",
+        "dual": 11
+      },
+      "early_5_3": {
+        "graph": "LC5_010",
+        "dual": 31,
+        "B": 0,
+        "mean_attempt_cost": 4.430075,
+        "acceptance": 0.28759375
+      },
+      "fixed_5_4": {
+        "graph": "LC5_006",
+        "dual": 11
+      },
+      "early_5_4": {
+        "graph": "LC5_010",
+        "dual": 31,
+        "B": 0,
+        "mean_attempt_cost": 4.430075,
+        "acceptance": 0.28759375
+      },
+      "fixed_6_1": {
+        "graph": "LC6_000",
+        "dual": 6
+      },
+      "early_6_1": {
+        "graph": "LC6_000",
+        "dual": 7,
+        "B": 0,
+        "mean_attempt_cost": 4.258273125,
+        "acceptance": 0.37922218749999986
+      },
+      "fixed_6_2": {
+        "graph": "LC6_007",
+        "dual": 18
+      },
+      "early_6_2": {
+        "graph": "LC6_012",
+        "dual": 17,
+        "B": 0,
+        "mean_attempt_cost": 4.1376825,
+        "acceptance": 0.2589801249999999
+      },
+      "fixed_6_3": {
+        "graph": "LC6_007",
+        "dual": 18
+      },
+      "early_6_3": {
+        "graph": "LC6_021",
+        "dual": 59,
+        "B": 0,
+        "mean_attempt_cost": 4.7176687500000005,
+        "acceptance": 0.24445468749999996
+      },
+      "fixed_6_4": {
+        "graph": "LC6_007",
+        "dual": 18
+      },
+      "early_6_4": {
+        "graph": "LC6_021",
+        "dual": 59,
+        "B": 0,
+        "mean_attempt_cost": 4.7176687500000005,
+        "acceptance": 0.24445468749999996
+      },
+      "fixed_7_1": {
+        "graph": "LC7_000",
+        "dual": 3
+      },
+      "early_7_1": {
+        "graph": "LC7_000",
+        "dual": 25,
+        "B": 0,
+        "mean_attempt_cost": 4.619532156249999,
+        "acceptance": 0.32233885937499984
+      },
+      "fixed_7_2": {
+        "graph": "LC7_026",
+        "dual": 21
+      },
+      "early_7_2": {
+        "graph": "LC7_015",
+        "dual": 33,
+        "B": 0,
+        "mean_attempt_cost": 4.396662625,
+        "acceptance": 0.22013310624999993
+      },
+      "fixed_7_3": {
+        "graph": "LC7_026",
+        "dual": 21
+      },
+      "early_7_3": {
+        "graph": "LC7_035",
+        "dual": 115,
+        "B": 0,
+        "mean_attempt_cost": 4.962123437500001,
+        "acceptance": 0.20778648437499994
+      },
+      "fixed_7_4": {
+        "graph": "LC7_026",
+        "dual": 21
+      },
+      "early_7_4": {
+        "graph": "LC7_035",
+        "dual": 115,
+        "B": 0,
+        "mean_attempt_cost": 4.962123437500001,
+        "acceptance": 0.20778648437499994
+      },
+      "fixed_8_1": {
+        "graph": "LC8_000",
+        "dual": 5
+      },
+      "early_8_1": {
+        "graph": "LC8_000",
+        "dual": 7,
+        "B": 0,
+        "mean_attempt_cost": 4.926602332812499,
+        "acceptance": 0.2739880304687499
+      },
+      "fixed_8_2": {
+        "graph": "LC8_107",
+        "dual": 21
+      },
+      "early_8_2": {
+        "graph": "LC8_037",
+        "dual": 131,
+        "B": 0,
+        "mean_attempt_cost": 4.7145600078125,
+        "acceptance": 0.16771178007812496
+      },
+      "fixed_8_3": {
+        "graph": "LC8_107",
+        "dual": 21
+      },
+      "early_8_3": {
+        "graph": "LC8_052",
+        "dual": 227,
+        "B": 0,
+        "mean_attempt_cost": 5.169909921875001,
+        "acceptance": 0.17661851171874995
+      },
+      "fixed_8_4": {
+        "graph": "LC8_107",
+        "dual": 21
+      },
+      "early_8_4": {
+        "graph": "LC8_052",
+        "dual": 227,
+        "B": 0,
+        "mean_attempt_cost": 5.169909921875001,
+        "acceptance": 0.17661851171874995
+      }
+    }
+  },
+  {
+    "Q": 0.2,
+    "choices": {
+      "fixed_1_1": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_1": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 2,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_2": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_2": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 2,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_3": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_3": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 2,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_4": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_4": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 2,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_2_1": {
+        "graph": "LC2_000",
+        "dual": 3
+      },
+      "early_2_1": {
+        "graph": "LC2_000",
+        "dual": 3,
+        "B": 1,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.68
+      },
+      "fixed_2_2": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_2": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 1,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6799999999999999
+      },
+      "fixed_2_3": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_3": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 1,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6799999999999999
+      },
+      "fixed_2_4": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_4": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 1,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6799999999999999
+      },
+      "fixed_3_1": {
+        "graph": "LC3_000",
+        "dual": 7
+      },
+      "early_3_1": {
+        "graph": "LC3_000",
+        "dual": 7,
+        "B": 0,
+        "mean_attempt_cost": 2.68,
+        "acceptance": 0.52
+      },
+      "fixed_3_2": {
+        "graph": "LC3_002",
+        "dual": 2
+      },
+      "early_3_2": {
+        "graph": "LC3_002",
+        "dual": 2,
+        "B": 1,
+        "mean_attempt_cost": 2.6799999999999997,
+        "acceptance": 0.44799999999999995
+      },
+      "fixed_3_3": {
+        "graph": "LC3_002",
+        "dual": 2
+      },
+      "early_3_3": {
+        "graph": "LC3_002",
+        "dual": 2,
+        "B": 1,
+        "mean_attempt_cost": 2.6799999999999997,
+        "acceptance": 0.44799999999999995
+      },
+      "fixed_3_4": {
+        "graph": "LC3_002",
+        "dual": 2
+      },
+      "early_3_4": {
+        "graph": "LC3_002",
+        "dual": 2,
+        "B": 1,
+        "mean_attempt_cost": 2.6799999999999997,
+        "acceptance": 0.44799999999999995
+      },
+      "fixed_4_1": {
+        "graph": "LC4_000",
+        "dual": 15
+      },
+      "early_4_1": {
+        "graph": "LC4_000",
+        "dual": 15,
+        "B": 0,
+        "mean_attempt_cost": 3.2,
+        "acceptance": 0.41119999999999995
+      },
+      "fixed_4_2": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_2": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 0,
+        "mean_attempt_cost": 3.3599999999999994,
+        "acceptance": 0.29599999999999993
+      },
+      "fixed_4_3": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_3": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 0,
+        "mean_attempt_cost": 3.3599999999999994,
+        "acceptance": 0.29599999999999993
+      },
+      "fixed_4_4": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_4": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 0,
+        "mean_attempt_cost": 3.3599999999999994,
+        "acceptance": 0.29599999999999993
+      },
+      "fixed_5_1": {
+        "graph": "LC5_000",
+        "dual": 15
+      },
+      "early_5_1": {
+        "graph": "LC5_000",
+        "dual": 15,
+        "B": 0,
+        "mean_attempt_cost": 3.56,
+        "acceptance": 0.32896
+      },
+      "fixed_5_2": {
+        "graph": "LC5_006",
+        "dual": 17
+      },
+      "early_5_2": {
+        "graph": "LC5_009",
+        "dual": 9,
+        "B": 0,
+        "mean_attempt_cost": 3.5759999999999996,
+        "acceptance": 0.20415999999999998
+      },
+      "fixed_5_3": {
+        "graph": "LC5_010",
+        "dual": 31
+      },
+      "early_5_3": {
+        "graph": "LC5_010",
+        "dual": 31,
+        "B": 0,
+        "mean_attempt_cost": 4.3472,
+        "acceptance": 0.18399999999999994
+      },
+      "fixed_5_4": {
+        "graph": "LC5_010",
+        "dual": 31
+      },
+      "early_5_4": {
+        "graph": "LC5_010",
+        "dual": 31,
+        "B": 0,
+        "mean_attempt_cost": 4.3472,
+        "acceptance": 0.18399999999999994
+      },
+      "fixed_6_1": {
+        "graph": "LC6_000",
+        "dual": 60
+      },
+      "early_6_1": {
+        "graph": "LC6_000",
+        "dual": 60,
+        "B": 0,
+        "mean_attempt_cost": 3.848,
+        "acceptance": 0.26316799999999996
+      },
+      "fixed_6_2": {
+        "graph": "LC6_007",
+        "dual": 33
+      },
+      "early_6_2": {
+        "graph": "LC6_020",
+        "dual": 43,
+        "B": 0,
+        "mean_attempt_cost": 4.023359999999999,
+        "acceptance": 0.13375999999999996
+      },
+      "fixed_6_3": {
+        "graph": "LC6_021",
+        "dual": 59
+      },
+      "early_6_3": {
+        "graph": "LC6_021",
+        "dual": 59,
+        "B": 0,
+        "mean_attempt_cost": 4.47776,
+        "acceptance": 0.14719999999999997
+      },
+      "fixed_6_4": {
+        "graph": "LC6_021",
+        "dual": 59
+      },
+      "early_6_4": {
+        "graph": "LC6_021",
+        "dual": 59,
+        "B": 0,
+        "mean_attempt_cost": 4.47776,
+        "acceptance": 0.14719999999999997
+      },
+      "fixed_7_1": {
+        "graph": "LC7_000",
+        "dual": 113
+      },
+      "early_7_1": {
+        "graph": "LC7_000",
+        "dual": 29,
+        "B": 0,
+        "mean_attempt_cost": 4.0784,
+        "acceptance": 0.21053439999999998
+      },
+      "fixed_7_2": {
+        "graph": "LC7_008",
+        "dual": 65
+      },
+      "early_7_2": {
+        "graph": "LC7_046",
+        "dual": 115,
+        "B": 0,
+        "mean_attempt_cost": 4.204479999999999,
+        "acceptance": 0.09337599999999996
+      },
+      "fixed_7_3": {
+        "graph": "LC7_035",
+        "dual": 115
+      },
+      "early_7_3": {
+        "graph": "LC7_035",
+        "dual": 115,
+        "B": 0,
+        "mean_attempt_cost": 4.5822080000000005,
+        "acceptance": 0.11775999999999996
+      },
+      "fixed_7_4": {
+        "graph": "LC7_035",
+        "dual": 115
+      },
+      "early_7_4": {
+        "graph": "LC7_035",
+        "dual": 115,
+        "B": 0,
+        "mean_attempt_cost": 4.5822080000000005,
+        "acceptance": 0.11775999999999996
+      },
+      "fixed_8_1": {
+        "graph": "LC8_000",
+        "dual": 113
+      },
+      "early_8_1": {
+        "graph": "LC8_000",
+        "dual": 30,
+        "B": 0,
+        "mean_attempt_cost": 4.26272,
+        "acceptance": 0.16842752
+      },
+      "fixed_8_2": {
+        "graph": "LC8_049",
+        "dual": 65
+      },
+      "early_8_2": {
+        "graph": "LC8_080",
+        "dual": 227,
+        "B": 0,
+        "mean_attempt_cost": 4.2978559999999995,
+        "acceptance": 0.07470079999999998
+      },
+      "fixed_8_3": {
+        "graph": "LC8_111",
+        "dual": 213
+      },
+      "early_8_3": {
+        "graph": "LC8_052",
+        "dual": 227,
+        "B": 0,
+        "mean_attempt_cost": 4.6657664,
+        "acceptance": 0.09420799999999999
+      },
+      "fixed_8_4": {
+        "graph": "LC8_111",
+        "dual": 213
+      },
+      "early_8_4": {
+        "graph": "LC8_052",
+        "dual": 227,
+        "B": 0,
+        "mean_attempt_cost": 4.6657664,
+        "acceptance": 0.09420799999999999
+      }
+    }
+  },
+  {
+    "Q": 0.23,
+    "choices": {
+      "fixed_1_1": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_1": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 3,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_2": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_2": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 3,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_3": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_3": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 3,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_4": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_4": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 3,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_2_1": {
+        "graph": "LC2_000",
+        "dual": 3
+      },
+      "early_2_1": {
+        "graph": "LC2_000",
+        "dual": 3,
+        "B": 2,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6457999999999999
+      },
+      "fixed_2_2": {
+        "graph": "LC2_001",
+        "dual": 1
+      },
+      "early_2_2": {
+        "graph": "LC2_001",
+        "dual": 1,
+        "B": 2,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6457999999999999
+      },
+      "fixed_2_3": {
+        "graph": "LC2_001",
+        "dual": 1
+      },
+      "early_2_3": {
+        "graph": "LC2_001",
+        "dual": 1,
+        "B": 2,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6457999999999999
+      },
+      "fixed_2_4": {
+        "graph": "LC2_001",
+        "dual": 1
+      },
+      "early_2_4": {
+        "graph": "LC2_001",
+        "dual": 1,
+        "B": 2,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6457999999999999
+      },
+      "fixed_3_1": {
+        "graph": "LC3_000",
+        "dual": 7
+      },
+      "early_3_1": {
+        "graph": "LC3_000",
+        "dual": 7,
+        "B": 1,
+        "mean_attempt_cost": 2.6458,
+        "acceptance": 0.4687
+      },
+      "fixed_3_2": {
+        "graph": "LC3_002",
+        "dual": 2
+      },
+      "early_3_2": {
+        "graph": "LC3_002",
+        "dual": 2,
+        "B": 1,
+        "mean_attempt_cost": 2.6458,
+        "acceptance": 0.40163200000000004
+      },
+      "fixed_3_3": {
+        "graph": "LC3_002",
+        "dual": 2
+      },
+      "early_3_3": {
+        "graph": "LC3_002",
+        "dual": 2,
+        "B": 1,
+        "mean_attempt_cost": 2.6458,
+        "acceptance": 0.40163200000000004
+      },
+      "fixed_3_4": {
+        "graph": "LC3_002",
+        "dual": 2
+      },
+      "early_3_4": {
+        "graph": "LC3_002",
+        "dual": 2,
+        "B": 1,
+        "mean_attempt_cost": 2.6458,
+        "acceptance": 0.40163200000000004
+      },
+      "fixed_4_1": {
+        "graph": "LC4_000",
+        "dual": 7
+      },
+      "early_4_1": {
+        "graph": "LC4_000",
+        "dual": 7,
+        "B": 1,
+        "mean_attempt_cost": 3.037266,
+        "acceptance": 0.360899
+      },
+      "fixed_4_2": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_2": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 1,
+        "mean_attempt_cost": 3.2916,
+        "acceptance": 0.2510441
+      },
+      "fixed_4_3": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_3": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 1,
+        "mean_attempt_cost": 3.2916,
+        "acceptance": 0.2510441
+      },
+      "fixed_4_4": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_4": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 1,
+        "mean_attempt_cost": 3.2916,
+        "acceptance": 0.2510441
+      },
+      "fixed_5_1": {
+        "graph": "LC5_000",
+        "dual": 26
+      },
+      "early_5_1": {
+        "graph": "LC5_000",
+        "dual": 25,
+        "B": 1,
+        "mean_attempt_cost": 3.3386948199999997,
+        "acceptance": 0.27789223
+      },
+      "fixed_5_2": {
+        "graph": "LC5_006",
+        "dual": 17
+      },
+      "early_5_2": {
+        "graph": "LC5_009",
+        "dual": 9,
+        "B": 1,
+        "mean_attempt_cost": 3.449064,
+        "acceptance": 0.16242373840000002
+      },
+      "fixed_5_3": {
+        "graph": "LC5_010",
+        "dual": 31
+      },
+      "early_5_3": {
+        "graph": "LC5_010",
+        "dual": 31,
+        "B": 0,
+        "mean_attempt_cost": 4.31377292,
+        "acceptance": 0.14221615
+      },
+      "fixed_5_4": {
+        "graph": "LC5_010",
+        "dual": 31
+      },
+      "early_5_4": {
+        "graph": "LC5_010",
+        "dual": 31,
+        "B": 0,
+        "mean_attempt_cost": 4.31377292,
+        "acceptance": 0.14221615
+      },
+      "fixed_6_1": {
+        "graph": "LC6_000",
+        "dual": 44
+      },
+      "early_6_1": {
+        "graph": "LC6_000",
+        "dual": 63,
+        "B": 0,
+        "mean_attempt_cost": 3.74015087,
+        "acceptance": 0.20857041597800002
+      },
+      "fixed_6_2": {
+        "graph": "LC6_018",
+        "dual": 33
+      },
+      "early_6_2": {
+        "graph": "LC6_020",
+        "dual": 21,
+        "B": 0,
+        "mean_attempt_cost": 3.8766246084000002,
+        "acceptance": 0.09808151969000002
+      },
+      "fixed_6_3": {
+        "graph": "LC6_021",
+        "dual": 59
+      },
+      "early_6_3": {
+        "graph": "LC6_022",
+        "dual": 59,
+        "B": 0,
+        "mean_attempt_cost": 4.1430658912,
+        "acceptance": 0.09487452913400002
+      },
+      "fixed_6_4": {
+        "graph": "LC6_021",
+        "dual": 59
+      },
+      "early_6_4": {
+        "graph": "LC6_022",
+        "dual": 59,
+        "B": 0,
+        "mean_attempt_cost": 4.1430658912,
+        "acceptance": 0.09487452913400002
+      },
+      "fixed_7_1": {
+        "graph": "LC7_000",
+        "dual": 56
+      },
+      "early_7_1": {
+        "graph": "LC7_000",
+        "dual": 126,
+        "B": 0,
+        "mean_attempt_cost": 3.8799161699,
+        "acceptance": 0.16059922030306
+      },
+      "fixed_7_2": {
+        "graph": "LC7_032",
+        "dual": 33
+      },
+      "early_7_2": {
+        "graph": "LC7_046",
+        "dual": 115,
+        "B": 0,
+        "mean_attempt_cost": 4.01854129978,
+        "acceptance": 0.06437024401600001
+      },
+      "fixed_7_3": {
+        "graph": "LC7_051",
+        "dual": 109
+      },
+      "early_7_3": {
+        "graph": "LC7_055",
+        "dual": 118,
+        "B": 0,
+        "mean_attempt_cost": 4.146706087068,
+        "acceptance": 0.061049211703480016
+      },
+      "fixed_7_4": {
+        "graph": "LC7_051",
+        "dual": 109
+      },
+      "early_7_4": {
+        "graph": "LC7_055",
+        "dual": 118,
+        "B": 0,
+        "mean_attempt_cost": 4.146706087068,
+        "acceptance": 0.061049211703480016
+      },
+      "fixed_8_1": {
+        "graph": "LC8_000",
+        "dual": 194
+      },
+      "early_8_1": {
+        "graph": "LC8_000",
+        "dual": 126,
+        "B": 0,
+        "mean_attempt_cost": 3.987535450823,
+        "acceptance": 0.12366139963335622
+      },
+      "fixed_8_2": {
+        "graph": "LC8_009",
+        "dual": 129
+      },
+      "early_8_2": {
+        "graph": "LC8_126",
+        "dual": 165,
+        "B": 0,
+        "mean_attempt_cost": 4.09959795508224,
+        "acceptance": 0.04128583455287061
+      },
+      "fixed_8_3": {
+        "graph": "LC8_137",
+        "dual": 179
+      },
+      "early_8_3": {
+        "graph": "LC8_131",
+        "dual": 230,
+        "B": 0,
+        "mean_attempt_cost": 4.19296368704236,
+        "acceptance": 0.04700789301167961
+      },
+      "fixed_8_4": {
+        "graph": "LC8_137",
+        "dual": 179
+      },
+      "early_8_4": {
+        "graph": "LC8_131",
+        "dual": 230,
+        "B": 0,
+        "mean_attempt_cost": 4.19296368704236,
+        "acceptance": 0.04700789301167961
+      }
+    }
+  },
+  {
+    "Q": 0.25,
+    "choices": {
+      "fixed_1_1": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_1": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 4,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_2": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_2": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 4,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_3": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_3": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 4,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_4": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_4": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 4,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_2_1": {
+        "graph": "LC2_000",
+        "dual": 3
+      },
+      "early_2_1": {
+        "graph": "LC2_000",
+        "dual": 3,
+        "B": 3,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.625
+      },
+      "fixed_2_2": {
+        "graph": "LC2_001",
+        "dual": 1
+      },
+      "early_2_2": {
+        "graph": "LC2_001",
+        "dual": 1,
+        "B": 2,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.625
+      },
+      "fixed_2_3": {
+        "graph": "LC2_001",
+        "dual": 1
+      },
+      "early_2_3": {
+        "graph": "LC2_001",
+        "dual": 1,
+        "B": 2,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.625
+      },
+      "fixed_2_4": {
+        "graph": "LC2_001",
+        "dual": 1
+      },
+      "early_2_4": {
+        "graph": "LC2_001",
+        "dual": 1,
+        "B": 2,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.625
+      },
+      "fixed_3_1": {
+        "graph": "LC3_000",
+        "dual": 7
+      },
+      "early_3_1": {
+        "graph": "LC3_000",
+        "dual": 7,
+        "B": 2,
+        "mean_attempt_cost": 2.625,
+        "acceptance": 0.4375
+      },
+      "fixed_3_2": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_2": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 2,
+        "mean_attempt_cost": 2.625,
+        "acceptance": 0.4375
+      },
+      "fixed_3_3": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_3": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 2,
+        "mean_attempt_cost": 2.625,
+        "acceptance": 0.4375
+      },
+      "fixed_3_4": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_4": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 2,
+        "mean_attempt_cost": 2.625,
+        "acceptance": 0.4375
+      },
+      "fixed_4_1": {
+        "graph": "LC4_000",
+        "dual": 7
+      },
+      "early_4_1": {
+        "graph": "LC4_000",
+        "dual": 7,
+        "B": 2,
+        "mean_attempt_cost": 2.96875,
+        "acceptance": 0.328125
+      },
+      "fixed_4_2": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_2": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 1,
+        "mean_attempt_cost": 3.25,
+        "acceptance": 0.2265625
+      },
+      "fixed_4_3": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_3": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 1,
+        "mean_attempt_cost": 3.25,
+        "acceptance": 0.2265625
+      },
+      "fixed_4_4": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_4": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 1,
+        "mean_attempt_cost": 3.25,
+        "acceptance": 0.2265625
+      },
+      "fixed_5_1": {
+        "graph": "LC5_000",
+        "dual": 7
+      },
+      "early_5_1": {
+        "graph": "LC5_000",
+        "dual": 7,
+        "B": 2,
+        "mean_attempt_cost": 3.2265625,
+        "acceptance": 0.24609375
+      },
+      "fixed_5_2": {
+        "graph": "LC5_006",
+        "dual": 17
+      },
+      "early_5_2": {
+        "graph": "LC5_009",
+        "dual": 9,
+        "B": 1,
+        "mean_attempt_cost": 3.375,
+        "acceptance": 0.140625
+      },
+      "fixed_5_3": {
+        "graph": "LC5_010",
+        "dual": 31
+      },
+      "early_5_3": {
+        "graph": "LC5_010",
+        "dual": 31,
+        "B": 1,
+        "mean_attempt_cost": 4.296875,
+        "acceptance": 0.12109375
+      },
+      "fixed_5_4": {
+        "graph": "LC5_010",
+        "dual": 31
+      },
+      "early_5_4": {
+        "graph": "LC5_010",
+        "dual": 31,
+        "B": 1,
+        "mean_attempt_cost": 4.296875,
+        "acceptance": 0.12109375
+      },
+      "fixed_6_1": {
+        "graph": "LC6_000",
+        "dual": 7
+      },
+      "early_6_1": {
+        "graph": "LC6_000",
+        "dual": 63,
+        "B": 1,
+        "mean_attempt_cost": 3.62109375,
+        "acceptance": 0.17822265625
+      },
+      "fixed_6_2": {
+        "graph": "LC6_018",
+        "dual": 33
+      },
+      "early_6_2": {
+        "graph": "LC6_020",
+        "dual": 17,
+        "B": 1,
+        "mean_attempt_cost": 3.46875,
+        "acceptance": 0.087890625
+      },
+      "fixed_6_3": {
+        "graph": "LC6_021",
+        "dual": 59
+      },
+      "early_6_3": {
+        "graph": "LC6_023",
+        "dual": 17,
+        "B": 1,
+        "mean_attempt_cost": 3.703125,
+        "acceptance": 0.09033203125
+      },
+      "fixed_6_4": {
+        "graph": "LC6_021",
+        "dual": 59
+      },
+      "early_6_4": {
+        "graph": "LC6_025",
+        "dual": 3,
+        "B": 1,
+        "mean_attempt_cost": 4.4765625,
+        "acceptance": 0.0771484375
+      },
+      "fixed_7_1": {
+        "graph": "LC7_000",
+        "dual": 7
+      },
+      "early_7_1": {
+        "graph": "LC7_000",
+        "dual": 63,
+        "B": 1,
+        "mean_attempt_cost": 3.7158203125,
+        "acceptance": 0.1336669921875
+      },
+      "fixed_7_2": {
+        "graph": "LC7_008",
+        "dual": 65
+      },
+      "early_7_2": {
+        "graph": "LC7_046",
+        "dual": 50,
+        "B": 1,
+        "mean_attempt_cost": 3.708984375,
+        "acceptance": 0.052734375
+      },
+      "fixed_7_3": {
+        "graph": "LC7_035",
+        "dual": 115
+      },
+      "early_7_3": {
+        "graph": "LC7_055",
+        "dual": 118,
+        "B": 0,
+        "mean_attempt_cost": 4.0458984375,
+        "acceptance": 0.047607421875
+      },
+      "fixed_7_4": {
+        "graph": "LC7_035",
+        "dual": 115
+      },
+      "early_7_4": {
+        "graph": "LC7_055",
+        "dual": 118,
+        "B": 0,
+        "mean_attempt_cost": 4.0458984375,
+        "acceptance": 0.047607421875
+      },
+      "fixed_8_1": {
+        "graph": "LC8_000",
+        "dual": 7
+      },
+      "early_8_1": {
+        "graph": "LC8_000",
+        "dual": 63,
+        "B": 1,
+        "mean_attempt_cost": 3.786865234375,
+        "acceptance": 0.100250244140625
+      },
+      "fixed_8_2": {
+        "graph": "LC8_037",
+        "dual": 129
+      },
+      "early_8_2": {
+        "graph": "LC8_126",
+        "dual": 165,
+        "B": 0,
+        "mean_attempt_cost": 3.9833984375,
+        "acceptance": 0.031036376953125
+      },
+      "fixed_8_3": {
+        "graph": "LC8_137",
+        "dual": 179
+      },
+      "early_8_3": {
+        "graph": "LC8_160",
+        "dual": 199,
+        "B": 0,
+        "mean_attempt_cost": 4.057373046875,
+        "acceptance": 0.029388427734375
+      },
+      "fixed_8_4": {
+        "graph": "LC8_137",
+        "dual": 179
+      },
+      "early_8_4": {
+        "graph": "LC8_164",
+        "dual": 23,
+        "B": 0,
+        "mean_attempt_cost": 4.18701171875,
+        "acceptance": 0.02935791015625
+      }
+    }
+  },
+  {
+    "Q": 0.27,
+    "choices": {
+      "fixed_1_1": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_1": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_2": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_2": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_3": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_3": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_4": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_4": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_2_1": {
+        "graph": "LC2_000",
+        "dual": 3
+      },
+      "early_2_1": {
+        "graph": "LC2_000",
+        "dual": 3,
+        "B": 5,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6057999999999999
+      },
+      "fixed_2_2": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_2": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 3,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6058
+      },
+      "fixed_2_3": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_3": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 3,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6058
+      },
+      "fixed_2_4": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_4": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 3,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.6058
+      },
+      "fixed_3_1": {
+        "graph": "LC3_000",
+        "dual": 3
+      },
+      "early_3_1": {
+        "graph": "LC3_000",
+        "dual": 3,
+        "B": 5,
+        "mean_attempt_cost": 2.46,
+        "acceptance": 0.44223399999999996
+      },
+      "fixed_3_2": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_2": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 3,
+        "mean_attempt_cost": 2.6058,
+        "acceptance": 0.40869999999999995
+      },
+      "fixed_3_3": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_3": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 3,
+        "mean_attempt_cost": 2.6058,
+        "acceptance": 0.40869999999999995
+      },
+      "fixed_3_4": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_4": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 3,
+        "mean_attempt_cost": 2.6058,
+        "acceptance": 0.40869999999999995
+      },
+      "fixed_4_1": {
+        "graph": "LC4_000",
+        "dual": 15
+      },
+      "early_4_1": {
+        "graph": "LC4_000",
+        "dual": 15,
+        "B": 4,
+        "mean_attempt_cost": 3.0145,
+        "acceptance": 0.28929681999999995
+      },
+      "fixed_4_2": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_2": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 2,
+        "mean_attempt_cost": 3.2116,
+        "acceptance": 0.2058841
+      },
+      "fixed_4_3": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_3": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 2,
+        "mean_attempt_cost": 3.2116,
+        "acceptance": 0.2058841
+      },
+      "fixed_4_4": {
+        "graph": "LC4_005",
+        "dual": 9
+      },
+      "early_4_4": {
+        "graph": "LC4_005",
+        "dual": 9,
+        "B": 2,
+        "mean_attempt_cost": 3.2116,
+        "acceptance": 0.2058841
+      },
+      "fixed_5_1": {
+        "graph": "LC5_000",
+        "dual": 15
+      },
+      "early_5_1": {
+        "graph": "LC5_000",
+        "dual": 15,
+        "B": 4,
+        "mean_attempt_cost": 3.200585,
+        "acceptance": 0.21118667859999998
+      },
+      "fixed_5_2": {
+        "graph": "LC5_006",
+        "dual": 17
+      },
+      "early_5_2": {
+        "graph": "LC5_009",
+        "dual": 9,
+        "B": 2,
+        "mean_attempt_cost": 3.3089359999999997,
+        "acceptance": 0.12283266159999998
+      },
+      "fixed_5_3": {
+        "graph": "LC5_010",
+        "dual": 31
+      },
+      "early_5_3": {
+        "graph": "LC5_010",
+        "dual": 31,
+        "B": 1,
+        "mean_attempt_cost": 4.28358092,
+        "acceptance": 0.10447614999999999
+      },
+      "fixed_5_4": {
+        "graph": "LC5_010",
+        "dual": 31
+      },
+      "early_5_4": {
+        "graph": "LC5_010",
+        "dual": 31,
+        "B": 1,
+        "mean_attempt_cost": 4.28358092,
+        "acceptance": 0.10447614999999999
+      },
+      "fixed_6_1": {
+        "graph": "LC6_000",
+        "dual": 30
+      },
+      "early_6_1": {
+        "graph": "LC6_000",
+        "dual": 15,
+        "B": 4,
+        "mean_attempt_cost": 3.3364270499999997,
+        "acceptance": 0.15416627537799998
+      },
+      "fixed_6_2": {
+        "graph": "LC6_007",
+        "dual": 33
+      },
+      "early_6_2": {
+        "graph": "LC6_015",
+        "dual": 48,
+        "B": 2,
+        "mean_attempt_cost": 3.67079046,
+        "acceptance": 0.08825499344799997
+      },
+      "fixed_6_3": {
+        "graph": "LC6_021",
+        "dual": 59
+      },
+      "early_6_3": {
+        "graph": "LC6_022",
+        "dual": 59,
+        "B": 1,
+        "mean_attempt_cost": 3.9903417887999995,
+        "acceptance": 0.064440119134
+      },
+      "fixed_6_4": {
+        "graph": "LC6_025",
+        "dual": 5
+      },
+      "early_6_4": {
+        "graph": "LC6_025",
+        "dual": 6,
+        "B": 1,
+        "mean_attempt_cost": 4.447758660000001,
+        "acceptance": 0.06359402277999998
+      },
+      "fixed_7_1": {
+        "graph": "LC7_000",
+        "dual": 27
+      },
+      "early_7_1": {
+        "graph": "LC7_000",
+        "dual": 114,
+        "B": 4,
+        "mean_attempt_cost": 3.4355917465,
+        "acceptance": 0.11254138102594
+      },
+      "fixed_7_2": {
+        "graph": "LC7_032",
+        "dual": 33
+      },
+      "early_7_2": {
+        "graph": "LC7_046",
+        "dual": 97,
+        "B": 1,
+        "mean_attempt_cost": 3.8252088038679997,
+        "acceptance": 0.04140765169857999
+      },
+      "fixed_7_3": {
+        "graph": "LC7_051",
+        "dual": 109
+      },
+      "early_7_3": {
+        "graph": "LC7_055",
+        "dual": 118,
+        "B": 1,
+        "mean_attempt_cost": 3.9583693694679996,
+        "acceptance": 0.03770794306251999
+      },
+      "fixed_7_4": {
+        "graph": "LC7_056",
+        "dual": 18
+      },
+      "early_7_4": {
+        "graph": "LC7_057",
+        "dual": 40,
+        "B": 1,
+        "mean_attempt_cost": 4.090949131155999,
+        "acceptance": 0.038899326942279995
+      },
+      "fixed_8_1": {
+        "graph": "LC8_000",
+        "dual": 30
+      },
+      "early_8_1": {
+        "graph": "LC8_000",
+        "dual": 255,
+        "B": 3,
+        "mean_attempt_cost": 3.7748391055009995,
+        "acceptance": 0.0806742521430562
+      },
+      "fixed_8_2": {
+        "graph": "LC8_049",
+        "dual": 65
+      },
+      "early_8_2": {
+        "graph": "LC8_126",
+        "dual": 165,
+        "B": 1,
+        "mean_attempt_cost": 3.8846052060617597,
+        "acceptance": 0.023713875482710596
+      },
+      "fixed_8_3": {
+        "graph": "LC8_111",
+        "dual": 213
+      },
+      "early_8_3": {
+        "graph": "LC8_151",
+        "dual": 115,
+        "B": 1,
+        "mean_attempt_cost": 4.020512553674,
+        "acceptance": 0.023441343759292597
+      },
+      "fixed_8_4": {
+        "graph": "LC8_172",
+        "dual": 40
+      },
+      "early_8_4": {
+        "graph": "LC8_177",
+        "dual": 7,
+        "B": 1,
+        "mean_attempt_cost": 4.015175806705759,
+        "acceptance": 0.02239328050343919
+      }
+    }
+  },
+  {
+    "Q": 0.28,
+    "choices": {
+      "fixed_1_1": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_1": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_2": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_2": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_3": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_3": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_4": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_4": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_2_1": {
+        "graph": "LC2_000",
+        "dual": 1
+      },
+      "early_2_1": {
+        "graph": "LC2_000",
+        "dual": 3,
+        "B": 5,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.5968
+      },
+      "fixed_2_2": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_2": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 4,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.5968
+      },
+      "fixed_2_3": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_3": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 4,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.5968
+      },
+      "fixed_2_4": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_4": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 4,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.5968
+      },
+      "fixed_3_1": {
+        "graph": "LC3_000",
+        "dual": 4
+      },
+      "early_3_1": {
+        "graph": "LC3_000",
+        "dual": 7,
+        "B": 4,
+        "mean_attempt_cost": 2.5968,
+        "acceptance": 0.3952
+      },
+      "fixed_3_2": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_2": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 4,
+        "mean_attempt_cost": 2.5968,
+        "acceptance": 0.3952
+      },
+      "fixed_3_3": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_3": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 4,
+        "mean_attempt_cost": 2.5968,
+        "acceptance": 0.3952
+      },
+      "fixed_3_4": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_4": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 4,
+        "mean_attempt_cost": 2.5968,
+        "acceptance": 0.3952
+      },
+      "fixed_4_1": {
+        "graph": "LC4_000",
+        "dual": 15
+      },
+      "early_4_1": {
+        "graph": "LC4_000",
+        "dual": 15,
+        "B": 4,
+        "mean_attempt_cost": 2.992,
+        "acceptance": 0.27488512
+      },
+      "fixed_4_2": {
+        "graph": "LC4_003",
+        "dual": 8
+      },
+      "early_4_2": {
+        "graph": "LC4_003",
+        "dual": 8,
+        "B": 4,
+        "mean_attempt_cost": 2.992,
+        "acceptance": 0.27488512
+      },
+      "fixed_4_3": {
+        "graph": "LC4_003",
+        "dual": 8
+      },
+      "early_4_3": {
+        "graph": "LC4_003",
+        "dual": 8,
+        "B": 4,
+        "mean_attempt_cost": 2.992,
+        "acceptance": 0.27488512
+      },
+      "fixed_4_4": {
+        "graph": "LC4_003",
+        "dual": 8
+      },
+      "early_4_4": {
+        "graph": "LC4_003",
+        "dual": 8,
+        "B": 4,
+        "mean_attempt_cost": 2.992,
+        "acceptance": 0.27488512
+      },
+      "fixed_5_1": {
+        "graph": "LC5_000",
+        "dual": 30
+      },
+      "early_5_1": {
+        "graph": "LC5_000",
+        "dual": 30,
+        "B": 4,
+        "mean_attempt_cost": 3.1542399999999997,
+        "acceptance": 0.19791728639999995
+      },
+      "fixed_5_2": {
+        "graph": "LC5_009",
+        "dual": 9
+      },
+      "early_5_2": {
+        "graph": "LC5_009",
+        "dual": 9,
+        "B": 2,
+        "mean_attempt_cost": 3.278784,
+        "acceptance": 0.11524515839999998
+      },
+      "fixed_5_3": {
+        "graph": "LC5_010",
+        "dual": 7
+      },
+      "early_5_3": {
+        "graph": "LC5_010",
+        "dual": 7,
+        "B": 2,
+        "mean_attempt_cost": 3.84455424,
+        "acceptance": 0.10431682559999997
+      },
+      "fixed_5_4": {
+        "graph": "LC5_010",
+        "dual": 7
+      },
+      "early_5_4": {
+        "graph": "LC5_010",
+        "dual": 7,
+        "B": 2,
+        "mean_attempt_cost": 3.84455424,
+        "acceptance": 0.10431682559999997
+      },
+      "fixed_6_1": {
+        "graph": "LC6_000",
+        "dual": 60
+      },
+      "early_6_1": {
+        "graph": "LC6_000",
+        "dual": 54,
+        "B": 4,
+        "mean_attempt_cost": 3.2710528,
+        "acceptance": 0.14250044620799993
+      },
+      "fixed_6_2": {
+        "graph": "LC6_020",
+        "dual": 33
+      },
+      "early_6_2": {
+        "graph": "LC6_020",
+        "dual": 17,
+        "B": 2,
+        "mean_attempt_cost": 3.34011648,
+        "acceptance": 0.06785283686399998
+      },
+      "fixed_6_3": {
+        "graph": "LC6_023",
+        "dual": 33
+      },
+      "early_6_3": {
+        "graph": "LC6_023",
+        "dual": 33,
+        "B": 2,
+        "mean_attempt_cost": 3.5872512,
+        "acceptance": 0.06991707750399997
+      },
+      "fixed_6_4": {
+        "graph": "LC6_025",
+        "dual": 6
+      },
+      "early_6_4": {
+        "graph": "LC6_025",
+        "dual": 6,
+        "B": 2,
+        "mean_attempt_cost": 4.43590656,
+        "acceptance": 0.058114478079999976
+      },
+      "fixed_7_1": {
+        "graph": "LC7_000",
+        "dual": 102
+      },
+      "early_7_1": {
+        "graph": "LC7_000",
+        "dual": 102,
+        "B": 4,
+        "mean_attempt_cost": 3.3551580159999994,
+        "acceptance": 0.10260032126975996
+      },
+      "fixed_7_2": {
+        "graph": "LC7_031",
+        "dual": 65
+      },
+      "early_7_2": {
+        "graph": "LC7_033",
+        "dual": 65,
+        "B": 2,
+        "mean_attempt_cost": 3.5108463452159997,
+        "acceptance": 0.04621807190015999
+      },
+      "fixed_7_3": {
+        "graph": "LC7_038",
+        "dual": 97
+      },
+      "early_7_3": {
+        "graph": "LC7_055",
+        "dual": 81,
+        "B": 2,
+        "mean_attempt_cost": 3.785963675648,
+        "acceptance": 0.037291809669119984
+      },
+      "fixed_7_4": {
+        "graph": "LC7_056",
+        "dual": 18
+      },
+      "early_7_4": {
+        "graph": "LC7_058",
+        "dual": 31,
+        "B": 1,
+        "mean_attempt_cost": 4.639587090432,
+        "acceptance": 0.03186261393407999
+      },
+      "fixed_8_1": {
+        "graph": "LC8_000",
+        "dual": 71
+      },
+      "early_8_1": {
+        "graph": "LC8_000",
+        "dual": 255,
+        "B": 3,
+        "mean_attempt_cost": 3.7023349391359996,
+        "acceptance": 0.07225819383070715
+      },
+      "fixed_8_2": {
+        "graph": "LC8_109",
+        "dual": 129
+      },
+      "early_8_2": {
+        "graph": "LC8_108",
+        "dual": 129,
+        "B": 2,
+        "mean_attempt_cost": 3.5793086708121598,
+        "acceptance": 0.02623003219722239
+      },
+      "fixed_8_3": {
+        "graph": "LC8_056",
+        "dual": 65
+      },
+      "early_8_3": {
+        "graph": "LC8_175",
+        "dual": 44,
+        "B": 1,
+        "mean_attempt_cost": 4.2218644581580795,
+        "acceptance": 0.01855676889169919
+      },
+      "fixed_8_4": {
+        "graph": "LC8_172",
+        "dual": 100
+      },
+      "early_8_4": {
+        "graph": "LC8_171",
+        "dual": 57,
+        "B": 1,
+        "mean_attempt_cost": 4.749480064942079,
+        "acceptance": 0.01807207547535359
+      }
+    }
+  },
+  {
+    "Q": 0.29,
+    "choices": {
+      "fixed_1_1": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_1": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_2": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_2": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_3": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_3": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_4": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_4": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_2_1": {
+        "graph": "LC2_000",
+        "dual": 3
+      },
+      "early_2_1": {
+        "graph": "LC2_000",
+        "dual": 3,
+        "B": 5,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.5882
+      },
+      "fixed_2_2": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_2": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 5,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.5882000000000001
+      },
+      "fixed_2_3": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_3": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 5,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.5882000000000001
+      },
+      "fixed_2_4": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_4": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 5,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.5882000000000001
+      },
+      "fixed_3_1": {
+        "graph": "LC3_000",
+        "dual": 6
+      },
+      "early_3_1": {
+        "graph": "LC3_000",
+        "dual": 5,
+        "B": 5,
+        "mean_attempt_cost": 2.42,
+        "acceptance": 0.417622
+      },
+      "fixed_3_2": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_2": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 4,
+        "mean_attempt_cost": 2.5882,
+        "acceptance": 0.38230000000000003
+      },
+      "fixed_3_3": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_3": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 4,
+        "mean_attempt_cost": 2.5882,
+        "acceptance": 0.38230000000000003
+      },
+      "fixed_3_4": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_4": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 4,
+        "mean_attempt_cost": 2.5882,
+        "acceptance": 0.38230000000000003
+      },
+      "fixed_4_1": {
+        "graph": "LC4_000",
+        "dual": 15
+      },
+      "early_4_1": {
+        "graph": "LC4_000",
+        "dual": 15,
+        "B": 4,
+        "mean_attempt_cost": 2.9705,
+        "acceptance": 0.26118961999999996
+      },
+      "fixed_4_2": {
+        "graph": "LC4_003",
+        "dual": 8
+      },
+      "early_4_2": {
+        "graph": "LC4_003",
+        "dual": 8,
+        "B": 4,
+        "mean_attempt_cost": 2.9705,
+        "acceptance": 0.26118962
+      },
+      "fixed_4_3": {
+        "graph": "LC4_003",
+        "dual": 8
+      },
+      "early_4_3": {
+        "graph": "LC4_003",
+        "dual": 8,
+        "B": 4,
+        "mean_attempt_cost": 2.9705,
+        "acceptance": 0.26118962
+      },
+      "fixed_4_4": {
+        "graph": "LC4_003",
+        "dual": 8
+      },
+      "early_4_4": {
+        "graph": "LC4_003",
+        "dual": 8,
+        "B": 4,
+        "mean_attempt_cost": 2.9705,
+        "acceptance": 0.26118962
+      },
+      "fixed_5_1": {
+        "graph": "LC5_000",
+        "dual": 31
+      },
+      "early_5_1": {
+        "graph": "LC5_000",
+        "dual": 31,
+        "B": 4,
+        "mean_attempt_cost": 3.23168962,
+        "acceptance": 0.18247405
+      },
+      "fixed_5_2": {
+        "graph": "LC5_008",
+        "dual": 16
+      },
+      "early_5_2": {
+        "graph": "LC5_008",
+        "dual": 16,
+        "B": 4,
+        "mean_attempt_cost": 3.12937762,
+        "acceptance": 0.1418510704
+      },
+      "fixed_5_3": {
+        "graph": "LC5_008",
+        "dual": 16
+      },
+      "early_5_3": {
+        "graph": "LC5_008",
+        "dual": 16,
+        "B": 4,
+        "mean_attempt_cost": 3.12937762,
+        "acceptance": 0.1418510704
+      },
+      "fixed_5_4": {
+        "graph": "LC5_008",
+        "dual": 16
+      },
+      "early_5_4": {
+        "graph": "LC5_008",
+        "dual": 16,
+        "B": 4,
+        "mean_attempt_cost": 3.12937762,
+        "acceptance": 0.1418510704
+      },
+      "fixed_6_1": {
+        "graph": "LC6_000",
+        "dual": 31
+      },
+      "early_6_1": {
+        "graph": "LC6_000",
+        "dual": 31,
+        "B": 4,
+        "mean_attempt_cost": 3.2944996302,
+        "acceptance": 0.1295565755
+      },
+      "fixed_6_2": {
+        "graph": "LC6_015",
+        "dual": 48
+      },
+      "early_6_2": {
+        "graph": "LC6_015",
+        "dual": 48,
+        "B": 3,
+        "mean_attempt_cost": 3.5776688599999997,
+        "acceptance": 0.075821160872
+      },
+      "fixed_6_3": {
+        "graph": "LC6_024",
+        "dual": 15
+      },
+      "early_6_3": {
+        "graph": "LC6_023",
+        "dual": 48,
+        "B": 3,
+        "mean_attempt_cost": 3.5534962000000005,
+        "acceptance": 0.064603494146
+      },
+      "fixed_6_4": {
+        "graph": "LC6_025",
+        "dual": 10
+      },
+      "early_6_4": {
+        "graph": "LC6_025",
+        "dual": 10,
+        "B": 2,
+        "mean_attempt_cost": 4.425565059999999,
+        "acceptance": 0.05338582742000001
+      },
+      "fixed_7_1": {
+        "graph": "LC7_000",
+        "dual": 62
+      },
+      "early_7_1": {
+        "graph": "LC7_000",
+        "dual": 31,
+        "B": 4,
+        "mean_attempt_cost": 3.3390947374420006,
+        "acceptance": 0.09198516860500001
+      },
+      "fixed_7_2": {
+        "graph": "LC7_020",
+        "dual": 96
+      },
+      "early_7_2": {
+        "graph": "LC7_033",
+        "dual": 65,
+        "B": 3,
+        "mean_attempt_cost": 3.462953015284,
+        "acceptance": 0.04209653273212
+      },
+      "fixed_7_3": {
+        "graph": "LC7_055",
+        "dual": 81
+      },
+      "early_7_3": {
+        "graph": "LC7_055",
+        "dual": 81,
+        "B": 2,
+        "mean_attempt_cost": 3.749600185852,
+        "acceptance": 0.03368907584884001
+      },
+      "fixed_7_4": {
+        "graph": "LC7_056",
+        "dual": 48
+      },
+      "early_7_4": {
+        "graph": "LC7_057",
+        "dual": 9,
+        "B": 2,
+        "mean_attempt_cost": 4.016090477684,
+        "acceptance": 0.03147714156484001
+      },
+      "fixed_8_1": {
+        "graph": "LC8_000",
+        "dual": 120
+      },
+      "early_8_1": {
+        "graph": "LC8_000",
+        "dual": 255,
+        "B": 3,
+        "mean_attempt_cost": 3.6339824775890004,
+        "acceptance": 0.06462537776587221
+      },
+      "fixed_8_2": {
+        "graph": "LC8_025",
+        "dual": 192
+      },
+      "early_8_2": {
+        "graph": "LC8_072",
+        "dual": 192,
+        "B": 3,
+        "mean_attempt_cost": 3.7750355197096397,
+        "acceptance": 0.027163340880362603
+      },
+      "fixed_8_3": {
+        "graph": "LC8_175",
+        "dual": 12
+      },
+      "early_8_3": {
+        "graph": "LC8_175",
+        "dual": 12,
+        "B": 2,
+        "mean_attempt_cost": 4.12582934907056,
+        "acceptance": 0.017471276829098607
+      },
+      "fixed_8_4": {
+        "graph": "LC8_172",
+        "dual": 5
+      },
+      "early_8_4": {
+        "graph": "LC8_177",
+        "dual": 192,
+        "B": 2,
+        "mean_attempt_cost": 3.935975148986,
+        "acceptance": 0.018869590103410404
+      }
+    }
+  },
+  {
+    "Q": 0.3,
+    "choices": {
+      "fixed_1_1": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_1": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_2": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_2": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_3": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_3": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_1_4": {
+        "graph": "LC1_000",
+        "dual": 1
+      },
+      "early_1_4": {
+        "graph": "LC1_000",
+        "dual": 1,
+        "B": 6,
+        "mean_attempt_cost": 1.0,
+        "acceptance": 1.0
+      },
+      "fixed_2_1": {
+        "graph": "LC2_000",
+        "dual": 3
+      },
+      "early_2_1": {
+        "graph": "LC2_000",
+        "dual": 3,
+        "B": 5,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.58
+      },
+      "fixed_2_2": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_2": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 7,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.58
+      },
+      "fixed_2_3": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_3": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 7,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.58
+      },
+      "fixed_2_4": {
+        "graph": "LC2_001",
+        "dual": 2
+      },
+      "early_2_4": {
+        "graph": "LC2_001",
+        "dual": 2,
+        "B": 7,
+        "mean_attempt_cost": 2.0,
+        "acceptance": 0.58
+      },
+      "fixed_3_1": {
+        "graph": "LC3_000",
+        "dual": 7
+      },
+      "early_3_1": {
+        "graph": "LC3_000",
+        "dual": 7,
+        "B": 4,
+        "mean_attempt_cost": 2.58,
+        "acceptance": 0.37
+      },
+      "fixed_3_2": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_2": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 6,
+        "mean_attempt_cost": 2.58,
+        "acceptance": 0.37
+      },
+      "fixed_3_3": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_3": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 6,
+        "mean_attempt_cost": 2.58,
+        "acceptance": 0.37
+      },
+      "fixed_3_4": {
+        "graph": "LC3_002",
+        "dual": 4
+      },
+      "early_3_4": {
+        "graph": "LC3_002",
+        "dual": 4,
+        "B": 6,
+        "mean_attempt_cost": 2.58,
+        "acceptance": 0.37
+      },
+      "fixed_4_1": {
+        "graph": "LC4_000",
+        "dual": 7
+      },
+      "early_4_1": {
+        "graph": "LC4_000",
+        "dual": 15,
+        "B": 4,
+        "mean_attempt_cost": 2.95,
+        "acceptance": 0.24819999999999998
+      },
+      "fixed_4_2": {
+        "graph": "LC4_003",
+        "dual": 8
+      },
+      "early_4_2": {
+        "graph": "LC4_003",
+        "dual": 8,
+        "B": 5,
+        "mean_attempt_cost": 2.95,
+        "acceptance": 0.24819999999999998
+      },
+      "fixed_4_3": {
+        "graph": "LC4_003",
+        "dual": 8
+      },
+      "early_4_3": {
+        "graph": "LC4_003",
+        "dual": 8,
+        "B": 5,
+        "mean_attempt_cost": 2.95,
+        "acceptance": 0.24819999999999998
+      },
+      "fixed_4_4": {
+        "graph": "LC4_003",
+        "dual": 8
+      },
+      "early_4_4": {
+        "graph": "LC4_003",
+        "dual": 8,
+        "B": 5,
+        "mean_attempt_cost": 2.95,
+        "acceptance": 0.24819999999999998
+      },
+      "fixed_5_1": {
+        "graph": "LC5_000",
+        "dual": 7
+      },
+      "early_5_1": {
+        "graph": "LC5_000",
+        "dual": 15,
+        "B": 4,
+        "mean_attempt_cost": 3.065,
+        "acceptance": 0.17374
+      },
+      "fixed_5_2": {
+        "graph": "LC5_004",
+        "dual": 16
+      },
+      "early_5_2": {
+        "graph": "LC5_004",
+        "dual": 16,
+        "B": 6,
+        "mean_attempt_cost": 3.1982000000000004,
+        "acceptance": 0.1705
+      },
+      "fixed_5_3": {
+        "graph": "LC5_004",
+        "dual": 16
+      },
+      "early_5_3": {
+        "graph": "LC5_004",
+        "dual": 16,
+        "B": 6,
+        "mean_attempt_cost": 3.1982000000000004,
+        "acceptance": 0.1705
+      },
+      "fixed_5_4": {
+        "graph": "LC5_004",
+        "dual": 16
+      },
+      "early_5_4": {
+        "graph": "LC5_004",
+        "dual": 16,
+        "B": 6,
+        "mean_attempt_cost": 3.1982000000000004,
+        "acceptance": 0.1705
+      },
+      "fixed_6_1": {
+        "graph": "LC6_000",
+        "dual": 63
+      },
+      "early_6_1": {
+        "graph": "LC6_000",
+        "dual": 63,
+        "B": 3,
+        "mean_attempt_cost": 3.3687,
+        "acceptance": 0.118378
+      },
+      "fixed_6_2": {
+        "graph": "LC6_011",
+        "dual": 32
+      },
+      "early_6_2": {
+        "graph": "LC6_011",
+        "dual": 32,
+        "B": 5,
+        "mean_attempt_cost": 3.23478,
+        "acceptance": 0.09053800000000001
+      },
+      "fixed_6_3": {
+        "graph": "LC6_011",
+        "dual": 32
+      },
+      "early_6_3": {
+        "graph": "LC6_011",
+        "dual": 32,
+        "B": 5,
+        "mean_attempt_cost": 3.23478,
+        "acceptance": 0.09053800000000001
+      },
+      "fixed_6_4": {
+        "graph": "LC6_025",
+        "dual": 3
+      },
+      "early_6_4": {
+        "graph": "LC6_025",
+        "dual": 3,
+        "B": 3,
+        "mean_attempt_cost": 4.4166,
+        "acceptance": 0.049330000000000006
+      },
+      "fixed_7_1": {
+        "graph": "LC7_000",
+        "dual": 125
+      },
+      "early_7_1": {
+        "graph": "LC7_000",
+        "dual": 125,
+        "B": 3,
+        "mean_attempt_cost": 3.35809,
+        "acceptance": 0.0828646
+      },
+      "fixed_7_2": {
+        "graph": "LC7_012",
+        "dual": 64
+      },
+      "early_7_2": {
+        "graph": "LC7_019",
+        "dual": 64,
+        "B": 5,
+        "mean_attempt_cost": 3.2784459999999997,
+        "acceptance": 0.052952200000000005
+      },
+      "fixed_7_3": {
+        "graph": "LC7_055",
+        "dual": 81
+      },
+      "early_7_3": {
+        "graph": "LC7_055",
+        "dual": 81,
+        "B": 3,
+        "mean_attempt_cost": 3.715948,
+        "acceptance": 0.030608200000000006
+      },
+      "fixed_7_4": {
+        "graph": "LC7_058",
+        "dual": 80
+      },
+      "early_7_4": {
+        "graph": "LC7_058",
+        "dual": 80,
+        "B": 3,
+        "mean_attempt_cost": 4.293292,
+        "acceptance": 0.028138600000000007
+      },
+      "fixed_8_1": {
+        "graph": "LC8_000",
+        "dual": 138
+      },
+      "early_8_1": {
+        "graph": "LC8_000",
+        "dual": 159,
+        "B": 3,
+        "mean_attempt_cost": 3.350662999999999,
+        "acceptance": 0.05800522
+      },
+      "fixed_8_2": {
+        "graph": "LC8_013",
+        "dual": 128
+      },
+      "early_8_2": {
+        "graph": "LC8_044",
+        "dual": 128,
+        "B": 5,
+        "mean_attempt_cost": 3.4158560000000002,
+        "acceptance": 0.033226900000000004
+      },
+      "fixed_8_3": {
+        "graph": "LC8_175",
+        "dual": 192
+      },
+      "early_8_3": {
+        "graph": "LC8_175",
+        "dual": 192,
+        "B": 3,
+        "mean_attempt_cost": 4.105185200000001,
+        "acceptance": 0.01610434
+      },
+      "fixed_8_4": {
+        "graph": "LC8_171",
+        "dual": 144
+      },
+      "early_8_4": {
+        "graph": "LC8_177",
+        "dual": 192,
+        "B": 3,
+        "mean_attempt_cost": 3.898574,
+        "acceptance": 0.01677034
+      }
+    }
+  }
+]

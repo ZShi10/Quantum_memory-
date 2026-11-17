@@ -1,0 +1,33 @@
+\begin{minipage}{.98\textwidth}
+\centering
+\textbf{(a) Quantum preparation and classical key extraction}\\[5pt]
+\begin{tikzpicture}[
+ box/.style={draw=black!65,rounded corners=1pt,minimum height=8mm,
+ align=center,font=\small,inner xsep=5pt},
+ >=Stealth,node distance=4mm]
+\node[box,fill=blue!5] (raw) {Raw pairs};
+\node[box,fill=blue!5,right=of raw] (ed) {ED and\\public checks};
+\node[box,fill=blue!5,right=of ed] (key) {Key\\measurement};
+\node[box,fill=green!5,right=of key] (ad) {AD};
+\node[box,fill=green!5,right=of ad] (ir) {IR};
+\node[box,fill=green!5,right=of ir] (pa) {PA};
+\node[box,fill=green!5,right=of pa] (secret) {Secret key};
+\draw[->] (raw)--(ed);\draw[->](ed)--(key);\draw[->](key)--(ad);
+\draw[->](ad)--(ir);\draw[->](ir)--(pa);\draw[->](pa)--(secret);
+\end{tikzpicture}
+
+\vspace{9pt}
+\textbf{(b) Three raw inputs, two local memory qubits}\\[5pt]
+\begin{quantikz}[row sep=.34cm,column sep=.24cm,wire types={n,n}]
+\lstick{Memory 1} & \gate{\rho_1}
+ & \ctrl{1}\setwiretype{q} & & & \ctrl{1}
+ & & \meter{X} & \rstick{key}\setwiretype{c}\\
+\lstick{Memory 2} & \gate{\rho_2}
+ & \targ{}\setwiretype{q} & \meter{Z}
+ & \gate{\rho_3}\setwiretype{n} & \targ{}\setwiretype{q}
+ & \meter{Z} & \setwiretype{n} &
+\end{quantikz}
+
+{\small Compare each $Z$ check before continuing; release the
+measured qubit before reloading it.}
+\end{minipage}

@@ -1,0 +1,41 @@
+{
+  "version": "2026-10-06-v3-in-development",
+  "status": "in_progress_not_a_release",
+  "objective": "Complete the declared finite ED+AD optimization with consistent executable memory and expected raw-input accounting; repair dense curves before updating manuscript conclusions.",
+  "user_steering": "Reconstruction of the original named four-, five- and sixteen-input circuits is optional. Systematic resource accounting and a self-contained, sufficiently complete protocol class take priority.",
+  "source_model": {
+    "state_order": ["I", "X", "Y", "Z"],
+    "assumptions": ["IID Bell-diagonal", "ideal local gates and storage", "authenticated classical communication", "asymptotic net secret bits per raw pair"],
+    "Werner": "(1-3Q/2,Q/2,Q/2,Q/2)",
+    "BB84": "(1-b-p+z,b-z,z,p-z), 0<=z<=min(b,p), b+p<=1/2; no Werner twirl; production policy independent of hidden z"
+  },
+  "resource_contract": {
+    "M": "Peak simultaneous live local qubits on any execution branch; includes incoming ports and work ancillas; no external quantum buffer",
+    "m": "Inputs in a fixed one-pass block; not generally the live memory",
+    "successful_ancestry": "Raw leaves in a successful tree; distinct from expected consumption",
+    "C": "Expected raw pairs per accepted measured ED output, including every failed/restarted attempt",
+    "terminal_vs_retained": "A complete terminal-measurement memory certificate may not be used to count an intermediate preserved quantum output",
+    "binary_retry": "Each child is regenerated independently until successful; a successful sibling is retained; failed parent discards both; C=(C_left+C_right)/s_parent",
+    "fixed_block": "All m inputs consumed; each public flag has weight P(flag)/m",
+    "classical_B": "Measured outputs paired in their public pool; acceptance s; yield s/2; no additional quantum memory",
+    "OTP": "All masks charged on all processed blocks; signed net costs retained inside BB84 minimization"
+  },
+  "search_layers": {
+    "complete_terminal_blocks": {"Werner_m_max": 8, "BB84_current_m_max": 4, "BB84_extension_target_m_max": 5, "outputs": "one terminal key bit", "public_flags": "all", "status": "existing small class audited; five-input extension pending"},
+    "legacy_retained_constructions": {"decoders": ["Z", "X", "R", "C"], "homogeneous_depth_max": 7, "constant_raw_pump_inputs_max": 160},
+    "new_retained_constructions": {"variable_pump_checks_max_initial": 7, "all_ordered_binary_tree_leaves_max_initial": 5, "status": "generator and accounting under implementation; final tested limits must be recorded"},
+    "classical_menu": {"all_binary_codes_n_max_target": 8, "repetition_SPC_n_max": 128, "B_prefix_max": 16, "modes": ["no_otp", "otp_plain", "otp_compressed"], "additional_terminal": "Watanabe_2007", "code_extension_status": "full length-eight enumeration pending"}
+  },
+  "evidence_requirements": [
+    "Explicit executable schedule and retry rule for each quantum witness",
+    "Independent probability and cost checks against small exact instances",
+    "Complete declared candidate coverage distinct from heuristic discovery",
+    "Per-plotted-input reoptimization or proven coverage; never a sparse saved-policy catalog represented as a complete frontier",
+    "Feasible lower witness and separate all-candidate upper for optimum claims",
+    "Relative precision and adaptive actual-Q refinement in the displayed nonzero tail",
+    "No spline-created rates; preserve genuine policy and worst-state switches",
+    "Same memory, measurement permission, classical menu and raw-pair denominator in ablations"
+  ],
+  "deferred": ["general CRO impossibility theorem", "unrestricted infinite-protocol optimum at fixed memory", "noisy memory and finite-key analysis"],
+  "publication": "Keep 2026-09-26 PDF as historical current artifact until new results, theory and figures pass the revised completeness gate."
+}

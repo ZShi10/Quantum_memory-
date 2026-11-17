@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "independent_high_precision_winner_rates": [
+    {
+      "memory": 2,
+      "mp_dps": 100,
+      "rate": "0.000170038716459506647788647573718057184907078556379115374838383388347907316880686215271549351",
+      "inside_new_interval": true
+    },
+    {
+      "memory": 3,
+      "mp_dps": 100,
+      "rate": "0.000239266425697957496957627055956225661544453340903023976765654823810662117573169314996012795",
+      "inside_new_interval": true
+    },
+    {
+      "memory": 4,
+      "mp_dps": 100,
+      "rate": "0.000249068479402924876709715458638260332018616208897814874968674497765601557236063970610774808",
+      "inside_new_interval": true
+    }
+  ],
+  "exact_continuum_partition_checks": [],
+  "clarification": "All leaf interval bounds were computed in certificate generation; this validator independently checks exact coverage and stored targets, not a second recomputation of every interval expression. certify_selected.py --replay performs the latter."
+}

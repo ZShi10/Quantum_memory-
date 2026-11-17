@@ -1,0 +1,7984 @@
+{
+  "scope": "All coordinate-equivalence classes through n=7, selected intermediate-dimension n=8 codes; long repetition/SPC evaluated separately.",
+  "labeled_counts": {
+    "1": 1,
+    "2": 4,
+    "3": 15,
+    "4": 66,
+    "5": 373,
+    "6": 2824,
+    "7": 29211
+  },
+  "orbit_counts": {
+    "1": 1,
+    "2": 3,
+    "3": 7,
+    "4": 15,
+    "5": 31,
+    "6": 67,
+    "7": 147
+  },
+  "entries": [
+    {
+      "n": 1,
+      "k": 1,
+      "d": 1,
+      "rows": [
+        1
+      ],
+      "multiplicity": 1,
+      "id": "XC0000",
+      "endpoint": true,
+      "components": [
+        [
+          0
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 2,
+      "k": 1,
+      "d": 1,
+      "rows": [
+        1
+      ],
+      "multiplicity": 2,
+      "id": "XC0001",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 2,
+      "k": 1,
+      "d": 2,
+      "rows": [
+        3
+      ],
+      "multiplicity": 1,
+      "id": "XC0002",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 2,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        2
+      ],
+      "multiplicity": 1,
+      "id": "XC0003",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 3,
+      "k": 1,
+      "d": 1,
+      "rows": [
+        1
+      ],
+      "multiplicity": 3,
+      "id": "XC0004",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 3,
+      "k": 1,
+      "d": 2,
+      "rows": [
+        5
+      ],
+      "multiplicity": 3,
+      "id": "XC0005",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          2
+        ],
+        [
+          1
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 3,
+      "k": 1,
+      "d": 3,
+      "rows": [
+        7
+      ],
+      "multiplicity": 1,
+      "id": "XC0006",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        2
+      ],
+      "multiplicity": 3,
+      "id": "XC0007",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        6
+      ],
+      "multiplicity": 3,
+      "id": "XC0008",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 3,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        5,
+        6
+      ],
+      "multiplicity": 1,
+      "id": "XC0009",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 3,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4
+      ],
+      "multiplicity": 1,
+      "id": "XC0010",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "d": 1,
+      "rows": [
+        1
+      ],
+      "multiplicity": 4,
+      "id": "XC0011",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "d": 2,
+      "rows": [
+        9
+      ],
+      "multiplicity": 6,
+      "id": "XC0012",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "d": 3,
+      "rows": [
+        13
+      ],
+      "multiplicity": 4,
+      "id": "XC0013",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 1,
+      "d": 4,
+      "rows": [
+        15
+      ],
+      "multiplicity": 1,
+      "id": "XC0014",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        2
+      ],
+      "multiplicity": 6,
+      "id": "XC0015",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        10
+      ],
+      "multiplicity": 12,
+      "id": "XC0016",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        14
+      ],
+      "multiplicity": 4,
+      "id": "XC0017",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        9,
+        10
+      ],
+      "multiplicity": 4,
+      "id": "XC0018",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        9,
+        6
+      ],
+      "multiplicity": 3,
+      "id": "XC0019",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        9,
+        14
+      ],
+      "multiplicity": 6,
+      "id": "XC0020",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4
+      ],
+      "multiplicity": 4,
+      "id": "XC0021",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        12
+      ],
+      "multiplicity": 6,
+      "id": "XC0022",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        10,
+        12
+      ],
+      "multiplicity": 4,
+      "id": "XC0023",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 4,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        9,
+        10,
+        12
+      ],
+      "multiplicity": 1,
+      "id": "XC0024",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 4,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "multiplicity": 1,
+      "id": "XC0025",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "d": 1,
+      "rows": [
+        1
+      ],
+      "multiplicity": 5,
+      "id": "XC0026",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "d": 2,
+      "rows": [
+        17
+      ],
+      "multiplicity": 10,
+      "id": "XC0027",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "d": 3,
+      "rows": [
+        25
+      ],
+      "multiplicity": 10,
+      "id": "XC0028",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          3,
+          4
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "d": 4,
+      "rows": [
+        29
+      ],
+      "multiplicity": 5,
+      "id": "XC0029",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          2,
+          3,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 1,
+      "d": 5,
+      "rows": [
+        31
+      ],
+      "multiplicity": 1,
+      "id": "XC0030",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        2
+      ],
+      "multiplicity": 10,
+      "id": "XC0031",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        18
+      ],
+      "multiplicity": 30,
+      "id": "XC0032",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        26
+      ],
+      "multiplicity": 20,
+      "id": "XC0033",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        30
+      ],
+      "multiplicity": 5,
+      "id": "XC0034",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        17,
+        18
+      ],
+      "multiplicity": 10,
+      "id": "XC0035",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        17,
+        10
+      ],
+      "multiplicity": 15,
+      "id": "XC0036",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        17,
+        26
+      ],
+      "multiplicity": 30,
+      "id": "XC0037",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          3,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        17,
+        14
+      ],
+      "multiplicity": 10,
+      "id": "XC0038",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        17,
+        30
+      ],
+      "multiplicity": 10,
+      "id": "XC0039",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 5,
+      "k": 2,
+      "d": 3,
+      "rows": [
+        25,
+        22
+      ],
+      "multiplicity": 15,
+      "id": "XC0040",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4
+      ],
+      "multiplicity": 10,
+      "id": "XC0041",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        20
+      ],
+      "multiplicity": 30,
+      "id": "XC0042",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        28
+      ],
+      "multiplicity": 10,
+      "id": "XC0043",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        18,
+        20
+      ],
+      "multiplicity": 20,
+      "id": "XC0044",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        18,
+        12
+      ],
+      "multiplicity": 15,
+      "id": "XC0045",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        18,
+        28
+      ],
+      "multiplicity": 30,
+      "id": "XC0046",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        17,
+        18,
+        20
+      ],
+      "multiplicity": 5,
+      "id": "XC0047",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        17,
+        18,
+        12
+      ],
+      "multiplicity": 10,
+      "id": "XC0048",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        17,
+        18,
+        28
+      ],
+      "multiplicity": 10,
+      "id": "XC0049",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 5,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        17,
+        10,
+        28
+      ],
+      "multiplicity": 15,
+      "id": "XC0050",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "multiplicity": 5,
+      "id": "XC0051",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        24
+      ],
+      "multiplicity": 10,
+      "id": "XC0052",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        20,
+        24
+      ],
+      "multiplicity": 10,
+      "id": "XC0053",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        18,
+        20,
+        24
+      ],
+      "multiplicity": 5,
+      "id": "XC0054",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 5,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        17,
+        18,
+        20,
+        24
+      ],
+      "multiplicity": 1,
+      "id": "XC0055",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 5,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "multiplicity": 1,
+      "id": "XC0056",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "d": 1,
+      "rows": [
+        1
+      ],
+      "multiplicity": 6,
+      "id": "XC0057",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "d": 2,
+      "rows": [
+        33
+      ],
+      "multiplicity": 15,
+      "id": "XC0058",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "d": 3,
+      "rows": [
+        49
+      ],
+      "multiplicity": 20,
+      "id": "XC0059",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "d": 4,
+      "rows": [
+        57
+      ],
+      "multiplicity": 15,
+      "id": "XC0060",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          3,
+          4,
+          5
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "d": 5,
+      "rows": [
+        61
+      ],
+      "multiplicity": 6,
+      "id": "XC0061",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 1,
+      "d": 6,
+      "rows": [
+        63
+      ],
+      "multiplicity": 1,
+      "id": "XC0062",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        2
+      ],
+      "multiplicity": 15,
+      "id": "XC0063",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        34
+      ],
+      "multiplicity": 60,
+      "id": "XC0064",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        50
+      ],
+      "multiplicity": 60,
+      "id": "XC0065",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        58
+      ],
+      "multiplicity": 30,
+      "id": "XC0066",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        62
+      ],
+      "multiplicity": 6,
+      "id": "XC0067",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        33,
+        34
+      ],
+      "multiplicity": 20,
+      "id": "XC0068",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        33,
+        18
+      ],
+      "multiplicity": 45,
+      "id": "XC0069",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        33,
+        50
+      ],
+      "multiplicity": 90,
+      "id": "XC0070",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          4,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        33,
+        26
+      ],
+      "multiplicity": 60,
+      "id": "XC0071",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        33,
+        58
+      ],
+      "multiplicity": 60,
+      "id": "XC0072",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        33,
+        30
+      ],
+      "multiplicity": 15,
+      "id": "XC0073",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        33,
+        62
+      ],
+      "multiplicity": 15,
+      "id": "XC0074",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 3,
+      "rows": [
+        49,
+        42
+      ],
+      "multiplicity": 90,
+      "id": "XC0075",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 3,
+      "rows": [
+        49,
+        14
+      ],
+      "multiplicity": 10,
+      "id": "XC0076",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 3,
+      "rows": [
+        49,
+        46
+      ],
+      "multiplicity": 60,
+      "id": "XC0077",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 2,
+      "d": 4,
+      "rows": [
+        57,
+        54
+      ],
+      "multiplicity": 15,
+      "id": "XC0078",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4
+      ],
+      "multiplicity": 20,
+      "id": "XC0079",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        36
+      ],
+      "multiplicity": 90,
+      "id": "XC0080",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        52
+      ],
+      "multiplicity": 60,
+      "id": "XC0081",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        60
+      ],
+      "multiplicity": 15,
+      "id": "XC0082",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        34,
+        36
+      ],
+      "multiplicity": 60,
+      "id": "XC0083",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        34,
+        20
+      ],
+      "multiplicity": 90,
+      "id": "XC0084",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        34,
+        52
+      ],
+      "multiplicity": 180,
+      "id": "XC0085",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        34,
+        28
+      ],
+      "multiplicity": 60,
+      "id": "XC0086",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        34,
+        60
+      ],
+      "multiplicity": 60,
+      "id": "XC0087",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        50,
+        44
+      ],
+      "multiplicity": 90,
+      "id": "XC0088",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        36
+      ],
+      "multiplicity": 15,
+      "id": "XC0089",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          5
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        20
+      ],
+      "multiplicity": 60,
+      "id": "XC0090",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        52
+      ],
+      "multiplicity": 60,
+      "id": "XC0091",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        28
+      ],
+      "multiplicity": 20,
+      "id": "XC0092",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        60
+      ],
+      "multiplicity": 20,
+      "id": "XC0093",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        18,
+        52
+      ],
+      "multiplicity": 90,
+      "id": "XC0094",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        18,
+        12
+      ],
+      "multiplicity": 15,
+      "id": "XC0095",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        18,
+        44
+      ],
+      "multiplicity": 90,
+      "id": "XC0096",
+      "endpoint": false,
+      "components": [
+        [
+          1,
+          4
+        ],
+        [
+          0,
+          2,
+          3,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        18,
+        60
+      ],
+      "multiplicity": 45,
+      "id": "XC0097",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        50,
+        44
+      ],
+      "multiplicity": 45,
+      "id": "XC0098",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        33,
+        50,
+        28
+      ],
+      "multiplicity": 180,
+      "id": "XC0099",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 3,
+      "d": 3,
+      "rows": [
+        49,
+        42,
+        28
+      ],
+      "multiplicity": 30,
+      "id": "XC0100",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "multiplicity": 15,
+      "id": "XC0101",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        40
+      ],
+      "multiplicity": 60,
+      "id": "XC0102",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        56
+      ],
+      "multiplicity": 20,
+      "id": "XC0103",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        36,
+        40
+      ],
+      "multiplicity": 60,
+      "id": "XC0104",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        36,
+        24
+      ],
+      "multiplicity": 45,
+      "id": "XC0105",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        36,
+        56
+      ],
+      "multiplicity": 90,
+      "id": "XC0106",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        34,
+        36,
+        40
+      ],
+      "multiplicity": 30,
+      "id": "XC0107",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        34,
+        36,
+        24
+      ],
+      "multiplicity": 60,
+      "id": "XC0108",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        34,
+        36,
+        56
+      ],
+      "multiplicity": 60,
+      "id": "XC0109",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        34,
+        20,
+        56
+      ],
+      "multiplicity": 90,
+      "id": "XC0110",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        36,
+        40
+      ],
+      "multiplicity": 6,
+      "id": "XC0111",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        36,
+        24
+      ],
+      "multiplicity": 15,
+      "id": "XC0112",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        36,
+        56
+      ],
+      "multiplicity": 15,
+      "id": "XC0113",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        20,
+        24
+      ],
+      "multiplicity": 10,
+      "id": "XC0114",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        20,
+        56
+      ],
+      "multiplicity": 60,
+      "id": "XC0115",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        33,
+        18,
+        52,
+        56
+      ],
+      "multiplicity": 15,
+      "id": "XC0116",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "multiplicity": 6,
+      "id": "XC0117",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        48
+      ],
+      "multiplicity": 15,
+      "id": "XC0118",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        40,
+        48
+      ],
+      "multiplicity": 20,
+      "id": "XC0119",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        36,
+        40,
+        48
+      ],
+      "multiplicity": 15,
+      "id": "XC0120",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        34,
+        36,
+        40,
+        48
+      ],
+      "multiplicity": 6,
+      "id": "XC0121",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 6,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        33,
+        34,
+        36,
+        40,
+        48
+      ],
+      "multiplicity": 1,
+      "id": "XC0122",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 6,
+      "k": 6,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "multiplicity": 1,
+      "id": "XC0123",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "d": 1,
+      "rows": [
+        1
+      ],
+      "multiplicity": 7,
+      "id": "XC0124",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "d": 2,
+      "rows": [
+        65
+      ],
+      "multiplicity": 21,
+      "id": "XC0125",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "d": 3,
+      "rows": [
+        97
+      ],
+      "multiplicity": 35,
+      "id": "XC0126",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "d": 4,
+      "rows": [
+        113
+      ],
+      "multiplicity": 35,
+      "id": "XC0127",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          4,
+          5,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "d": 5,
+      "rows": [
+        121
+      ],
+      "multiplicity": 21,
+      "id": "XC0128",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "d": 6,
+      "rows": [
+        125
+      ],
+      "multiplicity": 7,
+      "id": "XC0129",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          1
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 1,
+      "d": 7,
+      "rows": [
+        127
+      ],
+      "multiplicity": 1,
+      "id": "XC0130",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        2
+      ],
+      "multiplicity": 21,
+      "id": "XC0131",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        66
+      ],
+      "multiplicity": 105,
+      "id": "XC0132",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        98
+      ],
+      "multiplicity": 140,
+      "id": "XC0133",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        114
+      ],
+      "multiplicity": 105,
+      "id": "XC0134",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          4,
+          5,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        122
+      ],
+      "multiplicity": 42,
+      "id": "XC0135",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 1,
+      "rows": [
+        1,
+        126
+      ],
+      "multiplicity": 7,
+      "id": "XC0136",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        65,
+        66
+      ],
+      "multiplicity": 35,
+      "id": "XC0137",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        65,
+        34
+      ],
+      "multiplicity": 105,
+      "id": "XC0138",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        65,
+        98
+      ],
+      "multiplicity": 210,
+      "id": "XC0139",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          5,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        65,
+        50
+      ],
+      "multiplicity": 210,
+      "id": "XC0140",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        65,
+        114
+      ],
+      "multiplicity": 210,
+      "id": "XC0141",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          4,
+          5,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        65,
+        58
+      ],
+      "multiplicity": 105,
+      "id": "XC0142",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          3,
+          4,
+          5
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        65,
+        122
+      ],
+      "multiplicity": 105,
+      "id": "XC0143",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        65,
+        62
+      ],
+      "multiplicity": 21,
+      "id": "XC0144",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 2,
+      "rows": [
+        65,
+        126
+      ],
+      "multiplicity": 21,
+      "id": "XC0145",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 3,
+      "rows": [
+        97,
+        82
+      ],
+      "multiplicity": 315,
+      "id": "XC0146",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          4,
+          5,
+          6
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 3,
+      "rows": [
+        97,
+        26
+      ],
+      "multiplicity": 70,
+      "id": "XC0147",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 3,
+      "rows": [
+        97,
+        90
+      ],
+      "multiplicity": 420,
+      "id": "XC0148",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 3,
+      "rows": [
+        97,
+        30
+      ],
+      "multiplicity": 35,
+      "id": "XC0149",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 3,
+      "rows": [
+        97,
+        94
+      ],
+      "multiplicity": 105,
+      "id": "XC0150",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 4,
+      "rows": [
+        113,
+        106
+      ],
+      "multiplicity": 105,
+      "id": "XC0151",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          2
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 4,
+      "rows": [
+        113,
+        78
+      ],
+      "multiplicity": 70,
+      "id": "XC0152",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 2,
+      "d": 4,
+      "rows": [
+        113,
+        110
+      ],
+      "multiplicity": 105,
+      "id": "XC0153",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4
+      ],
+      "multiplicity": 35,
+      "id": "XC0154",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68
+      ],
+      "multiplicity": 210,
+      "id": "XC0155",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        100
+      ],
+      "multiplicity": 210,
+      "id": "XC0156",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        116
+      ],
+      "multiplicity": 105,
+      "id": "XC0157",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        124
+      ],
+      "multiplicity": 21,
+      "id": "XC0158",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68
+      ],
+      "multiplicity": 140,
+      "id": "XC0159",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        36
+      ],
+      "multiplicity": 315,
+      "id": "XC0160",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        100
+      ],
+      "multiplicity": 630,
+      "id": "XC0161",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          5,
+          6
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        52
+      ],
+      "multiplicity": 420,
+      "id": "XC0162",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        116
+      ],
+      "multiplicity": 420,
+      "id": "XC0163",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        60
+      ],
+      "multiplicity": 105,
+      "id": "XC0164",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        124
+      ],
+      "multiplicity": 105,
+      "id": "XC0165",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        98,
+        84
+      ],
+      "multiplicity": 630,
+      "id": "XC0166",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        98,
+        28
+      ],
+      "multiplicity": 70,
+      "id": "XC0167",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        98,
+        92
+      ],
+      "multiplicity": 420,
+      "id": "XC0168",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 1,
+      "rows": [
+        1,
+        114,
+        108
+      ],
+      "multiplicity": 105,
+      "id": "XC0169",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68
+      ],
+      "multiplicity": 35,
+      "id": "XC0170",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          6
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        36
+      ],
+      "multiplicity": 210,
+      "id": "XC0171",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        100
+      ],
+      "multiplicity": 210,
+      "id": "XC0172",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          5,
+          6
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        52
+      ],
+      "multiplicity": 140,
+      "id": "XC0173",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          2,
+          4,
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        116
+      ],
+      "multiplicity": 140,
+      "id": "XC0174",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        60
+      ],
+      "multiplicity": 35,
+      "id": "XC0175",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        124
+      ],
+      "multiplicity": 35,
+      "id": "XC0176",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        100
+      ],
+      "multiplicity": 315,
+      "id": "XC0177",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          5,
+          6
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        20
+      ],
+      "multiplicity": 105,
+      "id": "XC0178",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        84
+      ],
+      "multiplicity": 630,
+      "id": "XC0179",
+      "endpoint": false,
+      "components": [
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          4,
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        116
+      ],
+      "multiplicity": 315,
+      "id": "XC0180",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        28
+      ],
+      "multiplicity": 105,
+      "id": "XC0181",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        92
+      ],
+      "multiplicity": 210,
+      "id": "XC0182",
+      "endpoint": false,
+      "components": [
+        [
+          1,
+          5
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        124
+      ],
+      "multiplicity": 105,
+      "id": "XC0183",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        98,
+        84
+      ],
+      "multiplicity": 315,
+      "id": "XC0184",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        98,
+        52
+      ],
+      "multiplicity": 1260,
+      "id": "XC0185",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        98,
+        28
+      ],
+      "multiplicity": 210,
+      "id": "XC0186",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          5,
+          6
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        98,
+        92
+      ],
+      "multiplicity": 210,
+      "id": "XC0187",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        98,
+        60
+      ],
+      "multiplicity": 420,
+      "id": "XC0188",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        50,
+        44
+      ],
+      "multiplicity": 315,
+      "id": "XC0189",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        50,
+        108
+      ],
+      "multiplicity": 630,
+      "id": "XC0190",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 2,
+      "rows": [
+        65,
+        114,
+        108
+      ],
+      "multiplicity": 315,
+      "id": "XC0191",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 3,
+      "rows": [
+        97,
+        82,
+        52
+      ],
+      "multiplicity": 210,
+      "id": "XC0192",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 3,
+      "rows": [
+        97,
+        82,
+        76
+      ],
+      "multiplicity": 105,
+      "id": "XC0193",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 3,
+      "rows": [
+        97,
+        82,
+        44
+      ],
+      "multiplicity": 630,
+      "id": "XC0194",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 3,
+      "rows": [
+        97,
+        82,
+        60
+      ],
+      "multiplicity": 630,
+      "id": "XC0195",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 3,
+      "d": 4,
+      "rows": [
+        113,
+        106,
+        92
+      ],
+      "multiplicity": 30,
+      "id": "XC0196",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "multiplicity": 35,
+      "id": "XC0197",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        72
+      ],
+      "multiplicity": 210,
+      "id": "XC0198",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        104
+      ],
+      "multiplicity": 140,
+      "id": "XC0199",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          5,
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        120
+      ],
+      "multiplicity": 35,
+      "id": "XC0200",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68,
+        72
+      ],
+      "multiplicity": 210,
+      "id": "XC0201",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68,
+        40
+      ],
+      "multiplicity": 315,
+      "id": "XC0202",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68,
+        104
+      ],
+      "multiplicity": 630,
+      "id": "XC0203",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68,
+        56
+      ],
+      "multiplicity": 210,
+      "id": "XC0204",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68,
+        120
+      ],
+      "multiplicity": 210,
+      "id": "XC0205",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        100,
+        88
+      ],
+      "multiplicity": 315,
+      "id": "XC0206",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        72
+      ],
+      "multiplicity": 105,
+      "id": "XC0207",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        40
+      ],
+      "multiplicity": 420,
+      "id": "XC0208",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        104
+      ],
+      "multiplicity": 420,
+      "id": "XC0209",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        56
+      ],
+      "multiplicity": 140,
+      "id": "XC0210",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        120
+      ],
+      "multiplicity": 140,
+      "id": "XC0211",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        36,
+        104
+      ],
+      "multiplicity": 630,
+      "id": "XC0212",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        36,
+        24
+      ],
+      "multiplicity": 105,
+      "id": "XC0213",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        36,
+        88
+      ],
+      "multiplicity": 630,
+      "id": "XC0214",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          1,
+          3,
+          4,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        36,
+        120
+      ],
+      "multiplicity": 315,
+      "id": "XC0215",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        100,
+        88
+      ],
+      "multiplicity": 315,
+      "id": "XC0216",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        100,
+        56
+      ],
+      "multiplicity": 1260,
+      "id": "XC0217",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 1,
+      "rows": [
+        1,
+        98,
+        84,
+        56
+      ],
+      "multiplicity": 210,
+      "id": "XC0218",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        72
+      ],
+      "multiplicity": 21,
+      "id": "XC0219",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        40
+      ],
+      "multiplicity": 105,
+      "id": "XC0220",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        104
+      ],
+      "multiplicity": 105,
+      "id": "XC0221",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        56
+      ],
+      "multiplicity": 35,
+      "id": "XC0222",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          6
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        120
+      ],
+      "multiplicity": 35,
+      "id": "XC0223",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        36,
+        40
+      ],
+      "multiplicity": 70,
+      "id": "XC0224",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        36,
+        104
+      ],
+      "multiplicity": 420,
+      "id": "XC0225",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        36,
+        24
+      ],
+      "multiplicity": 105,
+      "id": "XC0226",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        36,
+        88
+      ],
+      "multiplicity": 210,
+      "id": "XC0227",
+      "endpoint": false,
+      "components": [
+        [
+          2,
+          5
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        36,
+        56
+      ],
+      "multiplicity": 210,
+      "id": "XC0228",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          6
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        36,
+        120
+      ],
+      "multiplicity": 210,
+      "id": "XC0229",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        100,
+        88
+      ],
+      "multiplicity": 105,
+      "id": "XC0230",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        100,
+        56
+      ],
+      "multiplicity": 420,
+      "id": "XC0231",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        100,
+        104
+      ],
+      "multiplicity": 105,
+      "id": "XC0232",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        100,
+        24
+      ],
+      "multiplicity": 315,
+      "id": "XC0233",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          5,
+          6
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        100,
+        88
+      ],
+      "multiplicity": 630,
+      "id": "XC0234",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        100,
+        120
+      ],
+      "multiplicity": 315,
+      "id": "XC0235",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        20,
+        120
+      ],
+      "multiplicity": 105,
+      "id": "XC0236",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        34,
+        84,
+        56
+      ],
+      "multiplicity": 630,
+      "id": "XC0237",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        65,
+        98,
+        84,
+        56
+      ],
+      "multiplicity": 630,
+      "id": "XC0238",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 4,
+      "d": 3,
+      "rows": [
+        97,
+        82,
+        52,
+        120
+      ],
+      "multiplicity": 30,
+      "id": "XC0239",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "multiplicity": 21,
+      "id": "XC0240",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        80
+      ],
+      "multiplicity": 105,
+      "id": "XC0241",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        112
+      ],
+      "multiplicity": 35,
+      "id": "XC0242",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        72,
+        80
+      ],
+      "multiplicity": 140,
+      "id": "XC0243",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          6
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        72,
+        48
+      ],
+      "multiplicity": 105,
+      "id": "XC0244",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        72,
+        112
+      ],
+      "multiplicity": 210,
+      "id": "XC0245",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68,
+        72,
+        80
+      ],
+      "multiplicity": 105,
+      "id": "XC0246",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68,
+        72,
+        48
+      ],
+      "multiplicity": 210,
+      "id": "XC0247",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68,
+        72,
+        112
+      ],
+      "multiplicity": 210,
+      "id": "XC0248",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68,
+        40,
+        112
+      ],
+      "multiplicity": 315,
+      "id": "XC0249",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        72,
+        80
+      ],
+      "multiplicity": 42,
+      "id": "XC0250",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        72,
+        48
+      ],
+      "multiplicity": 105,
+      "id": "XC0251",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        72,
+        112
+      ],
+      "multiplicity": 105,
+      "id": "XC0252",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        40,
+        48
+      ],
+      "multiplicity": 70,
+      "id": "XC0253",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        40,
+        112
+      ],
+      "multiplicity": 420,
+      "id": "XC0254",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        36,
+        104,
+        112
+      ],
+      "multiplicity": 105,
+      "id": "XC0255",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        72,
+        80
+      ],
+      "multiplicity": 7,
+      "id": "XC0256",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        72,
+        48
+      ],
+      "multiplicity": 21,
+      "id": "XC0257",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          6
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        72,
+        112
+      ],
+      "multiplicity": 21,
+      "id": "XC0258",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        40,
+        48
+      ],
+      "multiplicity": 35,
+      "id": "XC0259",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          6
+        ],
+        [
+          3,
+          4,
+          5
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        40,
+        112
+      ],
+      "multiplicity": 105,
+      "id": "XC0260",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        36,
+        40,
+        112
+      ],
+      "multiplicity": 70,
+      "id": "XC0261",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        36,
+        104,
+        112
+      ],
+      "multiplicity": 105,
+      "id": "XC0262",
+      "endpoint": false,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "multiplicity": 7,
+      "id": "XC0263",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        96
+      ],
+      "multiplicity": 21,
+      "id": "XC0264",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        80,
+        96
+      ],
+      "multiplicity": 35,
+      "id": "XC0265",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        72,
+        80,
+        96
+      ],
+      "multiplicity": 35,
+      "id": "XC0266",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        68,
+        72,
+        80,
+        96
+      ],
+      "multiplicity": 21,
+      "id": "XC0267",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "d": 1,
+      "rows": [
+        1,
+        66,
+        68,
+        72,
+        80,
+        96
+      ],
+      "multiplicity": 7,
+      "id": "XC0268",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 7,
+      "k": 6,
+      "d": 2,
+      "rows": [
+        65,
+        66,
+        68,
+        72,
+        80,
+        96
+      ],
+      "multiplicity": 1,
+      "id": "XC0269",
+      "endpoint": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "indecomposable": true
+    },
+    {
+      "n": 7,
+      "k": 7,
+      "d": 1,
+      "rows": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64
+      ],
+      "multiplicity": 1,
+      "id": "XC0270",
+      "endpoint": false,
+      "components": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "indecomposable": false
+    },
+    {
+      "n": 8,
+      "k": 2,
+      "d": 4,
+      "rows": [
+        101,
+        218
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0271"
+    },
+    {
+      "n": 8,
+      "k": 2,
+      "d": 4,
+      "rows": [
+        125,
+        226
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0272"
+    },
+    {
+      "n": 8,
+      "k": 3,
+      "d": 3,
+      "rows": [
+        185,
+        98,
+        124
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0273"
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "d": 2,
+      "rows": [
+        225,
+        210,
+        20,
+        88
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0274"
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "d": 3,
+      "rows": [
+        241,
+        82,
+        164,
+        216
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0275"
+    },
+    {
+      "n": 8,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        193,
+        162,
+        100,
+        40,
+        240
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0276"
+    },
+    {
+      "n": 8,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        193,
+        98,
+        164,
+        40,
+        112
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0277"
+    },
+    {
+      "n": 8,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        65,
+        130,
+        196,
+        168,
+        112
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0278"
+    },
+    {
+      "n": 8,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        33,
+        226,
+        228,
+        136,
+        176
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0279"
+    },
+    {
+      "n": 8,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        161,
+        130,
+        196,
+        104,
+        144
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0280"
+    },
+    {
+      "n": 8,
+      "k": 5,
+      "d": 2,
+      "rows": [
+        193,
+        194,
+        68,
+        168,
+        144
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0281"
+    },
+    {
+      "n": 8,
+      "k": 6,
+      "d": 2,
+      "rows": [
+        193,
+        194,
+        132,
+        136,
+        80,
+        160
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "seeded systematic binary code",
+      "id": "XC0282"
+    },
+    {
+      "n": 8,
+      "k": 4,
+      "d": 4,
+      "rows": [
+        105,
+        170,
+        204,
+        240
+      ],
+      "endpoint": false,
+      "indecomposable": true,
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "construction": "affine evaluation on F_2^3",
+      "id": "XC0283"
+    }
+  ],
+  "seconds": 3.3718032836914062
+}

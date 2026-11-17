@@ -1,0 +1,71 @@
+{
+  "complete": true,
+  "fingerprint": "4606275ba2fb33c2d263981cccf275b7a365a2f66425f18963b7ce54562d8abd",
+  "b": 0.245,
+  "p": 0.245,
+  "results": {
+    "M1": {
+      "lower": 0.0,
+      "upper": 3.4442719632510272e-12,
+      "gap_upper": 3.4442719632510276e-12,
+      "converged": true
+    },
+    "M2": {
+      "lower": 4.943611591733018e-11,
+      "upper": 5.4361526381034334e-11,
+      "gap_upper": 4.925410463704155e-12,
+      "converged": true
+    },
+    "M3": {
+      "lower": 4.943611591733018e-11,
+      "upper": 5.4361526381034334e-11,
+      "gap_upper": 4.925410463704155e-12,
+      "converged": true
+    },
+    "M4": {
+      "lower": 4.943611591733018e-11,
+      "upper": 5.4361526381034334e-11,
+      "gap_upper": 4.925410463704155e-12,
+      "converged": true
+    },
+    "M5": {
+      "lower": 4.943611591733018e-11,
+      "upper": 5.4361526381034334e-11,
+      "gap_upper": 4.925410463704155e-12,
+      "converged": true
+    },
+    "M6": {
+      "lower": 2.7301318426068063e-07,
+      "upper": 2.7301384292725866e-07,
+      "gap_upper": 6.586665780352272e-13,
+      "converged": true
+    },
+    "M7": {
+      "lower": 9.981973522448663e-06,
+      "upper": 9.982214281512124e-06,
+      "gap_upper": 2.407590634611457e-10,
+      "converged": true
+    },
+    "M8": {
+      "lower": 1.2553592864302524e-05,
+      "upper": 1.2553593506667418e-05,
+      "gap_upper": 6.423648945934076e-13,
+      "converged": true
+    }
+  },
+  "required_gaps": {
+    "M1": 1e-11,
+    "M2": 1e-11,
+    "M3": 1e-11,
+    "M4": 1e-11,
+    "M5": 1e-11,
+    "M6": 2.7301318426068064e-11,
+    "M7": 9.981973522448663e-10,
+    "M8": 1.2553592864302525e-09
+  },
+  "source": "data/bb84_joint_extension_real_0.24500_0.24500_n128.json",
+  "certificate": "data/bb84_joint_extension_real_0.24500_0.24500_n128_menu_certified.json",
+  "seconds": 442.75263953208923,
+  "timing_scope": "Targeted refinement and new lower certificate only; not original full search runtime.",
+  "interpretation": "Complete unchanged registered finite class certified by a new, separately identified refinement bridge. Original incomplete run remains unchanged; add the independent complete m<=5 fixed-block upper for the final union."
+}

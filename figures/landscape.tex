@@ -1,0 +1,41 @@
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=11mm},
+qkdaxis,width=.46\textwidth,height=5.8cm,ymode=log,ymin=1e-7,ymax=1.3,
+xmin=0,xtick distance=.05,xlabel={Raw error $Q$}]
+\nextgroupplot[title={(a) Werner source},xmax=.3334,
+ylabel={Net secret bits per raw pair},legend columns=5,
+legend style={at={(1.08,-.28)},anchor=north}]
+\addplot[mem1,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/werner_m1.dat};
+\addlegendentry{$m=1$}
+\addplot[mem2,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/werner_m2.dat};
+\addlegendentry{$m=2$}
+\addplot[mem3,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/werner_m3.dat};
+\addlegendentry{$m=3$}
+\addplot[mem4,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/werner_m4.dat};
+\addlegendentry{$m=4$}
+\addplot[mem5,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/werner_m5.dat};
+\addlegendentry{$m=5$}
+\addplot[mem6,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/werner_m6.dat};
+\addlegendentry{$m=6$}
+\addplot[mem7,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/werner_m7.dat};
+\addlegendentry{$m=7$}
+\addplot[mem8,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/werner_m8.dat};
+\addlegendentry{$m=8$}
+\addplot[black,dashed] table[x=Q,y=rate] {figures/plot_data/werner_du.dat};
+\addlegendentry{Du et al.}
+\addplot[violet,densely dotted] table[x=Q,y=rate] {figures/plot_data/werner_sun_original.dat};
+\addlegendentry{Sun et al.}
+\addplot[violet,only marks,mark=o,mark size=1.3pt,forget plot] table[x=Q,y=rate] {figures/plot_data/werner_sun_author.dat};
+\nextgroupplot[title={(b) BB84-compatible source},xmax=.25]
+\addplot[mem8,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/bb84_m8.dat};
+\addplot[mem7,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/bb84_m7.dat};
+\addplot[mem6,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/bb84_m6.dat};
+\addplot[mem5,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/bb84_m5.dat};
+\addplot[mem4,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/bb84_m4.dat};
+\addplot[mem3,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/bb84_m3.dat};
+\addplot[mem2,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/bb84_m2.dat};
+\addplot[mem1,mark=*,mark size=.65pt,error bars/.cd,y dir=plus,y explicit] table[x=Q,y=rate,y error=gap] {figures/plot_data/bb84_m1.dat};
+\addplot[black,dashed] table[x=Q,y=rate] {figures/plot_data/bb84_du.dat};
+\end{groupplot}
+\end{tikzpicture}
+\vspace{25pt}

@@ -1,0 +1,92 @@
+{
+  "author_commit": "176a9cf7731b93fb2639c59ccc692b8be46915c0",
+  "sources": [
+    {
+      "size": "2",
+      "filename": "bb84_key_rate_2.npy",
+      "sha256": "77a5288740a94662e163068565cdcde27e241d78b27c9d4f5fbc19e986a88577",
+      "shape": [
+        500,
+        15
+      ],
+      "transformation": "reshape(500,-1).max(axis=1); original author grid F=linspace(0.5,1,500)"
+    },
+    {
+      "size": "22",
+      "filename": "bb84_key_rate_22.npy",
+      "sha256": "cdadb4bfc6405d3a84cb8525b0867a2a2c3b2278fa09391e31e046cc94cbcfc7",
+      "shape": [
+        500,
+        15,
+        6
+      ],
+      "transformation": "reshape(500,-1).max(axis=1); original author grid F=linspace(0.5,1,500)"
+    },
+    {
+      "size": "23",
+      "filename": "bb84_key_rate_23.npy",
+      "sha256": "3f4c2efca6795425b7736f50fbf6c99af83d98a56f3282d65b2cf734fecd9ffe",
+      "shape": [
+        500,
+        15,
+        6
+      ],
+      "transformation": "reshape(500,-1).max(axis=1); original author grid F=linspace(0.5,1,500)"
+    },
+    {
+      "size": "24",
+      "filename": "bb84_key_rate_24.npy",
+      "sha256": "bb70c2745a2a17221d61cedcb032d2348720fd4316fb351d1472c5c02639f30e",
+      "shape": [
+        500,
+        15,
+        6
+      ],
+      "transformation": "reshape(500,-1).max(axis=1); original author grid F=linspace(0.5,1,500)"
+    },
+    {
+      "size": "3",
+      "filename": "bb84_key_rate_3.npy",
+      "sha256": "8a7296f2723bd61fdec51a3527a066c65f6716fd11a88a40ed04c9124deca317",
+      "shape": [
+        500,
+        315
+      ],
+      "transformation": "reshape(500,-1).max(axis=1); original author grid F=linspace(0.5,1,500)"
+    },
+    {
+      "size": "32",
+      "filename": "bb84_key_rate_32.npy",
+      "sha256": "2e54bfecdf598d75dc35186700723e3b28cf8c30d7d8f017af899a21b566c990",
+      "shape": [
+        500,
+        315,
+        6
+      ],
+      "transformation": "reshape(500,-1).max(axis=1); original author grid F=linspace(0.5,1,500)"
+    },
+    {
+      "size": "33",
+      "filename": "bb84_key_rate_33.npy",
+      "sha256": "18f7e45b6f0f0db1d7dd1f0ca319849190c074099d949ef59386a5b70c81f2b7",
+      "shape": [
+        500,
+        315,
+        6
+      ],
+      "transformation": "reshape(500,-1).max(axis=1); original author grid F=linspace(0.5,1,500)"
+    },
+    {
+      "size": "4",
+      "filename": "bb84_key_rate_4.npy",
+      "sha256": "f1238365986f5f603d4802b8060d8f6adb393d40827174ff0fd8c0391248171d",
+      "shape": [
+        500,
+        11475
+      ],
+      "transformation": "reshape(500,-1).max(axis=1); original author grid F=linspace(0.5,1,500)"
+    }
+  ],
+  "weight_library_sha256": "ff16a97c789ab77a2baf614ae4da4b9546407cce1a4da687262cfe158146c11d",
+  "note": "Author matrices are preserved in the original workspace; the release includes their exact per-grid envelopes and original hashes. No digitization or rescaling."
+}

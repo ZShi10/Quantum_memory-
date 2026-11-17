@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "complete": true,
+  "dense_points": 161,
+  "dense_vs_independent_upper_checks": 96,
+  "certified_target_claims": [
+    {
+      "Q": 0.17,
+      "excluded_memory": 1,
+      "minimum_memory": 2,
+      "target": 0.028,
+      "lower": 0.03092000658510227,
+      "upper": 0.026826814477039978,
+      "relative_gain_lower": 0.15257838799927192,
+      "absolute_gap_lower": 0.004093192108062291
+    },
+    {
+      "Q": 0.2,
+      "excluded_memory": 2,
+      "minimum_memory": 3,
+      "target": 0.009,
+      "lower": 0.010009651762055052,
+      "upper": 0.0076979724204944994,
+      "relative_gain_lower": 0.3002971711623845,
+      "absolute_gap_lower": 0.002311679341560553
+    },
+    {
+      "Q": 0.23,
+      "excluded_memory": 3,
+      "minimum_memory": 4,
+      "target": 0.0008,
+      "lower": 0.0008447812796036018,
+      "upper": 0.000791159621174857,
+      "relative_gain_lower": 0.06777603026443346,
+      "absolute_gap_lower": 5.36216584287448e-05
+    },
+    {
+      "Q": 0.23,
+      "excluded_memory": 5,
+      "minimum_memory": 6,
+      "target": 0.0009,
+      "lower": 0.0009529120793195478,
+      "upper": 0.000844865527976513,
+      "relative_gain_lower": 0.1278860928339811,
+      "absolute_gap_lower": 0.0001080465513430348
+    }
+  ],
+  "strict_memory_separations": [
+    {
+      "Q": 0.19,
+      "smaller_memory": 2,
+      "larger_memory": 3,
+      "lower": 0.013987944698671708,
+      "whole_smaller_family_upper": 0.013386716280414912,
+      "absolute_gap_lower": 0.000601228418256796,
+      "relative_gain_lower": 0.044912314989181246
+    },
+    {
+      "Q": 0.2,
+      "smaller_memory": 2,
+      "larger_memory": 3,
+      "lower": 0.010009651762055052,
+      "whole_smaller_family_upper": 0.0076979724204944994,
+      "absolute_gap_lower": 0.002311679341560553,
+      "relative_gain_lower": 0.3002971711623845
+    },
+    {
+      "Q": 0.21,
+      "smaller_memory": 2,
+      "larger_memory": 3,
+      "lower": 0.004826138802689682,
+      "whole_smaller_family_upper": 0.0034871798087485278,
+      "absolute_gap_lower": 0.0013389589939411541,
+      "relative_gain_lower": 0.38396614667876183
+    },
+    {
+      "Q": 0.22,
+      "smaller_memory": 2,
+      "larger_memory": 3,
+      "lower": 0.001811995673980527,
+      "whole_smaller_family_upper": 0.001350867495591102,
+      "absolute_gap_lower": 0.0004611281783894251,
+      "relative_gain_lower": 0.34135707602295096
+    },
+    {
+      "Q": 0.23,
+      "smaller_memory": 3,
+      "larger_memory": 4,
+      "lower": 0.0008447812796036018,
+      "whole_smaller_family_upper": 0.000791159621174857,
+      "absolute_gap_lower": 5.36216584287448e-05,
+      "relative_gain_lower": 0.06777603026443346
+    },
+    {
+      "Q": 0.23,
+      "smaller_memory": 5,
+      "larger_memory": 6,
+      "lower": 0.0009529120793195478,
+      "whole_smaller_family_upper": 0.000844865527976513,
+      "absolute_gap_lower": 0.0001080465513430348,
+      "relative_gain_lower": 0.1278860928339811
+    }
+  ],
+  "scope": "Cross-artifact consistency, nesting, and strict lower-versus-whole-family-upper logic; this does not replace arithmetic or enumeration proofs."
+}
